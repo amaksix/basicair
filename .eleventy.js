@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require("path");
-const { loadLocaleContent, loadProducts, LOCALES, DEFAULT_LOCALE } = require("./lib/content");
+const { loadLocaleContent, loadProducts, loadServices, LOCALES, DEFAULT_LOCALE } = require("./lib/content");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
@@ -27,6 +27,7 @@ module.exports = function (eleventyConfig) {
     contact: (data) => (data.locale ? loadLocaleContent(data.locale, "pages/contact") : null),
     shop: (data) => (data.locale ? loadLocaleContent(data.locale, "pages/shop") : null),
     products: (data) => (data.locale ? loadProducts(data.locale) : []),
+    serviceItems: (data) => (data.locale ? loadServices(data.locale) : []),
   });
 
   eleventyConfig.addCollection("allProducts", () => {
@@ -34,6 +35,16 @@ module.exports = function (eleventyConfig) {
     for (const locale of LOCALES) {
       for (const product of loadProducts(locale)) {
         items.push({ ...product, locale });
+      }
+    }
+    return items;
+  });
+
+  eleventyConfig.addCollection("allServices", () => {
+    const items = [];
+    for (const locale of LOCALES) {
+      for (const service of loadServices(locale)) {
+        items.push({ ...service, locale });
       }
     }
     return items;

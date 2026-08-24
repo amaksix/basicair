@@ -33,16 +33,26 @@
     { "title": "Apkope", "image": "/images/section/collections-banner-3.jpg", "url": "/lv/services/" },
     { "title": "Piederumi", "image": "/images/section/collections-banner-4.jpg", "url": "/lv/shop/" }
   ],
+  "vision": {
+    "heading": "Tīra gaisa nodrošināšana iekštelpās ikvienā jomā ir mūsu izaicinājums un vīzija",
+    "paragraphs": [
+      "Uzņēmuma Basic Air komanda tīra gaisa nodrošināšanas segmentā darbojās kopš 2009. gada. Mēs izstrādājam piemērotākos projektus gaisa attīrīšanai iekštelpās visās jomās gan sadzīves, gan darba vidēs, tādās kā: slimnīcas, zobārstniecību prakses, sociālās aprūpes centri, skolas, universitātes, viesnīcas, restorāni un mazumtirdzniecības vietas.",
+      "Gaisa attīrīšanai ir būtiska nozīme produktīvas darba vides nodrošināšanai iekštelpās. Basic air komandas uzdevums ir palīdzēt jūsu organizācijai saglabāt klātienes darbu, novēršot gaisā esošo pārnēsājamo vīrusu klātbūtni un padarot darba vidi drošāku gan darbiniekiem, gan klientiem. HEPA filtrēšana ir ideāli piemērota korona vīrusa daļiņu uztveršanai neatkarīgi no tā vai tās ir gaisā esošās aerosolu daļiņu, vai lielākas, pilienu veidā.",
+      "Tīra gaisa nodrošināšana iekštelpās un tā monitorings ir mūsu sadarbības partneru galvenais mērķis. Zviedrijas uzņēmums Camfil ir viens no lielākajiem spēlētājiem nozarē ar vairāk kā 50 gadu pieredzi. Camfil produkti atšķirās ar askētisku skandināvu dizainu un nevainojamu kvalitāti. Izmantojot jaunākās metodes, piemēram, telpas gaisa plūsmas simulācijas iespējas un tā vizualizāciju, kā arī zinātnisko testēšanu.",
+      "Ražotājam ir izdevies izstrādāt optimālu gaisa attīrīšanas risinājumu ikvienam izaicinājumam."
+    ],
+    "sectors": [
+      { "title": "Sabiedriskās ēkas un biznesa centri", "image": "/images/icons/sector-public.webp" },
+      { "title": "Veselības aprūpe", "image": "/images/icons/sector-healthcare.webp" },
+      { "title": "Ēdināšana un izmitināšana", "image": "/images/icons/sector-hospitality.webp" },
+      { "title": "Sporta un skaistumkopšanas centri", "image": "/images/icons/sector-sports.webp" },
+      { "title": "Tirdzniecības un ražošanas telpas", "image": "/images/icons/sector-industry.webp" }
+    ]
+  },
   "featured_section": {
     "heading": "Ieteicamie produkti",
     "subheading": "Populārākie risinājumi mājām un birojiem"
   },
-  "benefits": [
-    { "icon": "icon-package", "title": "Ātra piegāde", "description": "Piegāde visā Latvijā bez papildu izmaksām." },
-    { "icon": "icon-lifebuoy", "title": "24/7 atbalsts", "description": "Esam pieejami, kad jums mūs vajag." },
-    { "icon": "icon-sealpercent", "title": "Garantija", "description": "Ražotāja garantija un serviss pēc montāžas." },
-    { "icon": "icon-arrow-down-left", "title": "Profesionāla uzstādīšana", "description": "Sertificēti speciālisti ar pieredzi." }
-  ],
   "gallery": {
     "heading": "Galerija",
     "subheading": "Ieskats mūsu risinājumos un instalācijās",

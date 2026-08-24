@@ -1,29 +1,10 @@
 {
   "title": "BasicAir — Pakalpojumi",
   "breadcrumb_home": "Sākums",
-  "breadcrumb_current": "Par mums",
-  "hero_title": "Par mums",
+  "breadcrumb_current": "Pakalpojumi",
+  "hero_title": "Pakalpojumi",
   "hero_image": "/images/page-title/page-title-6.jpg",
-  "main_heading": "Mēs esam BasicAir",
-  "main_intro": "Nodrošinām kvalitatīvus gaisa kondicionēšanas un ventilācijas risinājumus mājām un uzņēmumiem. Vairāk nekā 10 gadu pieredze montāžā, apkopē un servisā visā Latvijā.",
-  "main_image": "/images/section/section-about.jpg",
-  "mission": {
-    "title": "Mūsu misija",
-    "text": "Nodrošināt komfortablu un veselīgu iekštelpu klimatu, izmantojot uzticamas tehnoloģijas un profesionālu servisu."
-  },
-  "vision": {
-    "title": "Mūsu vīzija",
-    "text": "Kļūt par uzticamāko gaisa kondicionēšanas partneri Latvijā, piedāvājot ilgtspējīgus un energoefektīvus risinājumus."
-  },
-  "features": [
-    { "icon": "icon-package", "title": "Bezmaksas konsultācija", "description": "Palīdzam izvēlēties piemērotāko risinājumu." },
-    { "icon": "icon-arrow-down-left", "title": "Garantijas serviss", "description": "Apkope un remonts pēc ražotāja garantijas." },
-    { "icon": "icon-lifebuoy", "title": "24/7 atbalsts", "description": "Ārkārtas izsaukumi un tehniskais atbalsts." },
-    { "icon": "icon-sealpercent", "title": "Konkurētspējīgas cenas", "description": "Labākās cenas aprīkojumam un montāžai." }
-  ],
-  "about_section": {
-    "heading": "Kvalitāte un pieredze",
-    "text": "Mūsu komanda strādā ar vadošajiem ražotājiem un nodrošina pilnu ciklu — no projekta līdz regulārai apkopei.",
-    "image": "/images/section/box-about.jpg"
-  }
+  "main_heading": "Mūsu pakalpojumi",
+  "main_intro": "Izvēlieties pakalpojumu, lai uzzinātu vairāk.",
+  "learn_more": "Uzzināt vairāk"
 }

@@ -2922,9 +2922,12 @@ footer .footer-bottom-wrap .center .nice-select::after {
 .tf-btn.btn-onsurface {
   background-color: var(--Onsurface);
   color: var(--White);
+  border: 1px solid var(--Onsurface);
 }
 .tf-btn.btn-onsurface:hover {
-  background-color: var(--Primary);
+  background-color: var(--White);
+  color: var(--Onsurface);
+  border-color: var(--Onsurface);
 }
 .tf-btn.btn-primary {
   background-color: var(--Primary);
@@ -4118,14 +4121,20 @@ form .cols > * {
   overflow: unset !important;
   margin-top: 17px !important;
   margin-bottom: 17px !important;
-  padding: 15px 20px;
+  padding: 8px;
   border-radius: 0;
   border: 0;
   background-color: var(--White);
   box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 18px 0px;
 }
 .image-select.style-default > .dropdown-menu a {
-  padding: 5px 0;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 14px;
+  margin: 0;
+  border-radius: 2px;
+  transition: background-color 0.15s ease, color 0.15s ease;
 }
 .image-select.style-default > .dropdown-menu a .text {
   display: flex;
@@ -4141,8 +4150,8 @@ form .cols > * {
   height: 12px;
 }
 .image-select.style-default > .dropdown-menu a:hover, .image-select.style-default > .dropdown-menu a:active, .image-select.style-default > .dropdown-menu a.active {
-  color: var(--primary) !important;
-  background-color: unset !important;
+  color: var(--main) !important;
+  background-color: var(--Surface) !important;
 }
 .image-select.style-default > .dropdown-menu::after {
   position: absolute;
@@ -4197,8 +4206,8 @@ form .cols > * {
   margin-left: calc(50% - 60px) !important;
 }
 .image-select.type-languages > .dropdown-menu {
-  width: 96px !important;
-  margin-left: calc(50% - 48px) !important;
+  width: 140px !important;
+  margin-left: calc(50% - 70px) !important;
 }
 .image-select.color-secondary-2 > .dropdown-toggle {
   color: var(--secondary-2);
@@ -5884,6 +5893,13 @@ form .cols > * {
 .tf-box-icon .icon {
   font-size: 60px;
   margin-bottom: 20px;
+  line-height: 1;
+}
+.tf-box-icon .icon img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 .tf-box-icon .title {
   margin-bottom: 8px;
@@ -10793,6 +10809,42 @@ ul.list-text.type-number {
   border-bottom: 1px solid var(--line);
 }
 
+.vision-section .heading-section {
+  margin-bottom: 24px;
+}
+.vision-section .heading-section h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+.vision-section .vision-content {
+  margin-bottom: 40px;
+}
+.vision-section .tf-sw-iconbox {
+  margin-top: 8px;
+}
+.vision-section .tf-box-icon {
+  text-align: center;
+}
+.vision-section .tf-box-icon .icon {
+  display: flex;
+  justify-content: center;
+}
+.vision-section .tf-box-icon .icon img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.vision-content {
+  max-width: 820px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+.vision-content p {
+  margin-bottom: 18px;
+}
+.vision-content p:last-child {
+  margin-bottom: 0;
+}
+
 .partners-section .heading-section {
   margin-bottom: 28px;
 }
@@ -12295,6 +12347,44 @@ ul.list-text.type-number {
   .tf-img-with-text-3 .sw-product-single-next {
     right: 0;
   }
+}
+
+.services-select {
+  margin-bottom: 8px;
+}
+.services-select label {
+  color: var(--text-2, #6c6c6c);
+}
+.services-select.tf-select::after {
+  top: auto;
+  bottom: 12px;
+  transform: none;
+}
+.services-panels .service-panel {
+  display: none;
+}
+.services-panels .service-panel.is-active {
+  display: block;
+}
+
+.service-card {
+  display: block;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+.service-card .image {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.service-card .image img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+.service-card-content .btn-line {
+  margin-top: 4px;
 }
 
 /*# sourceMappingURL=styles.css.map */

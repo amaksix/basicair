@@ -3,6 +3,7 @@
     index: "",
     shop: "shop/",
     services: "services/",
+    service: "services/",
     contact: "contact/",
     product: "products/"
   };
@@ -15,10 +16,16 @@
       var locale = select.value;
       var currentPage = select.dataset.currentPage || "index";
       var productSlug = select.dataset.productSlug;
+      var serviceSlug = select.dataset.serviceSlug;
       var path = pageMap[currentPage] || "";
 
       if (currentPage === "product" && productSlug) {
         window.location.href = "/" + locale + "/products/" + productSlug + "/";
+        return;
+      }
+
+      if (currentPage === "service" && serviceSlug) {
+        window.location.href = "/" + locale + "/services/" + serviceSlug + "/";
         return;
       }
 

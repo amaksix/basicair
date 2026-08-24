@@ -57,6 +57,46 @@ eleventyComputed:
     </div>
 </section>
 
+{% if home.vision %}
+<section class="flat-spacing-2 pt-0 vision-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="heading-section text-center spacing-2">
+                    <h3 class="wow fadeInUp">{{ home.vision.heading }}</h3>
+                </div>
+                <div class="vision-content wow fadeInUp" data-wow-delay="0.1s">
+                    {% for paragraph in home.vision.paragraphs %}
+                    <p class="text-body-1 text_secondary">{{ paragraph }}</p>
+                    {% endfor %}
+                </div>
+            </div>
+            {% if home.vision.sectors %}
+            <div class="col-12">
+                <div dir="ltr" class="swiper tf-sw-iconbox" data-preview="5" data-tablet="3" data-mobile-sm="2" data-mobile="1" data-space-lg="30" data-space-md="30" data-space="15" data-pagination="1" data-pagination-sm="2" data-pagination-md="3" data-pagination-lg="5">
+                    <div class="swiper-wrapper">
+                        {% for sector in home.vision.sectors %}
+                        <div class="swiper-slide">
+                            <div class="tf-box-icon">
+                                <div class="icon">
+                                    <img src="{{ sector.image | asset }}" alt="" width="60" height="60" loading="lazy">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title">{{ sector.title }}</h5>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="sw-pagination-iconbox sw-dots type-circle d-flex justify-content-center"></div>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+{% endif %}
+
 <section class="flat-spacing-5 pt-0">
     <div class="container">
         <div class="row">
@@ -72,31 +112,6 @@ eleventyComputed:
                     {% include "partials/product-card.njk" %}
                     {% endif %}
                     {% endfor %}
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="flat-spacing-2 pt-0">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div dir="ltr" class="swiper tf-sw-iconbox" data-preview="4" data-tablet="3" data-mobile-sm="2" data-mobile="1" data-space-lg="30" data-space-md="30" data-space="15" data-pagination="1" data-pagination-sm="2" data-pagination-md="3" data-pagination-lg="4">
-                    <div class="swiper-wrapper">
-                        {% for benefit in home.benefits %}
-                        <div class="swiper-slide">
-                            <div class="tf-box-icon">
-                                <div class="icon"><i class="{{ benefit.icon }}"></i></div>
-                                <div class="content">
-                                    <h5 class="title">{{ benefit.title }}</h5>
-                                    <p>{{ benefit.description }}</p>
-                                </div>
-                            </div>
-                        </div>
-                        {% endfor %}
-                    </div>
-                    <div class="sw-pagination-iconbox sw-dots type-circle d-flex justify-content-center"></div>
                 </div>
             </div>
         </div>

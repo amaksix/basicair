@@ -11,8 +11,17 @@
                             <li class="menu-item">
                                 <a href="/{{ locale }}/shop/" class="item-link{% if currentPage == 'shop' %} active{% endif %}">{{ settings.navigation.products }}</a>
                             </li>
-                            <li class="menu-item">
-                                <a href="/{{ locale }}/services/" class="item-link{% if currentPage == 'services' %} active{% endif %}">{{ settings.navigation.services }}</a>
+                            <li class="menu-item position-relative">
+                                <a href="/{{ locale }}/services/" class="item-link{% if currentPage == 'services' or currentPage == 'service' %} active{% endif %}">{{ settings.navigation.services }}<i class="icon icon-down"></i></a>
+                                {% if settings.navigation.service_menu and settings.navigation.service_menu.length %}
+                                <div class="sub-menu submenu-default">
+                                    <ul class="menu-list">
+                                        {% for link in settings.navigation.service_menu %}
+                                        <li><a href="{{ link.url }}" class="menu-link-text{% if currentPage == 'service' and service.slug and link.url.indexOf(service.slug) >= 0 %} active{% endif %}">{{ link.label }}</a></li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                                {% endif %}
                             </li>
                             <li class="menu-item">
                                 <a href="/{{ locale }}/contact/" class="item-link{% if currentPage == 'contact' %} active{% endif %}">{{ settings.navigation.contact }}</a>

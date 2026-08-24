@@ -1,0 +1,47 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.allServices
+  size: 1
+  alias: service
+permalink: "/{{ service.locale }}/services/{{ service.slug }}/"
+currentPage: service
+eleventyComputed:
+  locale: "{{ service.locale }}"
+  pageTitle: "{{ service.title }} — BasicAir"
+---
+<div class="page-title relative">
+    <div class="paralaximg" data-parallax="scroll" data-image-src="{{ service.hero_image | asset }}"></div>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="title">{{ service.title }}</h3>
+                    <ul class="breadcrumb">
+                        <li><a href="/{{ locale }}/">{{ services.breadcrumb_home }}</a></li>
+                        <li><a href="/{{ locale }}/services/">{{ services.breadcrumb_current }}</a></li>
+                        <li>{{ service.title }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="flat-spacing-2">
+    <div class="container">
+        <div class="row justify-center">
+            <div class="col-lg-8">
+                <div class="heading-section spacing-2">
+                    <h1 class="wow fadeInUp">{{ service.title }}</h1>
+                    {% for paragraph in service.paragraphs %}
+                    <p class="text-body-1 text_secondary wow fadeInUp{% if not loop.last %} mb_16{% endif %}" data-wow-delay="{{ (loop.index0 * 0.1 + 0.1) }}s">{{ paragraph }}</p>
+                    {% endfor %}
+                    <div class="mt_30 wow fadeInUp" data-wow-delay="0.3s">
+                        <a href="/{{ locale }}/contact/" class="tf-btn btn-onsurface">{{ service.cta_text }} <i class="icon-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -28,8 +28,11 @@
     &.btn-onsurface {
         background-color: var(--Onsurface);
         color: var(--White);
+        border: 1px solid var(--Onsurface);
         &:hover {
-            background-color: var(--Primary);
+            background-color: var(--White);
+            color: var(--Onsurface);
+            border-color: var(--Onsurface);
         }
     }
 

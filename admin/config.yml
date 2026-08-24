@@ -41,6 +41,12 @@ collections:
               - { label: Products, name: products, widget: string }
               - { label: Services, name: services, widget: string }
               - { label: Contact, name: contact, widget: string }
+              - label: Services Dropdown
+                name: service_menu
+                widget: list
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: URL, name: url, widget: string }
           - label: Footer
             name: footer
             widget: object
@@ -118,19 +124,28 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Image, name: image, widget: image }
               - { label: Link, name: url, widget: string }
+          - label: Vision Section
+            name: vision
+            widget: object
+            required: false
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - label: Paragraphs
+                name: paragraphs
+                widget: list
+                field: { label: Paragraph, widget: text }
+              - label: Sectors
+                name: sectors
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Icon, name: image, widget: image }
           - label: Featured Products Section
             name: featured_section
             widget: object
             fields:
               - { label: Heading, name: heading, widget: string }
               - { label: Subheading, name: subheading, widget: string }
-          - label: Benefits
-            name: benefits
-            widget: list
-            fields:
-              - { label: Icon Class, name: icon, widget: string }
-              - { label: Title, name: title, widget: string }
-              - { label: Description, name: description, widget: string }
           - label: Gallery
             name: gallery
             widget: object
@@ -179,33 +194,7 @@ collections:
           - { label: Hero Background, name: hero_image, widget: image }
           - { label: Main Heading, name: main_heading, widget: string }
           - { label: Main Intro, name: main_intro, widget: text }
-          - { label: Main Image, name: main_image, widget: image }
-          - label: Mission
-            name: mission
-            widget: object
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Text, name: text, widget: text }
-          - label: Vision
-            name: vision
-            widget: object
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Text, name: text, widget: text }
-          - label: Service Features
-            name: features
-            widget: list
-            fields:
-              - { label: Icon Class, name: icon, widget: string }
-              - { label: Title, name: title, widget: string }
-              - { label: Description, name: description, widget: string }
-          - label: About Section
-            name: about_section
-            widget: object
-            fields:
-              - { label: Heading, name: heading, widget: string }
-              - { label: Text, name: text, widget: text }
-              - { label: Image, name: image, widget: image }
+          - { label: Learn More Label, name: learn_more, widget: string }
       - label: Services Page (English)
         name: services-en
         file: content/en/pages/services.json
@@ -214,6 +203,30 @@ collections:
         name: services-ru
         file: content/ru/pages/services.json
         fields: *services_fields
+
+  - name: service_items
+    label: Services
+    label_singular: Service
+    i18n: true
+    folder: "content/{{locale}}/services"
+    create: true
+    slug: "{{slug}}"
+    extension: json
+    format: json
+    identifier_field: title
+    summary: "{{title}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string, hint: "Used in URL, e.g. projektesana" }
+      - { label: Sort Order, name: order, widget: number, default: 0, required: false }
+      - { label: Summary, name: summary, widget: text, hint: "Short text on the services listing page" }
+      - { label: Card Image, name: image, widget: image }
+      - { label: Hero Image, name: hero_image, widget: image }
+      - label: Paragraphs
+        name: paragraphs
+        widget: list
+        field: { label: Paragraph, name: paragraph, widget: text }
+      - { label: CTA Button Text, name: cta_text, widget: string }
 
   - name: contact_page
     label: Contact Page

@@ -9,8 +9,13 @@
     "home": "HOME",
     "products": "PRODUCTS",
     "services": "SERVICES",
-    "contact": "CONTACT"
+    "contact": "CONTACT",
+    "service_menu": [
+      { "label": "Design", "url": "/en/services/projektesana/" },
+      { "label": "Maintenance and spare parts", "url": "/en/services/apkope/" }
+    ]
   },
+
   "footer": {
     "phone": "+371 29 444 224",
     "email": "info@basicair.lv",

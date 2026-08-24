@@ -9,8 +9,23 @@
                 <li class="nav-mb-item{% if currentPage == 'shop' %} active{% endif %}">
                     <a href="/{{ locale }}/shop/" class="mb-menu-link"><span>{{ settings.navigation.products }}</span></a>
                 </li>
-                <li class="nav-mb-item{% if currentPage == 'services' %} active{% endif %}">
+                <li class="nav-mb-item{% if currentPage == 'services' or currentPage == 'service' %} active{% endif %}">
+                    {% if settings.navigation.service_menu and settings.navigation.service_menu.length %}
+                    <a href="#dropdown-menu-services" class="collapsed mb-menu-link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="dropdown-menu-services">
+                        <span>{{ settings.navigation.services }}</span>
+                        <span class="btn-open-sub"></span>
+                    </a>
+                    <div id="dropdown-menu-services" class="collapse">
+                        <ul class="sub-nav-menu">
+                            <li><a href="/{{ locale }}/services/" class="sub-nav-link">{{ settings.navigation.services }}</a></li>
+                            {% for link in settings.navigation.service_menu %}
+                            <li><a href="{{ link.url }}" class="sub-nav-link">{{ link.label }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% else %}
                     <a href="/{{ locale }}/services/" class="mb-menu-link"><span>{{ settings.navigation.services }}</span></a>
+                    {% endif %}
                 </li>
                 <li class="nav-mb-item{% if currentPage == 'contact' %} active{% endif %}">
                     <a href="/{{ locale }}/contact/" class="mb-menu-link"><span>{{ settings.navigation.contact }}</span></a>

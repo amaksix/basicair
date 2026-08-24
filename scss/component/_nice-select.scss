@@ -264,13 +264,19 @@
             overflow: unset !important;
             margin-top: 17px !important;
             margin-bottom: 17px !important;
-            padding: 15px 20px;
+            padding: 8px;
             border-radius: 0;
             border: 0;
             background-color: var(--White);
             box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 18px 0px;
             a {
-                padding: 5px 0;
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+                padding: 8px 14px;
+                margin: 0;
+                border-radius: 2px;
+                transition: background-color 0.15s ease, color 0.15s ease;
                 .text {
                     @include flex(center,start);
                     gap: 5px;
@@ -285,8 +291,8 @@
                 &:hover,
                 &:active,
                 &.active {
-                    color: var(--primary) !important;
-                    background-color: unset !important;
+                    color: var(--main) !important;
+                    background-color: var(--Surface) !important;
                 }
             }
             &::after {
@@ -351,8 +357,8 @@
     }
     &.type-languages {
         > .dropdown-menu {
-            width: 96px !important;
-            margin-left: calc(50% - 48px) !important;
+            width: 140px !important;
+            margin-left: calc(50% - 70px) !important;
         }
     }
     &.color-secondary-2 {
