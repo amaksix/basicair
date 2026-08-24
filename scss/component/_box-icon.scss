@@ -1,0 +1,73 @@
+.tf-social-icon {
+    @include d-flex();
+    gap: 12px;
+    li {
+        a {
+            @include flex(center, center);
+            height: 40px;
+            width: 40px;
+            border-radius: 999px;
+            border: 1px solid var(--Onsurface);
+        }
+        &:hover {
+            a {
+                background-color: var(--Onsurface);
+                color: var(--White);
+            }
+        }
+    }
+    &.style-2 {
+        background-color: var(--White);
+        flex-direction: column;
+        width: max-content;
+        padding: 8px;
+        li {
+            a {
+                height: 36px;
+                width: 36px;
+                border: 1px solid var(--line);
+                font-size: 20px;
+            }
+        }
+    }
+    &.type-1 {
+        li {
+            a {
+                background-color: var(--Surface);
+                border: 0;
+            }
+            &:hover {
+                a {
+                    background-color: var(--Onsurface);
+                }
+            }
+        }
+    }
+    &.type-2 {
+        gap: 28px;
+        a {
+            color: var(--White);
+            font-size: 24px;
+            border: 0;
+            width: 24px;
+            height: 24px;
+            &:hover {
+                color: var(--Primary);
+                background-color: transparent;
+            }
+        }
+    }
+}
+
+.tf-box-icon {
+    .icon {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .title {
+        margin-bottom: 8px;
+    }
+    p {
+        color: var(--Secondary);
+    }
+}

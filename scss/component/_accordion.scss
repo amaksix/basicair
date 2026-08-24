@@ -1,0 +1,119 @@
+.page-faqs-wrap {
+    display: flex;
+    .list-faqs {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .faqs-title {
+        margin-bottom: 20px;
+    }
+    .accordion-product-wrap {
+        .accordion-product-item {
+            &:not(:last-child) {
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+.accordion-product-item {
+    padding: 22px 20px 17px; 
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    .accordion-title {
+        @include flex(center, space-between);
+
+        i {
+            @include transition3();
+            font-size: 24px;
+        }
+        &:not(.collapsed) {
+            i {
+                transform: rotate(180deg);
+            }
+        }
+    }
+    .accordion-faqs-content {
+        padding-top: 10px;
+    }
+    &.style-2 {
+        border-radius: unset;
+        padding: 20px 0 19px;
+        border: none;
+        &:not(:last-child) {
+            border-bottom: 1px solid var(--main);
+        }
+        .accordion-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &:not(.collapsed) {
+                .btn-open-sub {
+                    &::before {
+                        transform: rotate(90deg);
+                    }
+                }
+            }
+        }
+        .accordion-content {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid var(--line);
+            gap: 20px
+        }
+        .btn-open-sub {
+            position: relative;
+            width: 24px;
+            height: 24px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            &:after,
+            &::before {
+                content: "";
+                position: absolute;
+                z-index: 1;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: var(--main);
+                transition: 0.4s ease 0.1s;
+                margin: auto;
+            }
+            &::before {
+                width: 2px;
+                height: 18px;
+            }
+            &::after {
+                width: 18px;
+                height: 2px;
+            }
+        }
+    }
+}
+
+.ask-question {
+    margin-top: 40px;
+    height: max-content;
+    flex-shrink: 0;
+    box-shadow: 0px 10px 25px 0px rgba(43, 52, 74, 0.12);
+    border-radius: 16px;
+    padding: 24px;
+    margin-left: auto;
+    .ask-question-wrap form {
+        .tf-select select {
+            padding: 9px 16px;
+            border-radius: 4px;
+        }
+        textarea {
+            height: 86px;
+        }
+        button {
+            height: 48px;
+            border: 0;
+        }
+    }
+}
