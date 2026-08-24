@@ -26,6 +26,7 @@
         {% include "partials/toolbar.njk" %}
     </div>
     {% include "partials/mobile-menu.njk" %}
+    <script>window.__PATH_PREFIX__ = {{ '/' | htmlBaseUrl | dump | safe }};</script>
     {% include "partials/scripts.njk" %}
 </body>
 </html>

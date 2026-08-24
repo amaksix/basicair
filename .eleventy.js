@@ -1,8 +1,10 @@
-const fs = require("fs");
-const path = require("path");
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const { loadLocaleContent, loadProducts, loadServices, LOCALES, DEFAULT_LOCALE } = require("./lib/content");
 
 module.exports = function (eleventyConfig) {
+  // Rewrites absolute /href and /src for GitHub Pages project URLs (--pathprefix)
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("images");
@@ -11,6 +13,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("mail");
   eleventyConfig.addPassthroughCopy("contact");
   eleventyConfig.addPassthroughCopy("examples");
+
+  // GitHub Pages: skip Jekyll processing of the artifact
+  eleventyConfig.on("eleventy.after", async ({ dir }) => {
+    const fs = require("fs");
+    const path = require("path");
+    fs.writeFileSync(path.join(dir.output, ".nojekyll"), "");
+  });
 
   // Rebuild when CMS/content JSON changes (outside src/)
   eleventyConfig.addWatchTarget("content");

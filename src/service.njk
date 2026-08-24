@@ -11,7 +11,7 @@ eleventyComputed:
   pageTitle: "{{ service.title }} — BasicAir"
 ---
 <div class="page-title relative">
-    <div class="paralaximg" data-parallax="scroll" data-image-src="{{ service.hero_image | asset }}"></div>
+    <div class="paralaximg" data-parallax="scroll" data-image-src="{{ service.hero_image | asset | htmlBaseUrl }}"></div>
     <div class="content">
         <div class="container">
             <div class="row">

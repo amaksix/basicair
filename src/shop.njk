@@ -10,7 +10,7 @@ eleventyComputed:
   pageTitle: "{{ shop.title }}"
 ---
 <div class="page-title relative">
-    <div class="paralaximg" data-parallax="scroll" data-image-src="/images/page-title/page-title-3.jpg"></div>
+    <div class="paralaximg" data-parallax="scroll" data-image-src="{{ '/images/page-title/page-title-3.jpg' | htmlBaseUrl }}"></div>
     <div class="content">
         <div class="container">
             <div class="row">

@@ -16,7 +16,7 @@ eleventyComputed:
             <div class="swiper-slide">
                 <div class="wrap-slider {{ slide.slide_class | default('slide-1') }}">
                     <div class="img-style">
-                        <img class="lazyload" data-src="{{ slide.image | asset }}" src="{{ slide.image | asset }}" alt="{{ slide.heading }}">
+                        <img class="lazyload" data-src="{{ slide.image | asset | htmlBaseUrl }}" src="{{ slide.image | asset }}" alt="{{ slide.heading }}">
                     </div>
                     <div class="box-content">
                         <div class="box-title">
@@ -44,7 +44,7 @@ eleventyComputed:
                         {% for category in home.categories %}
                         <div class="cls-img-item hover-img">
                             <div class="image img-style">
-                                <img data-src="{{ category.image | asset }}" src="{{ category.image | asset }}" alt="{{ category.title }}">
+                                <img data-src="{{ category.image | asset | htmlBaseUrl }}" src="{{ category.image | asset }}" alt="{{ category.title }}">
                             </div>
                             <h3><a class="link" href="{{ category.url }}">{{ category.title }}</a></h3>
                         </div>
@@ -138,7 +138,7 @@ eleventyComputed:
                         <div class="swiper-slide">
                             <div class="gallery-item hover-overlay hover-img wow fadeInUp" data-wow-delay="{{ delay }}">
                                 <div class="img-style">
-                                    <img class="lazyload img-hover" data-src="{{ item.image | asset }}" src="{{ item.image | asset }}" alt="{{ item.alt | default(home.gallery.heading) }}">
+                                    <img class="lazyload img-hover" data-src="{{ item.image | asset | htmlBaseUrl }}" src="{{ item.image | asset }}" alt="{{ item.alt | default(home.gallery.heading) }}">
                                 </div>
                                 <a href="{{ item.image | asset }}" data-fancybox="home-gallery" data-caption="{{ item.alt | default(home.gallery.heading) }}" class="box-icon hover-tooltip">
                                     <span class="icon icon-eye"></span>

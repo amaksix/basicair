@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
     <meta charset="utf-8">
     <meta http-equiv="refresh" content="0; url=/lv/">
     <title>BasicAir</title>
-    <script>window.location.replace("/lv/");</script>
+    <script>window.location.replace({{ '/lv/' | htmlBaseUrl | dump | safe }});</script>
 </head>
 <body>
     <p>Redirecting to <a href="/lv/">BasicAir</a>...</p>

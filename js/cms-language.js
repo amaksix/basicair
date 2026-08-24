@@ -8,6 +8,12 @@
     product: "products/"
   };
 
+  function withPrefix(path) {
+    var base = (window.__PATH_PREFIX__ || "/").replace(/\/$/, "");
+    if (!path.startsWith("/")) path = "/" + path;
+    return base + path;
+  }
+
   function bindLanguageSelect(select) {
     if (!select || select.dataset.bound === "true") return;
     select.dataset.bound = "true";
@@ -20,16 +26,16 @@
       var path = pageMap[currentPage] || "";
 
       if (currentPage === "product" && productSlug) {
-        window.location.href = "/" + locale + "/products/" + productSlug + "/";
+        window.location.href = withPrefix("/" + locale + "/products/" + productSlug + "/");
         return;
       }
 
       if (currentPage === "service" && serviceSlug) {
-        window.location.href = "/" + locale + "/services/" + serviceSlug + "/";
+        window.location.href = withPrefix("/" + locale + "/services/" + serviceSlug + "/");
         return;
       }
 
-      window.location.href = "/" + locale + "/" + path;
+      window.location.href = withPrefix("/" + locale + "/" + path);
     });
   }
 

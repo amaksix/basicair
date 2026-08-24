@@ -10,7 +10,7 @@ eleventyComputed:
   pageTitle: "{{ services.title }}"
 ---
 <div class="page-title relative">
-    <div class="paralaximg" data-parallax="scroll" data-image-src="{{ services.hero_image | asset }}"></div>
+    <div class="paralaximg" data-parallax="scroll" data-image-src="{{ services.hero_image | asset | htmlBaseUrl }}"></div>
     <div class="content">
         <div class="container">
             <div class="row">
@@ -42,7 +42,7 @@ eleventyComputed:
             <div class="col-md-6">
                 <a href="/{{ locale }}/services/{{ item.slug }}/" class="service-card hover-img wow fadeInUp">
                     <div class="image img-style">
-                        <img class="lazyload" src="{{ item.image | asset }}" data-src="{{ item.image | asset }}" alt="{{ item.title }}">
+                        <img class="lazyload" src="{{ item.image | asset }}" data-src="{{ item.image | asset | htmlBaseUrl }}" alt="{{ item.title }}">
                     </div>
                     <div class="service-card-content">
                         <h3 class="mb_12">{{ item.title }}</h3>

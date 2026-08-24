@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "eleventy",
+    "build-ghpages": "eleventy --pathprefix=/basicair/",
     "start": "eleventy --serve",
     "cms": "npx decap-server",
     "dev": "concurrently \"npm run cms\" \"npm run start\"",

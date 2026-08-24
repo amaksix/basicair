@@ -15,7 +15,7 @@ eleventyComputed:
         <div class="row">
             <div class="col-lg-6">
                 <div class="tf-product-media-wrap">
-                    <img class="lazyload w-100" src="{{ product.image | asset }}" data-src="{{ product.image | asset }}" alt="{{ product.title }}">
+                    <img class="lazyload w-100" src="{{ product.image | asset }}" data-src="{{ product.image | asset | htmlBaseUrl }}" alt="{{ product.title }}">
                 </div>
                 {% if product.gallery and product.gallery.length > 1 %}
                 <div class="tf-product-media-thumbs mt_20">
