@@ -8,7 +8,7 @@
       return "";
     }
 
-    var locations = [[locationData(), 40.709327, -74.004815, 1, "<div></div>"]];
+    var locations = [[locationData(), 56.9680, 24.1510, 1, "<div></div>"]];
 
     function numericalRating(ratingElem) {
       $(ratingElem).each(function () {
@@ -149,7 +149,7 @@
     var map = new google.maps.Map(document.getElementById("map-contact"), {
       zoom: zoomLevel,
       scrollwheel: false,
-      center: new google.maps.LatLng(40.709295, -74.003099),
+      center: new google.maps.LatLng(56.9680, 24.1510),
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       zoomControl: true,
       zoomControlOptions: {

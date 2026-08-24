@@ -9,7 +9,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("mail");
+  eleventyConfig.addPassthroughCopy("contact");
   eleventyConfig.addPassthroughCopy("examples");
+
+  // Rebuild when CMS/content JSON changes (outside src/)
+  eleventyConfig.addWatchTarget("content");
+  eleventyConfig.addWatchTarget("scss");
 
   eleventyConfig.addGlobalData("locales", LOCALES);
   eleventyConfig.addGlobalData("defaultLocale", DEFAULT_LOCALE);
@@ -44,6 +49,11 @@ module.exports = function (eleventyConfig) {
     if (!assetPath) return "";
     if (assetPath.startsWith("http")) return assetPath;
     return assetPath.startsWith("/") ? assetPath : `/${assetPath}`;
+  });
+
+  eleventyConfig.addFilter("nl2br", (value) => {
+    if (!value) return "";
+    return String(value).replace(/\n/g, "<br>");
   });
 
   eleventyConfig.addFilter("price", (value) => {

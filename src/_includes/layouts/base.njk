@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="/css/animate.css">
     <link rel="stylesheet" href="/css/styles.css">
+    {% if currentPage == 'index' %}
+    <link rel="stylesheet" href="/css/jquery.fancybox.min.css">
+    {% endif %}
     <link rel="shortcut icon" href="/images/logo/favicon.png">
     <link rel="apple-touch-icon-precomposed" href="/images/logo/favicon.png">
 </head>
@@ -17,7 +20,6 @@
     {% include "partials/scroll-top.njk" %}
     {% include "partials/preload.njk" %}
     <div id="wrapper">
-        {% include "partials/topbar.njk" %}
         {% include "partials/header.njk" %}
         {{ content | safe }}
         {% include "partials/footer.njk" %}

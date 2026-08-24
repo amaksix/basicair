@@ -26,5 +26,5 @@
     });
   }
 
-  document.querySelectorAll("#language-select, .type-languages").forEach(bindLanguageSelect);
+  document.querySelectorAll(".type-languages").forEach(bindLanguageSelect);
 })();

@@ -42,5 +42,25 @@
     { "icon": "icon-lifebuoy", "title": "Поддержка 24/7", "description": "Мы на связи, когда вы в нас нуждаетесь." },
     { "icon": "icon-sealpercent", "title": "Гарантия", "description": "Гарантия производителя и сервис после монтажа." },
     { "icon": "icon-arrow-down-left", "title": "Профессиональный монтаж", "description": "Сертифицированные специалисты с опытом." }
-  ]
+  ],
+  "gallery": {
+    "heading": "Галерея",
+    "subheading": "Наши решения и установки",
+    "items": [
+      { "image": "/images/gallery/Gallery1.jpg", "alt": "Галерея 1", "url": "/ru/shop/" },
+      { "image": "/images/gallery/Gallery2.jpg", "alt": "Галерея 2", "url": "/ru/shop/" },
+      { "image": "/images/gallery/Gallery3.jpg", "alt": "Галерея 3", "url": "/ru/shop/" },
+      { "image": "/images/gallery/Gallery4.jpg", "alt": "Галерея 4", "url": "/ru/shop/" }
+    ]
+  },
+  "partners": {
+    "heading": "Наши партнёры",
+    "logos": [
+      { "image": "/images/Partners/camfil.webp", "alt": "Camfil" },
+      { "image": "/images/Partners/valour-wood.webp", "alt": "Valour Wood Technologies" },
+      { "image": "/images/Partners/fsdi-latvia.webp", "alt": "FSDI Latvia" },
+      { "image": "/images/Partners/vzduchotechnik.webp", "alt": "Vzduchotechnik Chrastava" },
+      { "image": "/images/Partners/AAF.svg", "alt": "AAF International" }
+    ]
+  }
 }

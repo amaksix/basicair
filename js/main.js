@@ -645,6 +645,22 @@
 
     /* contact form
   ------------------------------------------------------------------------------------- */
+    var contactLegalEntityToggle = function () {
+        var $checkbox = $("#is_legal_entity");
+        var $companyFields = $("#company-fields");
+
+        if (!$checkbox.length || !$companyFields.length) return;
+
+        var toggleCompanyFields = function () {
+            var isChecked = $checkbox.is(":checked");
+            $companyFields.prop("hidden", !isChecked);
+            $companyFields.find("input").prop("required", isChecked);
+        };
+
+        $checkbox.on("change", toggleCompanyFields);
+        toggleCompanyFields();
+    };
+
     var ajaxContactForm = function () {
         $("#contactform").each(function () {
             $(this).validate({
@@ -1512,6 +1528,7 @@
         hoverPin();
         togglePassword();
         customDropdown();
+        contactLegalEntityToggle();
         ajaxContactForm();
         loadmore();
         hasPurchased();

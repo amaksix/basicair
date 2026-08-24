@@ -131,6 +131,31 @@ collections:
               - { label: Icon Class, name: icon, widget: string }
               - { label: Title, name: title, widget: string }
               - { label: Description, name: description, widget: string }
+          - label: Gallery
+            name: gallery
+            widget: object
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - { label: Subheading, name: subheading, widget: string, required: false }
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - { label: Image, name: image, widget: image }
+                  - { label: Alt Text, name: alt, widget: string, required: false }
+                  - { label: Link URL, name: url, widget: string, required: false }
+          - label: Partners
+            name: partners
+            widget: object
+            required: false
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - label: Logos
+                name: logos
+                widget: list
+                fields:
+                  - { label: Image, name: image, widget: image }
+                  - { label: Alt Text, name: alt, widget: string }
       - label: Home Page (English)
         name: home-en
         file: content/en/pages/home.json
@@ -198,31 +223,69 @@ collections:
         file: content/lv/pages/contact.json
         fields: &contact_fields
           - { label: Page Title, name: title, widget: string }
+          - { label: Breadcrumb Home, name: breadcrumb_home, widget: string }
+          - { label: Breadcrumb Current, name: breadcrumb_current, widget: string }
+          - { label: Hero Title, name: hero_title, widget: string }
+          - { label: Hero Image, name: hero_image, widget: image }
           - { label: Form Heading, name: form_heading, widget: string }
           - { label: Form Intro, name: form_intro, widget: text }
           - label: Form Labels
             name: form_labels
             widget: object
             fields:
+              - { label: Legal Entity, name: legal_entity, widget: string }
+              - { label: Legal Entity Hint, name: legal_entity_hint, widget: string }
+              - { label: Company Name, name: company_name, widget: string }
+              - { label: Reg Number, name: reg_number, widget: string }
+              - { label: VAT Number, name: vat_number, widget: string }
               - { label: Name, name: name, widget: string }
+              - { label: Name Hint, name: name_hint, widget: string }
               - { label: Email, name: email, widget: string }
-              - { label: Phone, name: phone, widget: string }
+              - { label: Email Hint, name: email_hint, widget: string }
               - { label: Message, name: message, widget: string }
+              - { label: Message Placeholder, name: message_placeholder, widget: string }
               - { label: Submit Button, name: submit, widget: string }
-          - label: Locations
-            name: locations
-            widget: list
+          - label: Contact Info
+            name: contact_info
+            widget: object
             fields:
-              - { label: City, name: city, widget: string }
-              - { label: Phone Label, name: phone_label, widget: string }
-              - { label: Phone, name: phone, widget: string }
+              - { label: Heading, name: heading, widget: string }
               - { label: Email Label, name: email_label, widget: string }
               - { label: Email, name: email, widget: string }
-              - { label: Address Label, name: address_label, widget: string }
+              - { label: Phone Label, name: phone_label, widget: string }
+              - { label: Phone, name: phone, widget: string }
+          - label: Company
+            name: company
+            widget: object
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - { label: Name, name: name, widget: string }
+              - { label: Reg Number Label, name: reg_number_label, widget: string }
+              - { label: Reg Number, name: reg_number, widget: string }
+              - { label: VAT Number Label, name: vat_number_label, widget: string }
+              - { label: VAT Number, name: vat_number, widget: string }
+          - label: Legal Address
+            name: legal_address
+            widget: object
+            fields:
+              - { label: Heading, name: heading, widget: string }
               - { label: Address, name: address, widget: text }
-              - { label: Hours Label, name: hours_label, widget: string }
-              - { label: Weekday Hours, name: weekday_hours, widget: string }
-              - { label: Sunday Hours, name: sunday_hours, widget: string, required: false }
+          - label: Office
+            name: office
+            widget: object
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - { label: Address, name: address, widget: text }
+          - label: Bank
+            name: bank
+            widget: object
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - { label: Name, name: name, widget: string }
+              - { label: SWIFT Label, name: swift_label, widget: string }
+              - { label: SWIFT, name: swift, widget: string }
+              - { label: Account Label, name: account_label, widget: string }
+              - { label: Account, name: account, widget: string }
       - label: Contact Page (English)
         name: contact-en
         file: content/en/pages/contact.json

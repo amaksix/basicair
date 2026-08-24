@@ -1,5 +1,5 @@
 footer {
-    background-color: rgba(31, 31, 31, 1);
+    background-color: var(--Onsurface);
     .footer-body {
         padding: 78px 0 73px 0;
         gap: 0px;
@@ -16,6 +16,15 @@ footer {
     .footer-phone-number {
         .number {
             margin-bottom: -7px;
+        }
+    }
+    .footer-logo {
+        display: inline-block;
+        margin-bottom: 28px;
+        img {
+            width: 154px;
+            height: auto;
+            display: block;
         }
     }
     .footer-left {
@@ -98,7 +107,7 @@ footer {
             align-items: center;
             gap: 4px;
             background-color: var(--White);
-            color: var(--Onsurface);
+            color: #181818;
             top: 50%;
             transform: translateY(-50%);
             right: 6px;
@@ -108,7 +117,7 @@ footer {
             }
             &:hover {
                 color: var(--White);
-                background-color: var(--Onsurface);
+                background-color: #181818;
             }
         }
     }
@@ -140,7 +149,7 @@ footer {
         }
     }
     .footer-bottom {
-        background-color: rgba(23, 23, 23, 1)
+        background-color: var(--Onsurface);
     }
     .footer-bottom-wrap {
         @include flex(center, space-between);
@@ -152,6 +161,16 @@ footer {
             align-items: center;
             text-align: center;
             gap: 16px;
+        }
+        .center {
+            .image-select,
+            .nice-select {
+                color: var(--White);
+                &::after {
+                    border-bottom-color: var(--White);
+                    border-right-color: var(--White);
+                }
+            }
         }
     }
     

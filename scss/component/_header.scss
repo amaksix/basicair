@@ -76,8 +76,9 @@ header {
             display: flex;
             font-size: 28px;
             position: relative;
+            color: #181818;
             &:hover {
-                color: var(--Primary) !important;
+                color: #181818 !important;
             }
         }
         .count-box {
@@ -88,10 +89,29 @@ header {
             align-items: center;
             justify-content: center;
             border-radius: 50%;
-            background-color: var(--Primary);
+            background-color: #181818;
             color: var(--White);
             top: -4px;
             right: -4px;
+        }
+        .tf-languages {
+            .image-select,
+            .nice-select {
+                color: #181818;
+                &::after {
+                    border-bottom-color: #181818;
+                    border-right-color: #181818;
+                }
+                > .dropdown-toggle {
+                    color: #181818;
+                    &::after {
+                        color: #181818;
+                    }
+                    .filter-option .filter-option-inner {
+                        color: #181818;
+                    }
+                }
+            }
         }
     }
     .mobile-menu {
@@ -101,6 +121,10 @@ header {
         }
     }
     .logo-header {
+        .logo {
+            width: 154px;
+            height: auto;
+        }
         .logo-black {
             display: none;
         }
@@ -172,7 +196,7 @@ header {
             }
             .nav-icon .nav-icon-item,
             .box-nav-ul .item-link {
-                color: var(--Onsurface) !important;
+                color: #181818 !important;
             }
         }
     }
@@ -221,6 +245,7 @@ header {
         font-size: 14px;
         line-height: 22px;
         position: relative;
+        color: #181818;
         .icon {
             font-size: 16px;
         }
@@ -236,10 +261,11 @@ header {
             -webkit-transition: width 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
             -o-transition: width 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
             transition: width 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
-            background: var(--Primary);
+            background: #181818;
         }
         &.active,
         &:hover {
+            color: #181818;
             &::after {
                 width: calc(100% - 20px);
                 left: 0;
@@ -528,7 +554,7 @@ header {
         border: solid 1px var(--line);
         gap: 4px;
         background-color: var(--line);
-        color: var(--Onsurface);
+        color: #181818;
         border-radius: 8px;
         display: inline-flex;
         align-items: center;
@@ -543,8 +569,8 @@ header {
         }
         &:hover {
             color: var(--White);
-            background-color: var(--Onsurface);
-            border-color: var(--Onsurface);
+            background-color: #181818;
+            border-color: #181818;
             svg path {
                 stroke: var(--White);
             }
@@ -583,7 +609,7 @@ header {
             min-height: 40px;
             font-weight: 500;
             font-size: 14px;
-            color: var(--main);
+            color: #181818;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -597,21 +623,21 @@ header {
         }
         &.active {
             .mb-menu-link {
-                color: var(--Primary);
+                color: #181818;
                 .btn-open-sub {
                     &::after,
                     &::before {
-                        background-color: var(--Primary);
+                        background-color: #181818;
                     }
                 }
             }
 
             .sub-nav-link.active {
-                color: var(--Primary);
+                color: #181818;
                 .btn-open-sub {
                     &::after,
                     &::before {
-                        background-color: var(--Primary);
+                        background-color: #181818;
                     }
                 }
             }
@@ -633,7 +659,7 @@ header {
             bottom: 0;
             left: 0;
             right: 0;
-            background-color: var(--Onsurface);
+            background-color: #181818;
             transition: 0.4s ease 0.1s;
             margin: auto;
         }

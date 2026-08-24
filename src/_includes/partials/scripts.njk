@@ -10,7 +10,9 @@
 <script type="text/javascript" src="/js/simpleParallaxVanilla.umd.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
 <script type="text/javascript" src="/js/cms-language.js"></script>
+{% if currentPage == 'index' %}
+<script type="text/javascript" src="/js/jquery.fancybox.js"></script>
+{% endif %}
 {% if currentPage == 'contact' %}
-<script type="text/javascript" src="/js/map-contact.js"></script>
-<script type="text/javascript" src="/js/marker.js"></script>
+<script type="text/javascript" src="/js/jquery-validate.js"></script>
 {% endif %}

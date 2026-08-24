@@ -29,11 +29,16 @@
                 </div>
                 <div class="col-xl-2 col-md-4 col-8 text-center">
                     <a href="/{{ locale }}/" class="logo-header">
-                        <img src="/images/logo/logo.svg" alt="{{ settings.site_name }}" class="logo">
+                        <img src="/images/logo/BasicAirLogo-black.webp" alt="{{ settings.site_name }}" class="logo">
                     </a>
                 </div>
                 <div class="col-xl-5 col-md-4 col-2">
                     <ul class="nav-icon">
+                        <li class="nav-language d-none d-xl-flex">
+                            <div class="tf-languages">
+                                {% include "partials/language-switcher.njk" %}
+                            </div>
+                        </li>
                         <li class="nav-search">
                             <a href="#search" data-bs-toggle="modal" class="nav-icon-item">
                                 <span class="icon icon-search"></span>

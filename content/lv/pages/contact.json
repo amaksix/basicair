@@ -1,26 +1,54 @@
 {
   "title": "BasicAir — Kontakti",
-  "form_heading": "Sazinieties ar mums",
-  "form_intro": "Aizpildiet formu, un mūsu komanda ar jums sazināsies.",
+  "breadcrumb_home": "Sākums",
+  "breadcrumb_current": "Kontakti",
+  "hero_title": "Kontakti",
+  "hero_image": "/images/page-title/page-title-3.jpg",
+  "form_heading": "Jautājumi?",
+  "form_intro": "Aizpildiet formu, un mēs ar jums sazināsimies.",
   "form_labels": {
-    "name": "Jūsu vārds*",
+    "legal_entity": "Juridiska persona?",
+    "legal_entity_hint": "Juridiskas personas sniedz uzņēmuma rekvizītus",
+    "company_name": "Uzņēmuma nosaukums*",
+    "reg_number": "Reģ. Nr.*",
+    "vat_number": "PVN Reģ. Nr.*",
+    "name": "Vārds*",
+    "name_hint": "Kā mums tevi uzrunāt?",
     "email": "E-pasts*",
-    "phone": "Tālrunis*",
+    "email_hint": "Kur mums sūtīt atbildi?",
     "message": "Ziņa*",
-    "submit": "Nosūtīt ziņu"
+    "message_placeholder": "Es vēlos pasūtīt produktu:",
+    "submit": "Sūtīt"
   },
-  "locations": [
-    {
-      "city": "Rīga",
-      "phone_label": "Tālrunis:",
-      "phone": "+371 2000 0000",
-      "email_label": "E-pasts:",
-      "email": "info@basicair.lv",
-      "address_label": "Adrese:",
-      "address": "Brīvības iela 100, Rīga, LV-1001, Latvija",
-      "hours_label": "Darba laiks:",
-      "weekday_hours": "P–Pk: 8:00–18:00",
-      "sunday_hours": "S: 10:00–14:00"
-    }
-  ]
+  "contact_info": {
+    "heading": "Saziņai",
+    "email_label": "E-pasts:",
+    "email": "info@basicair.lv",
+    "phone_label": "Mob. tālr.:",
+    "phone": "+371 29 444 224"
+  },
+  "company": {
+    "heading": "Uzņēmuma rekvizīti",
+    "name": "SIA \"BK Komunikācijas\"",
+    "reg_number_label": "Reģ. Nr.",
+    "reg_number": "40203202309",
+    "vat_number_label": "PVN Reģ. Nr.",
+    "vat_number": "LV40203202309"
+  },
+  "legal_address": {
+    "heading": "Juridiskā adrese",
+    "address": "Mātera iela 15,\nRīga, LV-1014"
+  },
+  "office": {
+    "heading": "Birojs",
+    "address": "Čiekurkalna 1. līnija 11,\nRīga, LV-1026"
+  },
+  "bank": {
+    "heading": "Banka",
+    "name": "A/S Swedbank",
+    "swift_label": "Swift kods:",
+    "swift": "HABALV22",
+    "account_label": "Konta Nr.:",
+    "account": "LV50HABA0551046451544"
+  }
 }

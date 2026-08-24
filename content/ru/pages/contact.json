@@ -1,26 +1,54 @@
 {
   "title": "BasicAir — Контакты",
-  "form_heading": "Свяжитесь с нами",
-  "form_intro": "Заполните форму, и наша команда свяжется с вами.",
+  "breadcrumb_home": "Главная",
+  "breadcrumb_current": "Контакты",
+  "hero_title": "Контакты",
+  "hero_image": "/images/page-title/page-title-3.jpg",
+  "form_heading": "Вопросы?",
+  "form_intro": "Заполните форму, и мы свяжемся с вами.",
   "form_labels": {
-    "name": "Ваше имя*",
+    "legal_entity": "Юридическое лицо?",
+    "legal_entity_hint": "Юридические лица указывают реквизиты компании",
+    "company_name": "Название компании*",
+    "reg_number": "Рег. №*",
+    "vat_number": "НДС рег. №*",
+    "name": "Имя*",
+    "name_hint": "Как к вам обращаться?",
     "email": "E-mail*",
-    "phone": "Телефон*",
+    "email_hint": "Куда отправить ответ?",
     "message": "Сообщение*",
-    "submit": "Отправить сообщение"
+    "message_placeholder": "Я хочу заказать продукт:",
+    "submit": "Отправить"
   },
-  "locations": [
-    {
-      "city": "Рига",
-      "phone_label": "Телефон:",
-      "phone": "+371 2000 0000",
-      "email_label": "E-mail:",
-      "email": "info@basicair.lv",
-      "address_label": "Адрес:",
-      "address": "Brivibas iela 100, Рига, LV-1001, Латвия",
-      "hours_label": "Часы работы:",
-      "weekday_hours": "Пн–Пт: 8:00–18:00",
-      "sunday_hours": "Сб: 10:00–14:00"
-    }
-  ]
+  "contact_info": {
+    "heading": "Связь",
+    "email_label": "E-mail:",
+    "email": "info@basicair.lv",
+    "phone_label": "Моб. тел.:",
+    "phone": "+371 29 444 224"
+  },
+  "company": {
+    "heading": "Реквизиты компании",
+    "name": "SIA \"BK Komunikācijas\"",
+    "reg_number_label": "Рег. №",
+    "reg_number": "40203202309",
+    "vat_number_label": "НДС рег. №",
+    "vat_number": "LV40203202309"
+  },
+  "legal_address": {
+    "heading": "Юридический адрес",
+    "address": "Matera iela 15,\nРига, LV-1014"
+  },
+  "office": {
+    "heading": "Офис",
+    "address": "Ciekurkalna 1. linija 11,\nРига, LV-1026"
+  },
+  "bank": {
+    "heading": "Банк",
+    "name": "A/S Swedbank",
+    "swift_label": "SWIFT код:",
+    "swift": "HABALV22",
+    "account_label": "Номер счёта:",
+    "account": "LV50HABA0551046451544"
+  }
 }

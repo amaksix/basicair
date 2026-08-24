@@ -1,26 +1,54 @@
 {
   "title": "BasicAir — Contact",
-  "form_heading": "Get In Touch",
-  "form_intro": "Fill in the form and our team will get back to you.",
+  "breadcrumb_home": "Home",
+  "breadcrumb_current": "Contact",
+  "hero_title": "Contact",
+  "hero_image": "/images/page-title/page-title-3.jpg",
+  "form_heading": "Questions?",
+  "form_intro": "Fill in the form and we will get back to you.",
   "form_labels": {
-    "name": "Your Name*",
-    "email": "Your Email*",
-    "phone": "Phone*",
-    "message": "Your Message*",
-    "submit": "Send Message"
+    "legal_entity": "Legal entity?",
+    "legal_entity_hint": "Legal entities provide company details",
+    "company_name": "Company name*",
+    "reg_number": "Reg. No.*",
+    "vat_number": "VAT Reg. No.*",
+    "name": "Name*",
+    "name_hint": "How should we address you?",
+    "email": "Email*",
+    "email_hint": "Where should we send the reply?",
+    "message": "Message*",
+    "message_placeholder": "I would like to order a product:",
+    "submit": "Send"
   },
-  "locations": [
-    {
-      "city": "Riga",
-      "phone_label": "Phone:",
-      "phone": "+371 2000 0000",
-      "email_label": "Email:",
-      "email": "info@basicair.lv",
-      "address_label": "Address:",
-      "address": "Brivibas iela 100, Riga, LV-1001, Latvia",
-      "hours_label": "Open Time:",
-      "weekday_hours": "Mon–Fri: 8:00am–6:00pm",
-      "sunday_hours": "Sat: 10:00am–2:00pm"
-    }
-  ]
+  "contact_info": {
+    "heading": "Contact",
+    "email_label": "Email:",
+    "email": "info@basicair.lv",
+    "phone_label": "Mobile:",
+    "phone": "+371 29 444 224"
+  },
+  "company": {
+    "heading": "Company details",
+    "name": "SIA \"BK Komunikācijas\"",
+    "reg_number_label": "Reg. No.",
+    "reg_number": "40203202309",
+    "vat_number_label": "VAT Reg. No.",
+    "vat_number": "LV40203202309"
+  },
+  "legal_address": {
+    "heading": "Legal address",
+    "address": "Matera iela 15,\nRiga, LV-1014"
+  },
+  "office": {
+    "heading": "Office",
+    "address": "Ciekurkalna 1. linija 11,\nRiga, LV-1026"
+  },
+  "bank": {
+    "heading": "Bank",
+    "name": "A/S Swedbank",
+    "swift_label": "SWIFT code:",
+    "swift": "HABALV22",
+    "account_label": "Account No.:",
+    "account": "LV50HABA0551046451544"
+  }
 }

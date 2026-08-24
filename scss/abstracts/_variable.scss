@@ -5,10 +5,10 @@ $fontIcon: "icomoon";
 
 :root{
     // color
-    --main: #000000;
+    --main: #14532d;
     --White: #ffffff;
-    --Onsurface: #181818;
-    --Primary: #827460;
+    --Onsurface: #14532d;
+    --Primary: hsl(178, 48%, 64%);
     --Secondary: #4D4E4F;
     --Secondary2: #A0A0A0;
     --Surface: #F6F6F6;
@@ -17,5 +17,5 @@ $fontIcon: "icomoon";
     --Success: #3DAB25;
     --Yellow: #F0A750;
     --pink: #EC749D;
-    --backdrop: rgba(24, 24, 24, 0.2)
+    --backdrop: rgba(20, 83, 45, 0.2)
 }

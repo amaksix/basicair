@@ -102,3 +102,58 @@ eleventyComputed:
         </div>
     </div>
 </section>
+
+{% if home.gallery and home.gallery.items %}
+<section class="flat-spacing-2 pt-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="heading-section text-center">
+                    <h3 class="wow fadeInUp">{{ home.gallery.heading }}</h3>
+                    {% if home.gallery.subheading %}
+                    <p class="text-body-default text_secondary wow fadeInUp" data-wow-delay="0.1s">{{ home.gallery.subheading }}</p>
+                    {% endif %}
+                </div>
+                <div class="swiper tf-sw-shop-gallery" data-preview="4" data-tablet="3" data-mobile="2"
+                    data-space-lg="10" data-space-md="10" data-space="8" data-pagination="2"
+                    data-pagination-md="3" data-pagination-lg="1">
+                    <div class="swiper-wrapper">
+                        {% for item in home.gallery.items %}
+                        {% set delay = (loop.index0 * 0.1) ~ 's' %}
+                        <div class="swiper-slide">
+                            <div class="gallery-item hover-overlay hover-img wow fadeInUp" data-wow-delay="{{ delay }}">
+                                <div class="img-style">
+                                    <img class="lazyload img-hover" data-src="{{ item.image | asset }}" src="{{ item.image | asset }}" alt="{{ item.alt | default(home.gallery.heading) }}">
+                                </div>
+                                <a href="{{ item.image | asset }}" data-fancybox="home-gallery" data-caption="{{ item.alt | default(home.gallery.heading) }}" class="box-icon hover-tooltip">
+                                    <span class="icon icon-eye"></span>
+                                    <span class="tooltip">{{ settings.labels.quick_view }}</span>
+                                </a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="sw-pagination-gallery sw-dots type-circle justify-content-center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+{% if home.partners and home.partners.logos %}
+<section class="flat-spacing-3 pt-0 partners-section">
+    <div class="container">
+        <div class="heading-section text-center">
+            <h3 class="wow fadeInUp">{{ home.partners.heading }}</h3>
+        </div>
+        <div class="partners-logos wow fadeInUp" data-wow-delay="0.1s">
+            {% for logo in home.partners.logos %}
+            <div class="partners-logo" aria-label="{{ logo.alt }}">
+                <img src="{{ logo.image | asset }}" alt="{{ logo.alt }}" loading="lazy" width="160" height="64">
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}

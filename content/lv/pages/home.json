@@ -42,5 +42,25 @@
     { "icon": "icon-lifebuoy", "title": "24/7 atbalsts", "description": "Esam pieejami, kad jums mūs vajag." },
     { "icon": "icon-sealpercent", "title": "Garantija", "description": "Ražotāja garantija un serviss pēc montāžas." },
     { "icon": "icon-arrow-down-left", "title": "Profesionāla uzstādīšana", "description": "Sertificēti speciālisti ar pieredzi." }
-  ]
+  ],
+  "gallery": {
+    "heading": "Galerija",
+    "subheading": "Ieskats mūsu risinājumos un instalācijās",
+    "items": [
+      { "image": "/images/gallery/Gallery1.jpg", "alt": "Galerija 1", "url": "/lv/shop/" },
+      { "image": "/images/gallery/Gallery2.jpg", "alt": "Galerija 2", "url": "/lv/shop/" },
+      { "image": "/images/gallery/Gallery3.jpg", "alt": "Galerija 3", "url": "/lv/shop/" },
+      { "image": "/images/gallery/Gallery4.jpg", "alt": "Galerija 4", "url": "/lv/shop/" }
+    ]
+  },
+  "partners": {
+    "heading": "Mūsu sadarbības partneri",
+    "logos": [
+      { "image": "/images/Partners/camfil.webp", "alt": "Camfil" },
+      { "image": "/images/Partners/valour-wood.webp", "alt": "Valour Wood Technologies" },
+      { "image": "/images/Partners/fsdi-latvia.webp", "alt": "FSDI Latvia" },
+      { "image": "/images/Partners/vzduchotechnik.webp", "alt": "Vzduchotechnik Chrastava" },
+      { "image": "/images/Partners/AAF.svg", "alt": "AAF International" }
+    ]
+  }
 }

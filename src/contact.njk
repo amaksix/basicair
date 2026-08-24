@@ -9,70 +9,129 @@ currentPage: contact
 eleventyComputed:
   pageTitle: "{{ contact.title }}"
 ---
-<div class="main-content">
-    <div class="wrap-map">
-        <div id="map-contact" class="map-contact h590" data-map-zoom="16" data-map-scroll="true"></div>
-    </div>
-
-    <section class="flat-spacing">
+<div class="page-title relative">
+    <div class="paralaximg" data-parallax="scroll" data-image-src="{{ contact.hero_image | asset }}"></div>
+    <div class="content">
         <div class="container">
-            <div class="contact-us-content">
-                <div class="row">
-                    {% for location in contact.locations %}
-                    <div class="col-lg-4 mb-lg-30">
-                        <h4 class="mb_30 wow fadeInUp">{{ location.city }}</h4>
-                        <div class="mb_28">
-                            <h6 class="mb_8">{{ location.phone_label }}</h6>
-                            <p class="text-body-default">{{ location.phone }}</p>
-                        </div>
-                        <div class="mb_28">
-                            <h6 class="mb_8">{{ location.email_label }}</h6>
-                            <p class="text-body-default">{{ location.email }}</p>
-                        </div>
-                        <div class="mb_28">
-                            <h6 class="mb_8">{{ location.address_label }}</h6>
-                            <p class="text-body-default">{{ location.address }}</p>
-                        </div>
-                        <div>
-                            <h6 class="mb_8">{{ location.hours_label }}</h6>
-                            <p class="text-body-default mb_4 open-time">{{ location.weekday_hours }}</p>
-                            {% if location.sunday_hours %}
-                            <p class="text-body-default open-time">{{ location.sunday_hours }}</p>
-                            {% endif %}
-                        </div>
-                    </div>
-                    {% endfor %}
-                    <div class="col-lg-7 offset-lg-1">
-                        <h4 class="mb_7 wow fadeInUp">{{ contact.form_heading }}</h4>
-                        <p class="text_secondary mb_24 wow fadeInUp" data-wow-delay="0.1s">{{ contact.form_intro }}</p>
-                        <form id="contactform" action="/mail/subscribe.php" method="post" class="form-leave-comment">
-                            <div class="wrap">
-                                <div class="cols">
-                                    <fieldset>
-                                        <input type="text" placeholder="{{ contact.form_labels.name }}" name="name" id="name" required>
-                                    </fieldset>
-                                    <fieldset>
-                                        <input type="email" placeholder="{{ contact.form_labels.email }}" name="email" id="email" required>
-                                    </fieldset>
-                                </div>
-                                <div class="cols">
-                                    <fieldset>
-                                        <input type="tel" placeholder="{{ contact.form_labels.phone }}" name="phone" id="phone" required>
-                                    </fieldset>
-                                </div>
-                                <fieldset>
-                                    <textarea name="message" id="message" rows="4" placeholder="{{ contact.form_labels.message }}" required></textarea>
-                                </fieldset>
-                            </div>
-                            <div class="button-submit send-wrap">
-                                <button class="tf-btn btn-onsurface" type="submit">
-                                    {{ contact.form_labels.submit }} <i class="icon-arrow-up-right"></i>
-                                </button>
-                            </div>
-                        </form>
-                    </div>
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="title">{{ contact.hero_title }}</h3>
+                    <ul class="breadcrumb">
+                        <li><a href="/{{ locale }}/">{{ contact.breadcrumb_home }}</a></li>
+                        <li>{{ contact.breadcrumb_current }}</li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 </div>
+
+<section class="flat-spacing">
+    <div class="container">
+        <div class="contact-us-content">
+            <div class="row">
+                <div class="col-lg-6 mb-lg-30">
+                    <div class="row contact-info-grid">
+                        <div class="col-md-6 mb_28 wow fadeInUp">
+                            <h4 class="mb_20">{{ contact.contact_info.heading }}</h4>
+                            <div class="mb_16">
+                                <h6 class="mb_4">{{ contact.contact_info.email_label }}</h6>
+                                <p class="text-body-default"><a href="mailto:{{ contact.contact_info.email }}">{{ contact.contact_info.email }}</a></p>
+                            </div>
+                            <div>
+                                <h6 class="mb_4">{{ contact.contact_info.phone_label }}</h6>
+                                <p class="text-body-default"><a href="tel:{{ contact.contact_info.phone | replace(' ', '') }}">{{ contact.contact_info.phone }}</a></p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb_28 wow fadeInUp" data-wow-delay="0.05s">
+                            <h4 class="mb_20">{{ contact.company.heading }}</h4>
+                            <p class="text-body-default mb_8">{{ contact.company.name }}</p>
+                            <p class="text-body-default mb_4">{{ contact.company.reg_number_label }} {{ contact.company.reg_number }}</p>
+                            <p class="text-body-default">{{ contact.company.vat_number_label }} {{ contact.company.vat_number }}</p>
+                        </div>
+
+                        <div class="col-md-6 mb_28 wow fadeInUp" data-wow-delay="0.1s">
+                            <h4 class="mb_20">{{ contact.legal_address.heading }}</h4>
+                            <p class="text-body-default">{{ contact.legal_address.address | nl2br | safe }}</p>
+                        </div>
+
+                        <div class="col-md-6 mb_28 wow fadeInUp" data-wow-delay="0.15s">
+                            <h4 class="mb_20">{{ contact.office.heading }}</h4>
+                            <p class="text-body-default">{{ contact.office.address | nl2br | safe }}</p>
+                        </div>
+
+                        <div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <h4 class="mb_20">{{ contact.bank.heading }}</h4>
+                            <p class="text-body-default mb_8">{{ contact.bank.name }}</p>
+                            <p class="text-body-default mb_4">{{ contact.bank.swift_label }} {{ contact.bank.swift }}</p>
+                            <p class="text-body-default">{{ contact.bank.account_label }} {{ contact.bank.account }}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 offset-lg-1">
+                    <h4 class="mb_7 wow fadeInUp">{{ contact.form_heading }}</h4>
+                    <p class="text_secondary mb_24 wow fadeInUp" data-wow-delay="0.1s">{{ contact.form_intro }}</p>
+                    <form id="contactform" action="/contact/contact-process.php" method="post" class="form-leave-comment form-contact">
+                        <div class="wrap">
+                            <div class="form-field mb_8">
+                                <div class="tf-cart-checkbox align-items-start">
+                                    <div class="tf-checkbox-wrapp">
+                                        <input type="checkbox" id="is_legal_entity" name="is_legal_entity" value="1">
+                                        <div>
+                                            <i class="icon-check"></i>
+                                        </div>
+                                    </div>
+                                    <label for="is_legal_entity">
+                                        <span class="d-block text-title">{{ contact.form_labels.legal_entity }}</span>
+                                        <span class="d-block text_secondary field-hint">{{ contact.form_labels.legal_entity_hint }}</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div id="company-fields" class="company-fields" hidden>
+                                <fieldset>
+                                    <label class="field-label" for="company_name">{{ contact.form_labels.company_name }}</label>
+                                    <input type="text" name="company_name" id="company_name">
+                                </fieldset>
+                                <div class="cols">
+                                    <fieldset>
+                                        <label class="field-label" for="company_reg_number">{{ contact.form_labels.reg_number }}</label>
+                                        <input type="text" name="company_reg_number" id="company_reg_number">
+                                    </fieldset>
+                                    <fieldset>
+                                        <label class="field-label" for="company_vat_number">{{ contact.form_labels.vat_number }}</label>
+                                        <input type="text" name="company_vat_number" id="company_vat_number">
+                                    </fieldset>
+                                </div>
+                            </div>
+
+                            <fieldset>
+                                <label class="field-label" for="name">{{ contact.form_labels.name }}</label>
+                                <span class="field-hint">{{ contact.form_labels.name_hint }}</span>
+                                <input type="text" name="name" id="name" required>
+                            </fieldset>
+
+                            <fieldset>
+                                <label class="field-label" for="email">{{ contact.form_labels.email }}</label>
+                                <span class="field-hint">{{ contact.form_labels.email_hint }}</span>
+                                <input type="email" name="email" id="email" required>
+                            </fieldset>
+
+                            <fieldset>
+                                <label class="field-label" for="message">{{ contact.form_labels.message }}</label>
+                                <textarea name="message" id="message" rows="4" placeholder="{{ contact.form_labels.message_placeholder }}" required></textarea>
+                            </fieldset>
+                        </div>
+                        <div class="button-submit send-wrap">
+                            <button class="tf-btn btn-onsurface" type="submit">
+                                {{ contact.form_labels.submit }} <i class="icon-arrow-up-right"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

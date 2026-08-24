@@ -42,5 +42,25 @@
     { "icon": "icon-lifebuoy", "title": "24/7 Support", "description": "We are here whenever you need us." },
     { "icon": "icon-sealpercent", "title": "Warranty", "description": "Manufacturer warranty and post-install service." },
     { "icon": "icon-arrow-down-left", "title": "Professional Installation", "description": "Certified specialists with years of experience." }
-  ]
+  ],
+  "gallery": {
+    "heading": "Gallery",
+    "subheading": "A look at our solutions and installations",
+    "items": [
+      { "image": "/images/gallery/Gallery1.jpg", "alt": "Gallery 1", "url": "/en/shop/" },
+      { "image": "/images/gallery/Gallery2.jpg", "alt": "Gallery 2", "url": "/en/shop/" },
+      { "image": "/images/gallery/Gallery3.jpg", "alt": "Gallery 3", "url": "/en/shop/" },
+      { "image": "/images/gallery/Gallery4.jpg", "alt": "Gallery 4", "url": "/en/shop/" }
+    ]
+  },
+  "partners": {
+    "heading": "Our cooperation partners",
+    "logos": [
+      { "image": "/images/Partners/camfil.webp", "alt": "Camfil" },
+      { "image": "/images/Partners/valour-wood.webp", "alt": "Valour Wood Technologies" },
+      { "image": "/images/Partners/fsdi-latvia.webp", "alt": "FSDI Latvia" },
+      { "image": "/images/Partners/vzduchotechnik.webp", "alt": "Vzduchotechnik Chrastava" },
+      { "image": "/images/Partners/AAF.svg", "alt": "AAF International" }
+    ]
+  }
 }
