@@ -1,0 +1,46 @@
+{
+  "title": "BasicAir — Кондиционирование",
+  "hero_slides": [
+    {
+      "heading": "Эффективные климатические системы",
+      "subheading": "Профессиональные кондиционеры для дома и офиса по всей Латвии",
+      "button_text": "Смотреть продукты",
+      "button_url": "/ru/shop/",
+      "image": "/images/slider/slider-1.jpg",
+      "slide_class": "slide-1"
+    },
+    {
+      "heading": "Монтаж и обслуживание",
+      "subheading": "Полный сервис — от проекта до гарантийной поддержки",
+      "button_text": "Наши услуги",
+      "button_url": "/ru/services/",
+      "image": "/images/slider/slider-2.jpg",
+      "slide_class": "slide-2"
+    },
+    {
+      "heading": "Энергоэффективные решения",
+      "subheading": "Снижайте расходы с современными инверторными технологиями",
+      "button_text": "Связаться",
+      "button_url": "/ru/contact/",
+      "image": "/images/slider/slider-3.jpg",
+      "slide_class": "slide-3"
+    }
+  ],
+  "categories": [
+    { "title": "Домашние кондиционеры", "image": "/images/section/collections-banner.jpg", "url": "/ru/shop/" },
+    { "title": "Офисные системы", "image": "/images/section/collections-banner-1.jpg", "url": "/ru/shop/" },
+    { "title": "Вентиляция", "image": "/images/section/collections-banner-2.jpg", "url": "/ru/shop/" },
+    { "title": "Обслуживание", "image": "/images/section/collections-banner-3.jpg", "url": "/ru/services/" },
+    { "title": "Аксессуары", "image": "/images/section/collections-banner-4.jpg", "url": "/ru/shop/" }
+  ],
+  "featured_section": {
+    "heading": "Рекомендуемые продукты",
+    "subheading": "Популярные решения для дома и офиса"
+  },
+  "benefits": [
+    { "icon": "icon-package", "title": "Быстрая доставка", "description": "Доставка по всей Латвии без дополнительных затрат." },
+    { "icon": "icon-lifebuoy", "title": "Поддержка 24/7", "description": "Мы на связи, когда вы в нас нуждаетесь." },
+    { "icon": "icon-sealpercent", "title": "Гарантия", "description": "Гарантия производителя и сервис после монтажа." },
+    { "icon": "icon-arrow-down-left", "title": "Профессиональный монтаж", "description": "Сертифицированные специалисты с опытом." }
+  ]
+}

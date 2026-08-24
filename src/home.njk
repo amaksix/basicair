@@ -1,0 +1,104 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: locales
+  size: 1
+  alias: locale
+permalink: "/{{ locale }}/"
+currentPage: index
+eleventyComputed:
+  pageTitle: "{{ home.title }}"
+---
+<div class="tf-slideshow style-default slider-nav-sw slider-effect-fade efect-2">
+    <div dir="ltr" class="swiper tf-sw-slideshow" data-preview="1.428" data-tablet="1.2" data-mobile="1" data-centered="true" data-space="20" data-space-mb="0" data-loop="true" data-auto-play="true" data-pagination="1" data-pagination-md="1" data-pagination-lg="1">
+        <div class="swiper-wrapper">
+            {% for slide in home.hero_slides %}
+            <div class="swiper-slide">
+                <div class="wrap-slider {{ slide.slide_class | default('slide-1') }}">
+                    <div class="img-style">
+                        <img class="lazyload" data-src="{{ slide.image | asset }}" src="{{ slide.image | asset }}" alt="{{ slide.heading }}">
+                    </div>
+                    <div class="box-content">
+                        <div class="box-title">
+                            <h1 class="text-white fade-item fade-item-1">{{ slide.heading }}</h1>
+                            <p class="text-body-1 text-white fade-item fade-item-2">{{ slide.subheading }}</p>
+                        </div>
+                        <a href="{{ slide.button_url }}" class="tf-btn btn-white fade-item fade-item-3">{{ slide.button_text }} <i class="icon-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="sw-button swiper-button-next navigation-next-slider"></div>
+        <div class="sw-button swiper-button-prev navigation-prev-slider"></div>
+        <div class="sw-dots sw-pagination-slider type-dot-line justify-content-center"></div>
+    </div>
+</div>
+
+<section class="flat-spacing-2">
+    <div class="container-full">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center flat-spacing pt-0 line-bottom-container">
+                    <div class="wrap-cls-img">
+                        {% for category in home.categories %}
+                        <div class="cls-img-item hover-img">
+                            <div class="image img-style">
+                                <img data-src="{{ category.image | asset }}" src="{{ category.image | asset }}" alt="{{ category.title }}">
+                            </div>
+                            <h3><a class="link" href="{{ category.url }}">{{ category.title }}</a></h3>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <a href="/{{ locale }}/shop/" class="btn-line"><span>{{ settings.labels.view_all_categories }}</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="flat-spacing-5 pt-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="heading-section text-center">
+                    <h3 class="wow fadeInUp">{{ home.featured_section.heading }}</h3>
+                    <p class="text-body-default text_secondary wow fadeInUp" data-wow-delay="0.1s">{{ home.featured_section.subheading }}</p>
+                </div>
+                <div class="tf-grid-layout tf-col-2 lg-col-4">
+                    {% for product in products %}
+                    {% if product.featured %}
+                    {% set delay = (loop.index0 * 0.1) ~ 's' %}
+                    {% include "partials/product-card.njk" %}
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="flat-spacing-2 pt-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div dir="ltr" class="swiper tf-sw-iconbox" data-preview="4" data-tablet="3" data-mobile-sm="2" data-mobile="1" data-space-lg="30" data-space-md="30" data-space="15" data-pagination="1" data-pagination-sm="2" data-pagination-md="3" data-pagination-lg="4">
+                    <div class="swiper-wrapper">
+                        {% for benefit in home.benefits %}
+                        <div class="swiper-slide">
+                            <div class="tf-box-icon">
+                                <div class="icon"><i class="{{ benefit.icon }}"></i></div>
+                                <div class="content">
+                                    <h5 class="title">{{ benefit.title }}</h5>
+                                    <p>{{ benefit.description }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="sw-pagination-iconbox sw-dots type-circle d-flex justify-content-center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

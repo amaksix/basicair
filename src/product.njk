@@ -1,0 +1,63 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.allProducts
+  size: 1
+  alias: product
+permalink: "/{{ product.locale }}/products/{{ product.slug }}/"
+currentPage: product
+eleventyComputed:
+  locale: "{{ product.locale }}"
+  pageTitle: "{{ product.title }} — BasicAir"
+---
+<section class="flat-spacing-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="tf-product-media-wrap">
+                    <img class="lazyload w-100" src="{{ product.image | asset }}" data-src="{{ product.image | asset }}" alt="{{ product.title }}">
+                </div>
+                {% if product.gallery and product.gallery.length > 1 %}
+                <div class="tf-product-media-thumbs mt_20">
+                    {% for item in product.gallery %}
+                    <img class="lazyload" src="{{ item.image | asset }}" alt="{{ product.title }}" style="max-width: 80px; margin-right: 8px;">
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+            <div class="col-lg-6">
+                <div class="tf-product-info-wrap">
+                    <h3 class="mb_12">{{ product.title }}</h3>
+                    <div class="price text-body-default mb_20">
+                        {% if product.old_price %}<span class="text-caption-1 old-price">{{ product.old_price | price }}</span>{% endif %}
+                        {{ product.price | price }}
+                    </div>
+                    {% if product.description %}
+                    <p class="text_secondary mb_20">{{ product.description }}</p>
+                    {% endif %}
+                    {% if product.body %}
+                    <div class="product-body text-body-default mb_30">{{ product.body }}</div>
+                    {% endif %}
+                    <a href="/{{ locale }}/contact/" class="tf-btn btn-onsurface">{{ settings.labels.request_quote }} <i class="icon-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="flat-spacing-2 pt-0">
+    <div class="container">
+        <div class="heading-section">
+            <h3>{{ home.featured_section.heading }}</h3>
+        </div>
+        <div class="tf-grid-layout tf-col-2 lg-col-4">
+            {% for item in products %}
+            {% if item.featured and item.slug != product.slug %}
+            {% set product = item %}
+            {% set delay = (loop.index0 * 0.1) ~ 's' %}
+            {% include "partials/product-card.njk" %}
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

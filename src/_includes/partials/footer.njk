@@ -1,0 +1,82 @@
+<footer id="footer" class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="footer-body">
+                    <div class="footer-left">
+                        <div class="footer-infor flex-grow-1">
+                            <div class="footer-menu">
+                                <div class="footer-col-block">
+                                    <h5 class="footer-heading text_white footer-heading-mobile">Information</h5>
+                                    <div class="tf-collapse-content">
+                                        <ul class="footer-menu-list">
+                                            {% for link in settings.footer.info_links %}
+                                            <li class="text-body-default">
+                                                <a href="{{ link.url }}" class="link footer-menu_item">{{ link.label }}</a>
+                                            </li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="footer-col-block">
+                                    <h5 class="footer-heading text_white footer-heading-mobile">Services</h5>
+                                    <div class="tf-collapse-content">
+                                        <ul class="footer-menu-list">
+                                            {% for link in settings.footer.service_links %}
+                                            <li class="text-body-default">
+                                                <a href="{{ link.url }}" class="link footer-menu_item">{{ link.label }}</a>
+                                            </li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-phone-number">
+                                <h4 class="text_white number">{{ settings.footer.phone }}</h4>
+                                <h4 class="text_white mail">{{ settings.footer.email }}</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-col-block footer-newsletter">
+                        <h3 class="footer-heading footer-heading-mobile text_white">{{ settings.footer.newsletter_heading }}</h3>
+                        <div class="tf-collapse-content">
+                            <form id="subscribe-form" action="#" class="form-newsletter subscribe-form" method="post" accept-charset="utf-8" data-mailchimp="true">
+                                <div id="subscribe-content" class="subscribe-content">
+                                    <fieldset class="email">
+                                        <input id="subscribe-email" type="email" name="email-form" class="subscribe-email" placeholder="{{ settings.footer.newsletter_placeholder }}" tabindex="0" aria-required="true">
+                                    </fieldset>
+                                    <div class="button-submit">
+                                        <button id="subscribe-button" class="subscribe-button text-body-default" type="button">{{ settings.footer.subscribe_button }}<i class="icon-arrow-up-right"></i></button>
+                                    </div>
+                                </div>
+                                <div id="subscribe-msg" class="subscribe-msg"></div>
+                            </form>
+                            <ul class="tf-social-icon type-2">
+                                {% if settings.social.facebook %}<li><a href="{{ settings.social.facebook }}" class="social-facebook"><i class="icon icon-facebook"></i></a></li>{% endif %}
+                                {% if settings.social.twitter %}<li><a href="{{ settings.social.twitter }}" class="social-twiter"><i class="icon icon-x"></i></a></li>{% endif %}
+                                {% if settings.social.instagram %}<li><a href="{{ settings.social.instagram }}" class="social-instagram"><i class="icon icon-instagram"></i></a></li>{% endif %}
+                                {% if settings.social.telegram %}<li><a href="{{ settings.social.telegram }}" class="social-amazon"><i class="icon icon-telegram"></i></a></li>{% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-bottom-wrap">
+                        <div class="left">
+                            <p class="text-body-default text_white">© {{ year }} {{ settings.site_name }}. {{ settings.footer.copyright }}</p>
+                        </div>
+                        <div class="center">
+                            {% include "partials/language-switcher.njk" %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

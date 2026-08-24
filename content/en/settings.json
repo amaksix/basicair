@@ -1,0 +1,50 @@
+{
+  "site_name": "BasicAir",
+  "site_tagline": "Air conditioning solutions",
+  "topbar_announcements": [
+    { "text": "Free delivery on orders over ", "highlight": "€100" },
+    { "text": "Professional installation across Latvia — ", "highlight": "get a quote" }
+  ],
+  "navigation": {
+    "home": "HOME",
+    "products": "PRODUCTS",
+    "services": "SERVICES",
+    "contact": "CONTACT"
+  },
+  "footer": {
+    "phone": "+371 2000 0000",
+    "email": "info@basicair.lv",
+    "address": "Brivibas iela 100, Riga, LV-1001, Latvia",
+    "copyright": "All rights reserved.",
+    "newsletter_heading": "Stay in the loop with our newsletter",
+    "newsletter_placeholder": "Enter your e-mail",
+    "subscribe_button": "Subscribe",
+    "info_links": [
+      { "label": "About Us", "url": "/en/services/" },
+      { "label": "Our Story", "url": "/en/services/" },
+      { "label": "Contact Us", "url": "/en/contact/" }
+    ],
+    "service_links": [
+      { "label": "Shipping", "url": "#" },
+      { "label": "Warranty", "url": "#" },
+      { "label": "Privacy Policy", "url": "#" },
+      { "label": "Terms & Conditions", "url": "#" }
+    ]
+  },
+  "social": {
+    "facebook": "#",
+    "twitter": "#",
+    "instagram": "#",
+    "telegram": "#"
+  },
+  "labels": {
+    "request_quote": "Request Quote",
+    "quick_view": "Quick View",
+    "explore_collection": "Explore Collection",
+    "view_all_categories": "View All Categories",
+    "shop": "Shop",
+    "search": "Search",
+    "need_help": "Need help?",
+    "send_message": "Send Message"
+  }
+}

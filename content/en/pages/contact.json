@@ -1,0 +1,26 @@
+{
+  "title": "BasicAir — Contact",
+  "form_heading": "Get In Touch",
+  "form_intro": "Fill in the form and our team will get back to you.",
+  "form_labels": {
+    "name": "Your Name*",
+    "email": "Your Email*",
+    "phone": "Phone*",
+    "message": "Your Message*",
+    "submit": "Send Message"
+  },
+  "locations": [
+    {
+      "city": "Riga",
+      "phone_label": "Phone:",
+      "phone": "+371 2000 0000",
+      "email_label": "Email:",
+      "email": "info@basicair.lv",
+      "address_label": "Address:",
+      "address": "Brivibas iela 100, Riga, LV-1001, Latvia",
+      "hours_label": "Open Time:",
+      "weekday_hours": "Mon–Fri: 8:00am–6:00pm",
+      "sunday_hours": "Sat: 10:00am–2:00pm"
+    }
+  ]
+}

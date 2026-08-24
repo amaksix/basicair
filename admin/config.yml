@@ -1,0 +1,284 @@
+local_backend: true
+
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+i18n:
+  structure: multiple_folders
+  locales: [lv, en, ru]
+  default_locale: lv
+
+locale_names:
+  lv: Latviešu
+  en: English
+  ru: Русский
+
+collections:
+  - name: settings
+    label: Site Settings
+    files:
+      - label: General Settings (Latviešu)
+        name: settings-lv
+        file: content/lv/settings.json
+        fields: &settings_fields
+          - { label: Site Name, name: site_name, widget: string }
+          - { label: Site Tagline, name: site_tagline, widget: string, required: false }
+          - label: Top Bar Announcements
+            name: topbar_announcements
+            widget: list
+            fields:
+              - { label: Text, name: text, widget: string }
+              - { label: Highlight, name: highlight, widget: string, required: false }
+          - label: Navigation
+            name: navigation
+            widget: object
+            fields:
+              - { label: Home, name: home, widget: string }
+              - { label: Products, name: products, widget: string }
+              - { label: Services, name: services, widget: string }
+              - { label: Contact, name: contact, widget: string }
+          - label: Footer
+            name: footer
+            widget: object
+            fields:
+              - { label: Phone, name: phone, widget: string }
+              - { label: Email, name: email, widget: string }
+              - { label: Address, name: address, widget: text }
+              - { label: Copyright, name: copyright, widget: string }
+              - { label: Newsletter Heading, name: newsletter_heading, widget: string }
+              - { label: Newsletter Placeholder, name: newsletter_placeholder, widget: string }
+              - { label: Subscribe Button, name: subscribe_button, widget: string }
+              - label: Information Links
+                name: info_links
+                widget: list
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: URL, name: url, widget: string }
+              - label: Customer Service Links
+                name: service_links
+                widget: list
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: URL, name: url, widget: string }
+          - label: Social Links
+            name: social
+            widget: object
+            fields:
+              - { label: Facebook URL, name: facebook, widget: string, required: false }
+              - { label: X (Twitter) URL, name: twitter, widget: string, required: false }
+              - { label: Instagram URL, name: instagram, widget: string, required: false }
+              - { label: Telegram URL, name: telegram, widget: string, required: false }
+          - label: UI Labels
+            name: labels
+            widget: object
+            fields:
+              - { label: Request Quote, name: request_quote, widget: string }
+              - { label: Quick View, name: quick_view, widget: string }
+              - { label: Explore Collection, name: explore_collection, widget: string }
+              - { label: View All Categories, name: view_all_categories, widget: string }
+              - { label: Shop, name: shop, widget: string }
+              - { label: Search, name: search, widget: string }
+              - { label: Need Help, name: need_help, widget: string }
+              - { label: Send Message, name: send_message, widget: string }
+      - label: General Settings (English)
+        name: settings-en
+        file: content/en/settings.json
+        fields: *settings_fields
+      - label: General Settings (Русский)
+        name: settings-ru
+        file: content/ru/settings.json
+        fields: *settings_fields
+
+  - name: home_page
+    label: Home Page
+    files:
+      - label: Home Page (Latviešu)
+        name: home-lv
+        file: content/lv/pages/home.json
+        fields: &home_fields
+          - { label: Page Title, name: title, widget: string }
+          - label: Hero Slides
+            name: hero_slides
+            widget: list
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - { label: Subheading, name: subheading, widget: text }
+              - { label: Button Text, name: button_text, widget: string }
+              - { label: Button URL, name: button_url, widget: string }
+              - { label: Image, name: image, widget: image }
+              - { label: Slide Class, name: slide_class, widget: string, default: "slide-1", required: false }
+          - label: Categories
+            name: categories
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Image, name: image, widget: image }
+              - { label: Link, name: url, widget: string }
+          - label: Featured Products Section
+            name: featured_section
+            widget: object
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - { label: Subheading, name: subheading, widget: string }
+          - label: Benefits
+            name: benefits
+            widget: list
+            fields:
+              - { label: Icon Class, name: icon, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: string }
+      - label: Home Page (English)
+        name: home-en
+        file: content/en/pages/home.json
+        fields: *home_fields
+      - label: Home Page (Русский)
+        name: home-ru
+        file: content/ru/pages/home.json
+        fields: *home_fields
+
+  - name: services_page
+    label: Services Page
+    files:
+      - label: Services Page (Latviešu)
+        name: services-lv
+        file: content/lv/pages/services.json
+        fields: &services_fields
+          - { label: Page Title, name: title, widget: string }
+          - { label: Breadcrumb Home, name: breadcrumb_home, widget: string }
+          - { label: Breadcrumb Current, name: breadcrumb_current, widget: string }
+          - { label: Hero Title, name: hero_title, widget: string }
+          - { label: Hero Background, name: hero_image, widget: image }
+          - { label: Main Heading, name: main_heading, widget: string }
+          - { label: Main Intro, name: main_intro, widget: text }
+          - { label: Main Image, name: main_image, widget: image }
+          - label: Mission
+            name: mission
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Text, name: text, widget: text }
+          - label: Vision
+            name: vision
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Text, name: text, widget: text }
+          - label: Service Features
+            name: features
+            widget: list
+            fields:
+              - { label: Icon Class, name: icon, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: string }
+          - label: About Section
+            name: about_section
+            widget: object
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - { label: Text, name: text, widget: text }
+              - { label: Image, name: image, widget: image }
+      - label: Services Page (English)
+        name: services-en
+        file: content/en/pages/services.json
+        fields: *services_fields
+      - label: Services Page (Русский)
+        name: services-ru
+        file: content/ru/pages/services.json
+        fields: *services_fields
+
+  - name: contact_page
+    label: Contact Page
+    files:
+      - label: Contact Page (Latviešu)
+        name: contact-lv
+        file: content/lv/pages/contact.json
+        fields: &contact_fields
+          - { label: Page Title, name: title, widget: string }
+          - { label: Form Heading, name: form_heading, widget: string }
+          - { label: Form Intro, name: form_intro, widget: text }
+          - label: Form Labels
+            name: form_labels
+            widget: object
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Email, name: email, widget: string }
+              - { label: Phone, name: phone, widget: string }
+              - { label: Message, name: message, widget: string }
+              - { label: Submit Button, name: submit, widget: string }
+          - label: Locations
+            name: locations
+            widget: list
+            fields:
+              - { label: City, name: city, widget: string }
+              - { label: Phone Label, name: phone_label, widget: string }
+              - { label: Phone, name: phone, widget: string }
+              - { label: Email Label, name: email_label, widget: string }
+              - { label: Email, name: email, widget: string }
+              - { label: Address Label, name: address_label, widget: string }
+              - { label: Address, name: address, widget: text }
+              - { label: Hours Label, name: hours_label, widget: string }
+              - { label: Weekday Hours, name: weekday_hours, widget: string }
+              - { label: Sunday Hours, name: sunday_hours, widget: string, required: false }
+      - label: Contact Page (English)
+        name: contact-en
+        file: content/en/pages/contact.json
+        fields: *contact_fields
+      - label: Contact Page (Русский)
+        name: contact-ru
+        file: content/ru/pages/contact.json
+        fields: *contact_fields
+
+  - name: shop_page
+    label: Shop Page
+    files:
+      - label: Shop Page (Latviešu)
+        name: shop-lv
+        file: content/lv/pages/shop.json
+        fields: &shop_fields
+          - { label: Page Title, name: title, widget: string }
+          - { label: Breadcrumb Home, name: breadcrumb_home, widget: string }
+          - { label: Breadcrumb Current, name: breadcrumb_current, widget: string }
+          - { label: Page Heading, name: heading, widget: string }
+          - { label: Page Description, name: description, widget: text, required: false }
+      - label: Shop Page (English)
+        name: shop-en
+        file: content/en/pages/shop.json
+        fields: *shop_fields
+      - label: Shop Page (Русский)
+        name: shop-ru
+        file: content/ru/pages/shop.json
+        fields: *shop_fields
+
+  - name: products
+    label: Products
+    label_singular: Product
+    i18n: true
+    folder: "content/{{locale}}/products"
+    create: true
+    slug: "{{slug}}"
+    extension: json
+    format: json
+    identifier_field: title
+    summary: "{{title}} — €{{price}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string, hint: "Used in URL, e.g. air-conditioner-pro" }
+      - { label: Price (EUR), name: price, widget: number, value_type: float }
+      - { label: Old Price, name: old_price, widget: number, value_type: float, required: false }
+      - { label: Sale Badge, name: sale_badge, widget: string, required: false, hint: "e.g. -25%" }
+      - { label: Short Description, name: description, widget: text, required: false }
+      - { label: Full Description, name: body, widget: markdown, required: false }
+      - { label: Main Image, name: image, widget: image }
+      - { label: Hover Image, name: image_hover, widget: image, required: false }
+      - { label: Featured on Homepage, name: featured, widget: boolean, default: false }
+      - { label: Sort Order, name: order, widget: number, default: 0, required: false }
+      - label: Gallery
+        name: gallery
+        widget: list
+        required: false
+        fields:
+          - { label: Image, name: image, widget: image }

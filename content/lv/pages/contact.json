@@ -1,0 +1,26 @@
+{
+  "title": "BasicAir — Kontakti",
+  "form_heading": "Sazinieties ar mums",
+  "form_intro": "Aizpildiet formu, un mūsu komanda ar jums sazināsies.",
+  "form_labels": {
+    "name": "Jūsu vārds*",
+    "email": "E-pasts*",
+    "phone": "Tālrunis*",
+    "message": "Ziņa*",
+    "submit": "Nosūtīt ziņu"
+  },
+  "locations": [
+    {
+      "city": "Rīga",
+      "phone_label": "Tālrunis:",
+      "phone": "+371 2000 0000",
+      "email_label": "E-pasts:",
+      "email": "info@basicair.lv",
+      "address_label": "Adrese:",
+      "address": "Brīvības iela 100, Rīga, LV-1001, Latvija",
+      "hours_label": "Darba laiks:",
+      "weekday_hours": "P–Pk: 8:00–18:00",
+      "sunday_hours": "S: 10:00–14:00"
+    }
+  ]
+}

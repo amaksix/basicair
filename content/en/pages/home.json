@@ -1,0 +1,46 @@
+{
+  "title": "BasicAir — Air Conditioning",
+  "hero_slides": [
+    {
+      "heading": "Efficient Climate Systems",
+      "subheading": "Professional air conditioners for homes and offices across Latvia",
+      "button_text": "View Products",
+      "button_url": "/en/shop/",
+      "image": "/images/slider/slider-1.jpg",
+      "slide_class": "slide-1"
+    },
+    {
+      "heading": "Installation & Maintenance",
+      "subheading": "Full service — from design to warranty support",
+      "button_text": "Our Services",
+      "button_url": "/en/services/",
+      "image": "/images/slider/slider-2.jpg",
+      "slide_class": "slide-2"
+    },
+    {
+      "heading": "Energy-Efficient Solutions",
+      "subheading": "Reduce costs with modern inverter technology",
+      "button_text": "Contact Us",
+      "button_url": "/en/contact/",
+      "image": "/images/slider/slider-3.jpg",
+      "slide_class": "slide-3"
+    }
+  ],
+  "categories": [
+    { "title": "Home AC Units", "image": "/images/section/collections-banner.jpg", "url": "/en/shop/" },
+    { "title": "Office Systems", "image": "/images/section/collections-banner-1.jpg", "url": "/en/shop/" },
+    { "title": "Ventilation", "image": "/images/section/collections-banner-2.jpg", "url": "/en/shop/" },
+    { "title": "Maintenance", "image": "/images/section/collections-banner-3.jpg", "url": "/en/services/" },
+    { "title": "Accessories", "image": "/images/section/collections-banner-4.jpg", "url": "/en/shop/" }
+  ],
+  "featured_section": {
+    "heading": "Featured Products",
+    "subheading": "Popular solutions for homes and offices"
+  },
+  "benefits": [
+    { "icon": "icon-package", "title": "Fast Delivery", "description": "Delivery across Latvia at no extra cost." },
+    { "icon": "icon-lifebuoy", "title": "24/7 Support", "description": "We are here whenever you need us." },
+    { "icon": "icon-sealpercent", "title": "Warranty", "description": "Manufacturer warranty and post-install service." },
+    { "icon": "icon-arrow-down-left", "title": "Professional Installation", "description": "Certified specialists with years of experience." }
+  ]
+}

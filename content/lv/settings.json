@@ -1,0 +1,50 @@
+{
+  "site_name": "BasicAir",
+  "site_tagline": "Gaisa kondicionēšanas risinājumi",
+  "topbar_announcements": [
+    { "text": "Bezmaksas piegāde pasūtījumiem virs ", "highlight": "€100" },
+    { "text": "Profesionāla uzstādīšana visā Latvijā — ", "highlight": "saņemiet piedāvājumu" }
+  ],
+  "navigation": {
+    "home": "SĀKUMS",
+    "products": "PRODUKTI",
+    "services": "PAKALPOJUMI",
+    "contact": "KONTAKTI"
+  },
+  "footer": {
+    "phone": "+371 2000 0000",
+    "email": "info@basicair.lv",
+    "address": "Brīvības iela 100, Rīga, LV-1001, Latvija",
+    "copyright": "Visas tiesības aizsargātas.",
+    "newsletter_heading": "Saņemiet jaunumus e-pastā",
+    "newsletter_placeholder": "Ievadiet e-pastu",
+    "subscribe_button": "Abonēt",
+    "info_links": [
+      { "label": "Par mums", "url": "/lv/services/" },
+      { "label": "Mūsu stāsts", "url": "/lv/services/" },
+      { "label": "Kontakti", "url": "/lv/contact/" }
+    ],
+    "service_links": [
+      { "label": "Piegāde", "url": "#" },
+      { "label": "Garantija", "url": "#" },
+      { "label": "Privātuma politika", "url": "#" },
+      { "label": "Noteikumi", "url": "#" }
+    ]
+  },
+  "social": {
+    "facebook": "#",
+    "twitter": "#",
+    "instagram": "#",
+    "telegram": "#"
+  },
+  "labels": {
+    "request_quote": "Pieprasīt cenu",
+    "quick_view": "Ātrs skats",
+    "explore_collection": "Skatīt produktus",
+    "view_all_categories": "Skatīt visas kategorijas",
+    "shop": "Veikals",
+    "search": "Meklēt",
+    "need_help": "Nepieciešama palīdzība?",
+    "send_message": "Nosūtīt ziņu"
+  }
+}

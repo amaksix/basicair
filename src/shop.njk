@@ -1,0 +1,41 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: locales
+  size: 1
+  alias: locale
+permalink: "/{{ locale }}/shop/"
+currentPage: shop
+eleventyComputed:
+  pageTitle: "{{ shop.title }}"
+---
+<div class="page-title relative">
+    <div class="paralaximg" data-parallax="scroll" data-image-src="/images/page-title/page-title-3.jpg"></div>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="title">{{ shop.heading }}</h3>
+                    <ul class="breadcrumb">
+                        <li><a href="/{{ locale }}/">{{ shop.breadcrumb_home }}</a></li>
+                        <li>{{ shop.breadcrumb_current }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="flat-spacing-2">
+    <div class="container">
+        {% if shop.description %}
+        <p class="text-body-default text_secondary text-center mb_30">{{ shop.description }}</p>
+        {% endif %}
+        <div class="tf-grid-layout tf-col-2 lg-col-4">
+            {% for product in products %}
+            {% set delay = (loop.index0 * 0.1) ~ 's' %}
+            {% include "partials/product-card.njk" %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

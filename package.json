@@ -1,0 +1,17 @@
+{
+  "name": "basicair",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "cms": "npx decap-server",
+    "dev": "concurrently \"npm run cms\" \"npm run start\"",
+    "sass": "sass scss/app.scss css/styles.css --watch"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "concurrently": "^9.1.0",
+    "decap-server": "^3.1.2"
+  }
+}

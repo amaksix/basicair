@@ -1,0 +1,47 @@
+<header id="header" class="header-default">
+    <div class="main-header">
+        <div class="container-full">
+            <div class="row wrapper-header align-items-center">
+                <div class="col-xl-5 d-none d-xl-block">
+                    <nav class="box-navigation text-center">
+                        <ul class="box-nav-ul justify-content-start">
+                            <li class="menu-item">
+                                <a href="/{{ locale }}/" class="item-link{% if currentPage == 'index' %} active{% endif %}">{{ settings.navigation.home }}</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="/{{ locale }}/shop/" class="item-link{% if currentPage == 'shop' %} active{% endif %}">{{ settings.navigation.products }}</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="/{{ locale }}/services/" class="item-link{% if currentPage == 'services' %} active{% endif %}">{{ settings.navigation.services }}</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="/{{ locale }}/contact/" class="item-link{% if currentPage == 'contact' %} active{% endif %}">{{ settings.navigation.contact }}</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-4 col-2 d-xl-none">
+                    <a href="#mobileMenu" class="mobile-menu" data-bs-toggle="offcanvas" aria-controls="mobileMenu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#000000" viewBox="0 0 256 256">
+                            <path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="col-xl-2 col-md-4 col-8 text-center">
+                    <a href="/{{ locale }}/" class="logo-header">
+                        <img src="/images/logo/logo.svg" alt="{{ settings.site_name }}" class="logo">
+                    </a>
+                </div>
+                <div class="col-xl-5 col-md-4 col-2">
+                    <ul class="nav-icon">
+                        <li class="nav-search">
+                            <a href="#search" data-bs-toggle="modal" class="nav-icon-item">
+                                <span class="icon icon-search"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

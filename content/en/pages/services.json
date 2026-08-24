@@ -1,0 +1,29 @@
+{
+  "title": "BasicAir — Services",
+  "breadcrumb_home": "Home",
+  "breadcrumb_current": "About Us",
+  "hero_title": "About Us",
+  "hero_image": "/images/page-title/page-title-6.jpg",
+  "main_heading": "We Are BasicAir",
+  "main_intro": "We provide quality air conditioning and ventilation solutions for homes and businesses. Over 10 years of experience in installation, maintenance, and service across Latvia.",
+  "main_image": "/images/section/section-about.jpg",
+  "mission": {
+    "title": "Our Mission",
+    "text": "To deliver comfortable and healthy indoor climates using reliable technology and professional service."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "text": "To become Latvia's most trusted air conditioning partner, offering sustainable and energy-efficient solutions."
+  },
+  "features": [
+    { "icon": "icon-package", "title": "Free Consultation", "description": "We help you choose the right solution." },
+    { "icon": "icon-arrow-down-left", "title": "Warranty Service", "description": "Maintenance and repairs under manufacturer warranty." },
+    { "icon": "icon-lifebuoy", "title": "24/7 Support", "description": "Emergency call-outs and technical support." },
+    { "icon": "icon-sealpercent", "title": "Competitive Pricing", "description": "Best prices on equipment and installation." }
+  ],
+  "about_section": {
+    "heading": "Quality and Experience",
+    "text": "Our team works with leading manufacturers and provides the full cycle — from design to regular maintenance.",
+    "image": "/images/section/box-about.jpg"
+  }
+}

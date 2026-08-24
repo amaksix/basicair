@@ -1,0 +1,36 @@
+<div class="offcanvas offcanvas-start canvas-mb" id="mobileMenu">
+    <span class="icon-close icon-close-popup" data-bs-dismiss="offcanvas" aria-label="Close"></span>
+    <div class="mb-canvas-content">
+        <div class="mb-body">
+            <ul class="nav-ul-mb" id="wrapper-menu-navigation">
+                <li class="nav-mb-item{% if currentPage == 'index' %} active{% endif %}">
+                    <a href="/{{ locale }}/" class="mb-menu-link"><span>{{ settings.navigation.home }}</span></a>
+                </li>
+                <li class="nav-mb-item{% if currentPage == 'shop' %} active{% endif %}">
+                    <a href="/{{ locale }}/shop/" class="mb-menu-link"><span>{{ settings.navigation.products }}</span></a>
+                </li>
+                <li class="nav-mb-item{% if currentPage == 'services' %} active{% endif %}">
+                    <a href="/{{ locale }}/services/" class="mb-menu-link"><span>{{ settings.navigation.services }}</span></a>
+                </li>
+                <li class="nav-mb-item{% if currentPage == 'contact' %} active{% endif %}">
+                    <a href="/{{ locale }}/contact/" class="mb-menu-link"><span>{{ settings.navigation.contact }}</span></a>
+                </li>
+            </ul>
+            <div class="mb-other-content">
+                <div class="mb-notice">
+                    <a href="/{{ locale }}/contact/" class="text-need">{{ settings.labels.need_help }}</a>
+                </div>
+                <ul class="mb-info">
+                    <li>{{ settings.footer.address }}</li>
+                    <li>Email: <b>{{ settings.footer.email }}</b></li>
+                    <li>Phone: <b>{{ settings.footer.phone }}</b></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mb-bottom">
+            <div class="bottom-bar-language">
+                {% include "partials/language-switcher.njk" %}
+            </div>
+        </div>
+    </div>
+</div>

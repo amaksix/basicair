@@ -1,0 +1,78 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: locales
+  size: 1
+  alias: locale
+permalink: "/{{ locale }}/contact/"
+currentPage: contact
+eleventyComputed:
+  pageTitle: "{{ contact.title }}"
+---
+<div class="main-content">
+    <div class="wrap-map">
+        <div id="map-contact" class="map-contact h590" data-map-zoom="16" data-map-scroll="true"></div>
+    </div>
+
+    <section class="flat-spacing">
+        <div class="container">
+            <div class="contact-us-content">
+                <div class="row">
+                    {% for location in contact.locations %}
+                    <div class="col-lg-4 mb-lg-30">
+                        <h4 class="mb_30 wow fadeInUp">{{ location.city }}</h4>
+                        <div class="mb_28">
+                            <h6 class="mb_8">{{ location.phone_label }}</h6>
+                            <p class="text-body-default">{{ location.phone }}</p>
+                        </div>
+                        <div class="mb_28">
+                            <h6 class="mb_8">{{ location.email_label }}</h6>
+                            <p class="text-body-default">{{ location.email }}</p>
+                        </div>
+                        <div class="mb_28">
+                            <h6 class="mb_8">{{ location.address_label }}</h6>
+                            <p class="text-body-default">{{ location.address }}</p>
+                        </div>
+                        <div>
+                            <h6 class="mb_8">{{ location.hours_label }}</h6>
+                            <p class="text-body-default mb_4 open-time">{{ location.weekday_hours }}</p>
+                            {% if location.sunday_hours %}
+                            <p class="text-body-default open-time">{{ location.sunday_hours }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                    <div class="col-lg-7 offset-lg-1">
+                        <h4 class="mb_7 wow fadeInUp">{{ contact.form_heading }}</h4>
+                        <p class="text_secondary mb_24 wow fadeInUp" data-wow-delay="0.1s">{{ contact.form_intro }}</p>
+                        <form id="contactform" action="/mail/subscribe.php" method="post" class="form-leave-comment">
+                            <div class="wrap">
+                                <div class="cols">
+                                    <fieldset>
+                                        <input type="text" placeholder="{{ contact.form_labels.name }}" name="name" id="name" required>
+                                    </fieldset>
+                                    <fieldset>
+                                        <input type="email" placeholder="{{ contact.form_labels.email }}" name="email" id="email" required>
+                                    </fieldset>
+                                </div>
+                                <div class="cols">
+                                    <fieldset>
+                                        <input type="tel" placeholder="{{ contact.form_labels.phone }}" name="phone" id="phone" required>
+                                    </fieldset>
+                                </div>
+                                <fieldset>
+                                    <textarea name="message" id="message" rows="4" placeholder="{{ contact.form_labels.message }}" required></textarea>
+                                </fieldset>
+                            </div>
+                            <div class="button-submit send-wrap">
+                                <button class="tf-btn btn-onsurface" type="submit">
+                                    {{ contact.form_labels.submit }} <i class="icon-arrow-up-right"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

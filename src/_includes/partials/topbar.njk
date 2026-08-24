@@ -1,0 +1,34 @@
+<div class="tf-topbar">
+    <div class="container-full">
+        <div class="row">
+            <div class="col-xl-4">
+                <div class="topbar-left d-none d-xl-flex">
+                    {% include "partials/language-switcher.njk" %}
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="wrapper-slider-topbar">
+                    <div class="swiper tf-sw-top_bar" data-preview="1" data-space="0" data-loop="true" data-speed="2000" data-auto-play="true" data-delay="2000">
+                        <div class="swiper-wrapper">
+                            {% for item in settings.topbar_announcements %}
+                            <div class="swiper-slide">
+                                <p class="text-caption-1 text_white">
+                                    {{ item.text }}{% if item.highlight %}<span class="text_primary">{{ item.highlight }}</span>{% endif %}
+                                </p>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="navigation-topbar nav-next-topbar"><span class="icon icon-left"></span></div>
+                    <div class="navigation-topbar nav-prev-topbar"><span class="icon icon-right"></span></div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="topbar-right justify-content-end d-none d-xl-flex">
+                    <a href="/{{ locale }}/services/" class="text_white text-caption-1 link">{{ settings.navigation.services }}</a>
+                    <a href="/{{ locale }}/contact/" class="text_white text-caption-1 link">{{ settings.navigation.contact }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

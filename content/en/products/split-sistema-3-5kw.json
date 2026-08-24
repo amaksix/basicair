@@ -1,0 +1,15 @@
+{
+  "title": "Split System 3.5 kW",
+  "slug": "split-sistema-3-5kw",
+  "price": 599.99,
+  "description": "Energy-efficient split system for apartments up to 35 m².",
+  "body": "Modern inverter split system with A++ energy rating. Quiet operation, Wi-Fi control, and 5-year warranty.",
+  "image": "/images/shop/product-1.jpg",
+  "image_hover": "/images/shop/product-1.1.jpg",
+  "featured": true,
+  "order": 1,
+  "gallery": [
+    { "image": "/images/shop/product-1.jpg" },
+    { "image": "/images/shop/product-1.1.jpg" }
+  ]
+}

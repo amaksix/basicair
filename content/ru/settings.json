@@ -1,0 +1,50 @@
+{
+  "site_name": "BasicAir",
+  "site_tagline": "Решения для кондиционирования воздуха",
+  "topbar_announcements": [
+    { "text": "Бесплатная доставка при заказе от ", "highlight": "€100" },
+    { "text": "Профессиональный монтаж по всей Латвии — ", "highlight": "получить предложение" }
+  ],
+  "navigation": {
+    "home": "ГЛАВНАЯ",
+    "products": "ПРОДУКТЫ",
+    "services": "УСЛУГИ",
+    "contact": "КОНТАКТЫ"
+  },
+  "footer": {
+    "phone": "+371 2000 0000",
+    "email": "info@basicair.lv",
+    "address": "Brivibas iela 100, Рига, LV-1001, Латвия",
+    "copyright": "Все права защищены.",
+    "newsletter_heading": "Подпишитесь на нашу рассылку",
+    "newsletter_placeholder": "Введите e-mail",
+    "subscribe_button": "Подписаться",
+    "info_links": [
+      { "label": "О нас", "url": "/ru/services/" },
+      { "label": "Наша история", "url": "/ru/services/" },
+      { "label": "Связаться", "url": "/ru/contact/" }
+    ],
+    "service_links": [
+      { "label": "Доставка", "url": "#" },
+      { "label": "Гарантия", "url": "#" },
+      { "label": "Политика конфиденциальности", "url": "#" },
+      { "label": "Условия", "url": "#" }
+    ]
+  },
+  "social": {
+    "facebook": "#",
+    "twitter": "#",
+    "instagram": "#",
+    "telegram": "#"
+  },
+  "labels": {
+    "request_quote": "Запросить цену",
+    "quick_view": "Быстрый просмотр",
+    "explore_collection": "Смотреть продукты",
+    "view_all_categories": "Все категории",
+    "shop": "Магазин",
+    "search": "Поиск",
+    "need_help": "Нужна помощь?",
+    "send_message": "Отправить сообщение"
+  }
+}

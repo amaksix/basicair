@@ -1,2 +1,48 @@
-sass scss/app.scss css/styles.css --watch
+# BasicAir — CMS Setup
 
+This site uses **Decap CMS** for content editing and **Eleventy** to build the static HTML.
+
+## Languages
+
+- **lv** (Latviešu) — default
+- **en** (English)
+- **ru** (Русский)
+
+URLs: `/lv/`, `/en/`, `/ru/`
+
+## Commands
+
+```bash
+npm install
+npm run build      # Build site to _site/
+npm run start      # Dev server at http://localhost:8080
+npm run dev        # CMS backend + dev server together
+npm run cms        # Decap local backend only (port 8081)
+npm run sass       # Watch SCSS (optional)
+```
+
+## Edit content (CMS)
+
+1. Run `npm run dev`
+2. Open **http://localhost:8080/admin/**
+3. Click **Login** (local backend — no password needed in dev)
+4. Edit **Site Settings**, **Pages**, or **Products** for each language
+
+## Deploy (Netlify)
+
+1. Push to GitHub
+2. Connect repo on Netlify
+3. Enable **Netlify Identity** + **Git Gateway** for CMS login in production
+4. Build command: `npm run build`, publish directory: `_site`
+
+## Content files
+
+All editable content lives in `content/{lv,en,ru}/`:
+
+- `settings.json` — navigation, footer, labels
+- `pages/` — home, services, contact, shop
+- `products/` — product catalog
+
+## Legacy HTML
+
+Original static HTML files are in `_legacy/` for reference.

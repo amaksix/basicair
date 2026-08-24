@@ -1,0 +1,12 @@
+{
+  "title": "Ventilation Recuperator",
+  "slug": "ventilacijas-rekuperators",
+  "price": 899.99,
+  "description": "Fresh air with heat recovery.",
+  "body": "Compact recuperator for homes with high heat exchange efficiency and low energy consumption.",
+  "image": "/images/shop/product-3.jpg",
+  "image_hover": "/images/shop/product-3.1.jpg",
+  "featured": true,
+  "order": 3,
+  "gallery": [{ "image": "/images/shop/product-3.jpg" }]
+}

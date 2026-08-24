@@ -1,0 +1,15 @@
+{
+  "title": "Сплит-система 3.5 кВт",
+  "slug": "split-sistema-3-5kw",
+  "price": 599.99,
+  "description": "Энергоэффективная сплит-система для квартир до 35 м².",
+  "body": "Современная инверторная сплит-система с классом энергоэффективности A++. Тихая работа, Wi-Fi управление и 5 лет гарантии.",
+  "image": "/images/shop/product-1.jpg",
+  "image_hover": "/images/shop/product-1.1.jpg",
+  "featured": true,
+  "order": 1,
+  "gallery": [
+    { "image": "/images/shop/product-1.jpg" },
+    { "image": "/images/shop/product-1.1.jpg" }
+  ]
+}

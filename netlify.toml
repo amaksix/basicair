@@ -1,0 +1,16 @@
+[build]
+  command = "npm run build"
+  publish = "_site"
+
+[[redirects]]
+  from = "/"
+  to = "/lv/"
+  status = 302
+
+[[redirects]]
+  from = "/admin"
+  to = "/admin/"
+  status = 301
+
+[build.environment]
+  NODE_VERSION = "20"

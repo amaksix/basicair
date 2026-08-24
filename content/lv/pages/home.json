@@ -1,0 +1,46 @@
+{
+  "title": "BasicAir — Gaisa kondicionēšana",
+  "hero_slides": [
+    {
+      "heading": "Efektīvas klimata sistēmas",
+      "subheading": "Profesionāli gaisa kondicionieri mājām un birojiem visā Latvijā",
+      "button_text": "Skatīt produktus",
+      "button_url": "/lv/shop/",
+      "image": "/images/slider/slider-1.jpg",
+      "slide_class": "slide-1"
+    },
+    {
+      "heading": "Uzstādīšana un apkope",
+      "subheading": "Pilns serviss — no projekta līdz garantijas apkalpošanai",
+      "button_text": "Mūsu pakalpojumi",
+      "button_url": "/lv/services/",
+      "image": "/images/slider/slider-2.jpg",
+      "slide_class": "slide-2"
+    },
+    {
+      "heading": "Energoefektīvi risinājumi",
+      "subheading": "Samaziniet izmaksas ar modernām invertoru tehnoloģijām",
+      "button_text": "Sazināties",
+      "button_url": "/lv/contact/",
+      "image": "/images/slider/slider-3.jpg",
+      "slide_class": "slide-3"
+    }
+  ],
+  "categories": [
+    { "title": "Mājas kondicionieri", "image": "/images/section/collections-banner.jpg", "url": "/lv/shop/" },
+    { "title": "Biroja sistēmas", "image": "/images/section/collections-banner-1.jpg", "url": "/lv/shop/" },
+    { "title": "Ventilācija", "image": "/images/section/collections-banner-2.jpg", "url": "/lv/shop/" },
+    { "title": "Apkope", "image": "/images/section/collections-banner-3.jpg", "url": "/lv/services/" },
+    { "title": "Piederumi", "image": "/images/section/collections-banner-4.jpg", "url": "/lv/shop/" }
+  ],
+  "featured_section": {
+    "heading": "Ieteicamie produkti",
+    "subheading": "Populārākie risinājumi mājām un birojiem"
+  },
+  "benefits": [
+    { "icon": "icon-package", "title": "Ātra piegāde", "description": "Piegāde visā Latvijā bez papildu izmaksām." },
+    { "icon": "icon-lifebuoy", "title": "24/7 atbalsts", "description": "Esam pieejami, kad jums mūs vajag." },
+    { "icon": "icon-sealpercent", "title": "Garantija", "description": "Ražotāja garantija un serviss pēc montāžas." },
+    { "icon": "icon-arrow-down-left", "title": "Profesionāla uzstādīšana", "description": "Sertificēti speciālisti ar pieredzi." }
+  ]
+}
