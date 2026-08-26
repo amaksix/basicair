@@ -2,6 +2,14 @@
   command = "npm run build"
   publish = "_site"
 
+# Temporary: disable CDN/browser caching while iterating on the site
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "no-store, no-cache, must-revalidate, max-age=0"
+    Pragma = "no-cache"
+    Expires = "0"
+
 [[redirects]]
   from = "/"
   to = "/lv/"
