@@ -1,7 +1,9 @@
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const { loadLocaleContent, loadProducts, loadServices, LOCALES, DEFAULT_LOCALE } = require("./lib/content");
 
-module.exports = function (eleventyConfig) {
+module.exports = async function (eleventyConfig) {
+  // Eleventy v3 is ESM-only; load plugins via dynamic import in CommonJS config
+  const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
+
   // Rewrites absolute /href and /src for GitHub Pages project URLs (--pathprefix)
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
