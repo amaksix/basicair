@@ -2,17 +2,28 @@
   "site_name": "BasicAir",
   "site_tagline": "Gaisa kondicionēšanas risinājumi",
   "topbar_announcements": [
-    { "text": "Bezmaksas piegāde pasūtījumiem virs ", "highlight": "€100" },
+    { "text": "Individuāli risinājumi jūsu telpai — ", "highlight": "pieprasiet piedāvājumu" },
     { "text": "Profesionāla uzstādīšana visā Latvijā — ", "highlight": "saņemiet piedāvājumu" }
   ],
   "navigation": {
     "home": "SĀKUMS",
     "products": "PRODUKTI",
+    "industries": "NOZARES",
     "services": "PAKALPOJUMI",
+    "news": "JAUNUMI",
     "contact": "KONTAKTI",
+    "product_menu": [
+      { "label": "Gaisa filtri", "url": "/lv/shop/gaisa-filtri/" },
+      { "label": "City", "url": "/lv/shop/city/" },
+      { "label": "Tehniskie audumi", "url": "/lv/shop/tehniskie-audumi/" },
+      { "label": "TBD", "url": "/lv/shop/tbd/" }
+    ],
+    "industry_menu": [
+      { "label": "Raksti", "url": "/lv/industries/raksti/" }
+    ],
     "service_menu": [
       { "label": "Projektēšana", "url": "/lv/services/projektesana/" },
-      { "label": "Apkope un rezerves daļas", "url": "/lv/services/apkope/" }
+      { "label": "Apkope", "url": "/lv/services/apkope/" }
     ]
   },
 
@@ -30,7 +41,7 @@
       { "label": "Kontakti", "url": "/lv/contact/" }
     ],
     "service_links": [
-      { "label": "Piegāde", "url": "#" },
+      { "label": "Uzstādīšana", "url": "#" },
       { "label": "Garantija", "url": "#" },
       { "label": "Privātuma politika", "url": "#" },
       { "label": "Noteikumi", "url": "#" }
@@ -47,7 +58,7 @@
     "quick_view": "Ātrs skats",
     "explore_collection": "Skatīt produktus",
     "view_all_categories": "Skatīt visas kategorijas",
-    "shop": "Veikals",
+    "shop": "Produkti",
     "search": "Meklēt",
     "need_help": "Nepieciešama palīdzība?",
     "send_message": "Nosūtīt ziņu"

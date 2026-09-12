@@ -1,12 +1,13 @@
-{
+﻿{
   "title": "Gaisa kondicioniera uzstādīšana",
   "slug": "uzstadisanas-pakalpojums",
-  "price": 149.99,
   "description": "Profesionāla montāža ar garantiju.",
   "body": "Standarta uzstādīšana līdz 3 m caurulei. Iekļauta sistēmas pārbaude un lietošanas instrukcija.",
   "image": "/images/shop/product-4.jpg",
   "image_hover": "/images/shop/product-4.1.jpg",
   "featured": true,
   "order": 4,
-  "gallery": [{ "image": "/images/shop/product-4.jpg" }]
+  "gallery": [
+    { "image": "/images/shop/product-4.jpg" }
+  ]
 }

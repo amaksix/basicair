@@ -2,8 +2,12 @@
   var pageMap = {
     index: "",
     shop: "shop/",
+    "product-category": "shop/",
     services: "services/",
     service: "services/",
+    industries: "industries/",
+    articles: "industries/raksti/",
+    news: "news/",
     contact: "contact/",
     product: "products/"
   };
@@ -23,6 +27,7 @@
       var currentPage = select.dataset.currentPage || "index";
       var productSlug = select.dataset.productSlug;
       var serviceSlug = select.dataset.serviceSlug;
+      var categorySlug = select.dataset.categorySlug;
       var path = pageMap[currentPage] || "";
 
       if (currentPage === "product" && productSlug) {
@@ -32,6 +37,11 @@
 
       if (currentPage === "service" && serviceSlug) {
         window.location.href = withPrefix("/" + locale + "/services/" + serviceSlug + "/");
+        return;
+      }
+
+      if (currentPage === "product-category" && categorySlug) {
+        window.location.href = withPrefix("/" + locale + "/shop/" + categorySlug + "/");
         return;
       }
 

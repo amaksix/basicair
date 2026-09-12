@@ -1,12 +1,13 @@
-{
+﻿{
   "title": "Установка кондиционера",
   "slug": "uzstadisanas-pakalpojums",
-  "price": 149.99,
   "description": "Профессиональный монтаж с гарантией.",
   "body": "Стандартная установка до 3 м трубопровода. Включает проверку системы и инструкцию пользователя.",
   "image": "/images/shop/product-4.jpg",
   "image_hover": "/images/shop/product-4.1.jpg",
   "featured": true,
   "order": 4,
-  "gallery": [{ "image": "/images/shop/product-4.jpg" }]
+  "gallery": [
+    { "image": "/images/shop/product-4.jpg" }
+  ]
 }

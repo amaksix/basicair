@@ -28,10 +28,6 @@ eleventyComputed:
             <div class="col-lg-6">
                 <div class="tf-product-info-wrap">
                     <h3 class="mb_12">{{ product.title }}</h3>
-                    <div class="price text-body-default mb_20">
-                        {% if product.old_price %}<span class="text-caption-1 old-price">{{ product.old_price | price }}</span>{% endif %}
-                        {{ product.price | price }}
-                    </div>
                     {% if product.description %}
                     <p class="text_secondary mb_20">{{ product.description }}</p>
                     {% endif %}

@@ -2,17 +2,28 @@
   "site_name": "BasicAir",
   "site_tagline": "Air conditioning solutions",
   "topbar_announcements": [
-    { "text": "Free delivery on orders over ", "highlight": "€100" },
+    { "text": "Custom solutions tailored to your space — ", "highlight": "request a quote" },
     { "text": "Professional installation across Latvia — ", "highlight": "get a quote" }
   ],
   "navigation": {
     "home": "HOME",
     "products": "PRODUCTS",
+    "industries": "INDUSTRIES",
     "services": "SERVICES",
+    "news": "NEWS",
     "contact": "CONTACT",
+    "product_menu": [
+      { "label": "Air filters", "url": "/en/shop/gaisa-filtri/" },
+      { "label": "City", "url": "/en/shop/city/" },
+      { "label": "Technical fabrics", "url": "/en/shop/tehniskie-audumi/" },
+      { "label": "TBD", "url": "/en/shop/tbd/" }
+    ],
+    "industry_menu": [
+      { "label": "Articles", "url": "/en/industries/raksti/" }
+    ],
     "service_menu": [
       { "label": "Design", "url": "/en/services/projektesana/" },
-      { "label": "Maintenance and spare parts", "url": "/en/services/apkope/" }
+      { "label": "Maintenance", "url": "/en/services/apkope/" }
     ]
   },
 
@@ -30,7 +41,7 @@
       { "label": "Contact Us", "url": "/en/contact/" }
     ],
     "service_links": [
-      { "label": "Shipping", "url": "#" },
+      { "label": "Installation", "url": "#" },
       { "label": "Warranty", "url": "#" },
       { "label": "Privacy Policy", "url": "#" },
       { "label": "Terms & Conditions", "url": "#" }
@@ -47,7 +58,7 @@
     "quick_view": "Quick View",
     "explore_collection": "Explore Collection",
     "view_all_categories": "View All Categories",
-    "shop": "Shop",
+    "shop": "Products",
     "search": "Search",
     "need_help": "Need help?",
     "send_message": "Send Message"

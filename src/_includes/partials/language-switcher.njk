@@ -1,4 +1,4 @@
-<select class="image-select center style-default type-languages" data-current-page="{{ currentPage | default('index') }}"{% if currentPage == 'product' and product.slug %} data-product-slug="{{ product.slug }}"{% endif %}{% if currentPage == 'service' and service.slug %} data-service-slug="{{ service.slug }}"{% endif %}>
+<select class="image-select center style-default type-languages" data-current-page="{{ currentPage | default('index') }}"{% if currentPage == 'product' and product.slug %} data-product-slug="{{ product.slug }}"{% endif %}{% if currentPage == 'service' and service.slug %} data-service-slug="{{ service.slug }}"{% endif %}{% if currentPage == 'product-category' and category.slug %} data-category-slug="{{ category.slug }}"{% endif %}>
     <option value="lv" {% if locale == 'lv' %}selected{% endif %}>Latviešu</option>
     <option value="en" {% if locale == 'en' %}selected{% endif %}>English</option>
     <option value="ru" {% if locale == 'ru' %}selected{% endif %}>Русский</option>

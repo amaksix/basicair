@@ -17,7 +17,7 @@
     "email": "Email*",
     "email_hint": "Where should we send the reply?",
     "message": "Message*",
-    "message_placeholder": "I would like to order a product:",
+    "message_placeholder": "I would like to request a quote for:",
     "submit": "Send"
   },
   "contact_info": {

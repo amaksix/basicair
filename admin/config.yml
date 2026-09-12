@@ -39,8 +39,22 @@ collections:
             fields:
               - { label: Home, name: home, widget: string }
               - { label: Products, name: products, widget: string }
+              - { label: Industries, name: industries, widget: string }
               - { label: Services, name: services, widget: string }
+              - { label: News, name: news, widget: string }
               - { label: Contact, name: contact, widget: string }
+              - label: Products Dropdown
+                name: product_menu
+                widget: list
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: URL, name: url, widget: string }
+              - label: Industries Dropdown
+                name: industry_menu
+                widget: list
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: URL, name: url, widget: string }
               - label: Services Dropdown
                 name: service_menu
                 widget: list
@@ -86,7 +100,7 @@ collections:
               - { label: Quick View, name: quick_view, widget: string }
               - { label: Explore Collection, name: explore_collection, widget: string }
               - { label: View All Categories, name: view_all_categories, widget: string }
-              - { label: Shop, name: shop, widget: string }
+              - { label: Products / Shop label, name: shop, widget: string }
               - { label: Search, name: search, widget: string }
               - { label: Need Help, name: need_help, widget: string }
               - { label: Send Message, name: send_message, widget: string }
@@ -133,7 +147,7 @@ collections:
               - label: Paragraphs
                 name: paragraphs
                 widget: list
-                field: { label: Paragraph, widget: text }
+                field: { label: Paragraph, name: paragraph, widget: text }
               - label: Sectors
                 name: sectors
                 widget: list
@@ -329,6 +343,104 @@ collections:
         file: content/ru/pages/shop.json
         fields: *shop_fields
 
+  - name: product_categories
+    label: Product Categories
+    label_singular: Product Category
+    i18n: true
+    folder: "content/{{locale}}/product-categories"
+    create: true
+    slug: "{{slug}}"
+    extension: json
+    format: json
+    identifier_field: title
+    summary: "{{title}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string, hint: "Used in URL, e.g. gaisa-filtri" }
+      - { label: Sort Order, name: order, widget: number, default: 0, required: false }
+      - { label: Summary, name: summary, widget: text }
+      - { label: Hero Image, name: hero_image, widget: image }
+      - label: Paragraphs
+        name: paragraphs
+        widget: list
+        field: { label: Paragraph, name: paragraph, widget: text }
+      - { label: CTA Button Text, name: cta_text, widget: string }
+      - { label: Coming Soon Note, name: coming_soon, widget: string, required: false }
+
+  - name: industries_page
+    label: Industries Page
+    files:
+      - label: Industries Page (Latviešu)
+        name: industries-lv
+        file: content/lv/pages/industries.json
+        fields: &industries_fields
+          - { label: Page Title, name: title, widget: string }
+          - { label: Breadcrumb Home, name: breadcrumb_home, widget: string }
+          - { label: Breadcrumb Current, name: breadcrumb_current, widget: string }
+          - { label: Hero Title, name: hero_title, widget: string }
+          - { label: Hero Background, name: hero_image, widget: image }
+          - { label: Main Heading, name: main_heading, widget: string }
+          - { label: Main Intro, name: main_intro, widget: text }
+          - { label: Articles Label, name: articles_label, widget: string }
+          - { label: Articles Summary, name: articles_summary, widget: text }
+      - label: Industries Page (English)
+        name: industries-en
+        file: content/en/pages/industries.json
+        fields: *industries_fields
+      - label: Industries Page (Русский)
+        name: industries-ru
+        file: content/ru/pages/industries.json
+        fields: *industries_fields
+
+  - name: articles_page
+    label: Articles Page
+    files:
+      - label: Articles Page (Latviešu)
+        name: articles-lv
+        file: content/lv/pages/articles.json
+        fields: &articles_fields
+          - { label: Page Title, name: title, widget: string }
+          - { label: Breadcrumb Home, name: breadcrumb_home, widget: string }
+          - { label: Breadcrumb Industries, name: breadcrumb_industries, widget: string }
+          - { label: Breadcrumb Current, name: breadcrumb_current, widget: string }
+          - { label: Hero Title, name: hero_title, widget: string }
+          - { label: Hero Background, name: hero_image, widget: image }
+          - { label: Main Heading, name: main_heading, widget: string }
+          - { label: Main Intro, name: main_intro, widget: text }
+          - { label: Empty State, name: empty_state, widget: text }
+      - label: Articles Page (English)
+        name: articles-en
+        file: content/en/pages/articles.json
+        fields: *articles_fields
+      - label: Articles Page (Русский)
+        name: articles-ru
+        file: content/ru/pages/articles.json
+        fields: *articles_fields
+
+  - name: news_page
+    label: News Page
+    files:
+      - label: News Page (Latviešu)
+        name: news-lv
+        file: content/lv/pages/news.json
+        fields: &news_fields
+          - { label: Page Title, name: title, widget: string }
+          - { label: Breadcrumb Home, name: breadcrumb_home, widget: string }
+          - { label: Breadcrumb Current, name: breadcrumb_current, widget: string }
+          - { label: Hero Title, name: hero_title, widget: string }
+          - { label: Hero Background, name: hero_image, widget: image }
+          - { label: Main Heading, name: main_heading, widget: string }
+          - { label: Main Intro, name: main_intro, widget: text }
+          - { label: Empty State, name: empty_state, widget: text }
+      - label: News Page (English)
+        name: news-en
+        file: content/en/pages/news.json
+        fields: *news_fields
+      - label: News Page (Русский)
+        name: news-ru
+        file: content/ru/pages/news.json
+        fields: *news_fields
+
   - name: products
     label: Products
     label_singular: Product
@@ -339,13 +451,10 @@ collections:
     extension: json
     format: json
     identifier_field: title
-    summary: "{{title}} — €{{price}}"
+    summary: "{{title}}"
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Slug, name: slug, widget: string, hint: "Used in URL, e.g. air-conditioner-pro" }
-      - { label: Price (EUR), name: price, widget: number, value_type: float }
-      - { label: Old Price, name: old_price, widget: number, value_type: float, required: false }
-      - { label: Sale Badge, name: sale_badge, widget: string, required: false, hint: "e.g. -25%" }
       - { label: Short Description, name: description, widget: text, required: false }
       - { label: Full Description, name: body, widget: markdown, required: false }
       - { label: Main Image, name: image, widget: image }

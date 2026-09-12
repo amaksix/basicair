@@ -1,0 +1,13 @@
+{
+  "title": "City",
+  "slug": "city",
+  "order": 2,
+  "summary": "City product line for urban and commercial needs.",
+  "hero_image": "/images/page-title/page-title-3.jpg",
+  "paragraphs": [
+    "The City product category brings together solutions suited to urban and commercial spaces.",
+    "Content and product range for this section will be expanded."
+  ],
+  "cta_text": "Contact us",
+  "coming_soon": "The product catalogue for this category is being updated."
+}

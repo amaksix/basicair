@@ -31,6 +31,21 @@ eleventyComputed:
         {% if shop.description %}
         <p class="text-body-default text_secondary text-center mb_30">{{ shop.description }}</p>
         {% endif %}
+        {% if productCategories and productCategories.length %}
+        <div class="row g-4 mb_40">
+            {% for category in productCategories %}
+            <div class="col-md-6 col-lg-3">
+                <a href="/{{ locale }}/shop/{{ category.slug }}/" class="service-card hover-img wow fadeInUp" data-wow-delay="{{ (loop.index0 * 0.05) }}s">
+                    <div class="service-card-content">
+                        <h3 class="mb_12">{{ category.title }}</h3>
+                        <p class="text-body-1 text_secondary mb_16">{{ category.summary }}</p>
+                        <span class="tf-btn btn-onsurface">{{ category.title }} <i class="icon-arrow-up-right"></i></span>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
         <div class="tf-grid-layout tf-col-2 lg-col-4">
             {% for product in products %}
             {% set delay = (loop.index0 * 0.1) ~ 's' %}

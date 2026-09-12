@@ -17,7 +17,7 @@
     "email": "E-mail*",
     "email_hint": "Куда отправить ответ?",
     "message": "Сообщение*",
-    "message_placeholder": "Я хочу заказать продукт:",
+    "message_placeholder": "Я хочу запросить предложение:",
     "submit": "Отправить"
   },
   "contact_info": {

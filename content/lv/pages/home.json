@@ -27,19 +27,20 @@
     }
   ],
   "categories": [
-    { "title": "Mājas kondicionieri", "image": "/images/section/collections-banner.jpg", "url": "/lv/shop/" },
-    { "title": "Biroja sistēmas", "image": "/images/section/collections-banner-1.jpg", "url": "/lv/shop/" },
-    { "title": "Ventilācija", "image": "/images/section/collections-banner-2.jpg", "url": "/lv/shop/" },
-    { "title": "Apkope", "image": "/images/section/collections-banner-3.jpg", "url": "/lv/services/" },
-    { "title": "Piederumi", "image": "/images/section/collections-banner-4.jpg", "url": "/lv/shop/" }
+    { "title": "Gaisa filtri", "image": "/images/section/collections-banner.jpg", "url": "/lv/shop/gaisa-filtri/" },
+    { "title": "City", "image": "/images/section/collections-banner-1.jpg", "url": "/lv/shop/city/" },
+    { "title": "Tehniskie audumi", "image": "/images/section/collections-banner-2.jpg", "url": "/lv/shop/tehniskie-audumi/" },
+    { "title": "Apkope", "image": "/images/section/collections-banner-3.jpg", "url": "/lv/services/apkope/" },
+    { "title": "Projektēšana", "image": "/images/section/collections-banner-4.jpg", "url": "/lv/services/projektesana/" }
   ],
   "vision": {
-    "heading": "Tīra gaisa nodrošināšana iekštelpās ikvienā jomā ir mūsu izaicinājums un vīzija",
+    "heading": "Profesionāli risinājumi tīrākam un veselīgākam iekštelpu gaisam",
     "paragraphs": [
-      "Uzņēmuma Basic Air komanda tīra gaisa nodrošināšanas segmentā darbojās kopš 2009. gada. Mēs izstrādājam piemērotākos projektus gaisa attīrīšanai iekštelpās visās jomās gan sadzīves, gan darba vidēs, tādās kā: slimnīcas, zobārstniecību prakses, sociālās aprūpes centri, skolas, universitātes, viesnīcas, restorāni un mazumtirdzniecības vietas.",
-      "Gaisa attīrīšanai ir būtiska nozīme produktīvas darba vides nodrošināšanai iekštelpās. Basic air komandas uzdevums ir palīdzēt jūsu organizācijai saglabāt klātienes darbu, novēršot gaisā esošo pārnēsājamo vīrusu klātbūtni un padarot darba vidi drošāku gan darbiniekiem, gan klientiem. HEPA filtrēšana ir ideāli piemērota korona vīrusa daļiņu uztveršanai neatkarīgi no tā vai tās ir gaisā esošās aerosolu daļiņu, vai lielākas, pilienu veidā.",
-      "Tīra gaisa nodrošināšana iekštelpās un tā monitorings ir mūsu sadarbības partneru galvenais mērķis. Zviedrijas uzņēmums Camfil ir viens no lielākajiem spēlētājiem nozarē ar vairāk kā 50 gadu pieredzi. Camfil produkti atšķirās ar askētisku skandināvu dizainu un nevainojamu kvalitāti. Izmantojot jaunākās metodes, piemēram, telpas gaisa plūsmas simulācijas iespējas un tā vizualizāciju, kā arī zinātnisko testēšanu.",
-      "Ražotājam ir izdevies izstrādāt optimālu gaisa attīrīšanas risinājumu ikvienam izaicinājumam."
+      "BasicAir piedāvā gaisa filtrācijas, attīrīšanas un iekštelpu gaisa kvalitātes kontroles risinājumus mājām, birojiem, izglītības un ārstniecības iestādēm, viesnīcām, restorāniem, tirdzniecības vietām, noliktavām un ražotnēm.",
+      "Mūsu komanda gaisa kvalitātes risinājumu jomā darbojas kopš 2009. gada. Izvērtējot telpu lietošanas veidu, piesārņojuma avotus un ventilācijas sistēmas darbību, piemeklējam katram objektam piemērotāko tehnisko risinājumu — no gaisa filtriem un gaisa kvalitātes mērīšanas līdz profesionālām un industriālām gaisa attīrīšanas iekārtām.",
+      "Kvalitatīva gaisa filtrācija palīdz samazināt putekļu, alergēnu, aerosolu un citu gaisā esošu daļiņu daudzumu, uzlabojot iekštelpu vidi darbiniekiem, klientiem un apmeklētājiem.",
+      "Profesionālu filtrācijas risinājumu nodrošināšanā sadarbojamies ar Zviedrijas gaisa filtrācijas uzņēmumu Camfil, kas nozarē darbojas vairāk nekā 50 gadus. Izmantojot pārbaudītas tehnoloģijas, gaisa plūsmas simulācijas un objektam atbilstošus aprēķinus, palīdzam izvēlēties efektīvu un ekonomiski pamatotu gaisa kvalitātes risinājumu.",
+      "Sazinieties ar BasicAir, lai saņemtu konsultāciju un jūsu telpām piemērotu risinājumu."
     ],
     "sectors": [
       { "title": "Sabiedriskās ēkas un biznesa centri", "image": "/images/icons/sector-public.webp" },

@@ -6,18 +6,11 @@
             <img class="lazyload img-hover" data-src="{{ product.image_hover | asset | htmlBaseUrl }}" src="{{ product.image_hover | asset }}" alt="{{ product.title }}">
             {% endif %}
         </a>
-        {% if product.sale_badge %}
-        <div class="on-sale-wrap"><span class="on-sale-item">{{ product.sale_badge }}</span></div>
-        {% endif %}
         <div class="list-btn-main">
             <a href="/{{ locale }}/contact/" class="btn-main-product">{{ settings.labels.request_quote }}</a>
         </div>
     </div>
     <div class="card-product-info">
         <a href="/{{ locale }}/products/{{ product.slug }}/" class="text-title title link">{{ product.title }}</a>
-        <div class="price text-body-default">
-            {% if product.old_price %}<span class="text-caption-1 old-price">{{ product.old_price | price }}</span>{% endif %}
-            {{ product.price | price }}
-        </div>
     </div>
 </div>

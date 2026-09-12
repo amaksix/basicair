@@ -1,0 +1,10 @@
+{
+  "title": "BasicAir — Новости",
+  "breadcrumb_home": "Главная",
+  "breadcrumb_current": "Новости",
+  "hero_title": "Новости",
+  "hero_image": "/images/page-title/page-title-6.jpg",
+  "main_heading": "Новости компании",
+  "main_intro": "Актуальная информация о продуктах, услугах BasicAir и отраслевых событиях.",
+  "empty_state": "Новости готовятся. Скоро здесь появятся обновления."
+}

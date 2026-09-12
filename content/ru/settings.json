@@ -2,17 +2,28 @@
   "site_name": "BasicAir",
   "site_tagline": "Решения для кондиционирования воздуха",
   "topbar_announcements": [
-    { "text": "Бесплатная доставка при заказе от ", "highlight": "€100" },
+    { "text": "Индивидуальные решения для вашего помещения — ", "highlight": "запросить предложение" },
     { "text": "Профессиональный монтаж по всей Латвии — ", "highlight": "получить предложение" }
   ],
   "navigation": {
     "home": "ГЛАВНАЯ",
     "products": "ПРОДУКТЫ",
+    "industries": "ОТРАСЛИ",
     "services": "УСЛУГИ",
+    "news": "НОВОСТИ",
     "contact": "КОНТАКТЫ",
+    "product_menu": [
+      { "label": "Воздушные фильтры", "url": "/ru/shop/gaisa-filtri/" },
+      { "label": "City", "url": "/ru/shop/city/" },
+      { "label": "Технические ткани", "url": "/ru/shop/tehniskie-audumi/" },
+      { "label": "TBD", "url": "/ru/shop/tbd/" }
+    ],
+    "industry_menu": [
+      { "label": "Статьи", "url": "/ru/industries/raksti/" }
+    ],
     "service_menu": [
       { "label": "Проектирование", "url": "/ru/services/projektesana/" },
-      { "label": "Обслуживание и запасные части", "url": "/ru/services/apkope/" }
+      { "label": "Обслуживание", "url": "/ru/services/apkope/" }
     ]
   },
 
@@ -30,7 +41,7 @@
       { "label": "Связаться", "url": "/ru/contact/" }
     ],
     "service_links": [
-      { "label": "Доставка", "url": "#" },
+      { "label": "Монтаж", "url": "#" },
       { "label": "Гарантия", "url": "#" },
       { "label": "Политика конфиденциальности", "url": "#" },
       { "label": "Условия", "url": "#" }
@@ -47,7 +58,7 @@
     "quick_view": "Быстрый просмотр",
     "explore_collection": "Смотреть продукты",
     "view_all_categories": "Все категории",
-    "shop": "Магазин",
+    "shop": "Продукты",
     "search": "Поиск",
     "need_help": "Нужна помощь?",
     "send_message": "Отправить сообщение"

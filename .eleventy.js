@@ -1,4 +1,4 @@
-const { loadLocaleContent, loadProducts, loadServices, LOCALES, DEFAULT_LOCALE } = require("./lib/content");
+const { loadLocaleContent, loadProducts, loadServices, loadProductCategories, LOCALES, DEFAULT_LOCALE } = require("./lib/content");
 
 module.exports = async function (eleventyConfig) {
   // Eleventy v3 is ESM-only; load plugins via dynamic import in CommonJS config
@@ -37,8 +37,12 @@ module.exports = async function (eleventyConfig) {
     services: (data) => (data.locale ? loadLocaleContent(data.locale, "pages/services") : null),
     contact: (data) => (data.locale ? loadLocaleContent(data.locale, "pages/contact") : null),
     shop: (data) => (data.locale ? loadLocaleContent(data.locale, "pages/shop") : null),
+    industries: (data) => (data.locale ? loadLocaleContent(data.locale, "pages/industries") : null),
+    articles: (data) => (data.locale ? loadLocaleContent(data.locale, "pages/articles") : null),
+    news: (data) => (data.locale ? loadLocaleContent(data.locale, "pages/news") : null),
     products: (data) => (data.locale ? loadProducts(data.locale) : []),
     serviceItems: (data) => (data.locale ? loadServices(data.locale) : []),
+    productCategories: (data) => (data.locale ? loadProductCategories(data.locale) : []),
   });
 
   eleventyConfig.addCollection("allProducts", () => {
@@ -61,6 +65,16 @@ module.exports = async function (eleventyConfig) {
     return items;
   });
 
+  eleventyConfig.addCollection("allProductCategories", () => {
+    const items = [];
+    for (const locale of LOCALES) {
+      for (const category of loadProductCategories(locale)) {
+        items.push({ ...category, locale });
+      }
+    }
+    return items;
+  });
+
   eleventyConfig.addFilter("localePath", (pagePath, locale) => {
     const normalized = pagePath.replace(/^\//, "").replace(/index\.html$/, "");
     const suffix = normalized ? `${normalized}/` : "";
@@ -76,13 +90,6 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addFilter("nl2br", (value) => {
     if (!value) return "";
     return String(value).replace(/\n/g, "<br>");
-  });
-
-  eleventyConfig.addFilter("price", (value) => {
-    if (value === null || value === undefined || value === "") return "";
-    const num = Number(value);
-    if (Number.isNaN(num)) return value;
-    return `€${num.toFixed(2)}`;
   });
 
   eleventyConfig.addShortcode("year", () => String(new Date().getFullYear()));

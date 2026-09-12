@@ -1,0 +1,42 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: locales
+  size: 1
+  alias: locale
+permalink: "/{{ locale }}/industries/raksti/"
+currentPage: articles
+eleventyComputed:
+  pageTitle: "{{ articles.title }}"
+---
+<div class="page-title relative">
+    <div class="paralaximg" data-parallax="scroll" data-image-src="{{ articles.hero_image | asset | htmlBaseUrl }}"></div>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="title">{{ articles.hero_title }}</h3>
+                    <ul class="breadcrumb">
+                        <li><a href="/{{ locale }}/">{{ articles.breadcrumb_home }}</a></li>
+                        <li><a href="/{{ locale }}/industries/">{{ articles.breadcrumb_industries }}</a></li>
+                        <li>{{ articles.breadcrumb_current }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="flat-spacing-2">
+    <div class="container">
+        <div class="row justify-center">
+            <div class="col-lg-8">
+                <div class="heading-section text-center spacing-2">
+                    <h1 class="wow fadeInUp">{{ articles.main_heading }}</h1>
+                    <p class="text-body-1 text_secondary wow fadeInUp" data-wow-delay="0.1s">{{ articles.main_intro }}</p>
+                    <p class="text-body-1 text_secondary wow fadeInUp mt_16" data-wow-delay="0.2s">{{ articles.empty_state }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

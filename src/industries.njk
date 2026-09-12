@@ -1,0 +1,65 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: locales
+  size: 1
+  alias: locale
+permalink: "/{{ locale }}/industries/"
+currentPage: industries
+eleventyComputed:
+  pageTitle: "{{ industries.title }}"
+---
+<div class="page-title relative">
+    <div class="paralaximg" data-parallax="scroll" data-image-src="{{ industries.hero_image | asset | htmlBaseUrl }}"></div>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="title">{{ industries.hero_title }}</h3>
+                    <ul class="breadcrumb">
+                        <li><a href="/{{ locale }}/">{{ industries.breadcrumb_home }}</a></li>
+                        <li>{{ industries.breadcrumb_current }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="flat-spacing-2">
+    <div class="container">
+        <div class="row justify-center">
+            <div class="col-lg-8">
+                <div class="heading-section text-center spacing-2">
+                    <h1 class="wow fadeInUp">{{ industries.main_heading }}</h1>
+                    <p class="text-body-1 text_secondary wow fadeInUp" data-wow-delay="0.1s">{{ industries.main_intro }}</p>
+                </div>
+            </div>
+        </div>
+        {% if home.vision.sectors and home.vision.sectors.length %}
+        <div class="row g-4 mb_40">
+            {% for sector in home.vision.sectors %}
+            <div class="col-md-6 col-lg-4">
+                <div class="text-center wow fadeInUp" data-wow-delay="{{ (loop.index0 * 0.05) }}s">
+                    {% if sector.image %}
+                    <img class="lazyload mb_16" src="{{ sector.image | asset }}" data-src="{{ sector.image | asset | htmlBaseUrl }}" alt="{{ sector.title }}" width="72" height="72">
+                    {% endif %}
+                    <h5>{{ sector.title }}</h5>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+        <div class="row justify-center">
+            <div class="col-md-6">
+                <a href="/{{ locale }}/industries/raksti/" class="service-card hover-img wow fadeInUp">
+                    <div class="service-card-content">
+                        <h3 class="mb_12">{{ industries.articles_label }}</h3>
+                        <p class="text-body-1 text_secondary mb_16">{{ industries.articles_summary }}</p>
+                        <span class="tf-btn btn-onsurface">{{ industries.articles_label }} <i class="icon-arrow-up-right"></i></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

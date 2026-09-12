@@ -206,7 +206,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 32px;
+    gap: 18px;
+    flex-wrap: nowrap;
     .menu-item {
         padding: 34px 0;
         &:hover {
@@ -242,8 +243,9 @@ header {
         display: flex;
         gap: 4px;
         align-items: center;
-        font-size: 14px;
+        font-size: 13px;
         line-height: 22px;
+        white-space: nowrap;
         position: relative;
         color: #181818;
         .icon {

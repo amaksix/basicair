@@ -1,14 +1,13 @@
-{
+﻿{
   "title": "Multi split sistēma 7 kW",
   "slug": "multi-split-7kw",
-  "price": 1299.99,
-  "old_price": 1499.99,
-  "sale_badge": "-13%",
   "description": "Multi split risinājums vairākām telpām.",
   "body": "Viens āra bloks līdz 4 iekštelpu blokiem. Ideāli birojiem un lielākiem dzīvokļiem.",
   "image": "/images/shop/product-2.jpg",
   "image_hover": "/images/shop/product-2.1.jpg",
   "featured": true,
   "order": 2,
-  "gallery": [{ "image": "/images/shop/product-2.jpg" }]
+  "gallery": [
+    { "image": "/images/shop/product-2.jpg" }
+  ]
 }

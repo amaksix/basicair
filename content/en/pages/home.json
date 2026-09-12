@@ -27,19 +27,20 @@
     }
   ],
   "categories": [
-    { "title": "Home AC Units", "image": "/images/section/collections-banner.jpg", "url": "/en/shop/" },
-    { "title": "Office Systems", "image": "/images/section/collections-banner-1.jpg", "url": "/en/shop/" },
-    { "title": "Ventilation", "image": "/images/section/collections-banner-2.jpg", "url": "/en/shop/" },
-    { "title": "Maintenance", "image": "/images/section/collections-banner-3.jpg", "url": "/en/services/" },
-    { "title": "Accessories", "image": "/images/section/collections-banner-4.jpg", "url": "/en/shop/" }
+    { "title": "Air filters", "image": "/images/section/collections-banner.jpg", "url": "/en/shop/gaisa-filtri/" },
+    { "title": "City", "image": "/images/section/collections-banner-1.jpg", "url": "/en/shop/city/" },
+    { "title": "Technical fabrics", "image": "/images/section/collections-banner-2.jpg", "url": "/en/shop/tehniskie-audumi/" },
+    { "title": "Maintenance", "image": "/images/section/collections-banner-3.jpg", "url": "/en/services/apkope/" },
+    { "title": "Design", "image": "/images/section/collections-banner-4.jpg", "url": "/en/services/projektesana/" }
   ],
   "vision": {
-    "heading": "Ensuring clean indoor air in every sector is our challenge and vision",
+    "heading": "Professional solutions for cleaner and healthier indoor air",
     "paragraphs": [
-      "The Basic Air team has been working in the clean air segment since 2009. We develop the most suitable indoor air purification projects across all areas of everyday and working environments, such as hospitals, dental practices, social care centres, schools, universities, hotels, restaurants and retail locations.",
-      "Air purification is essential for a productive indoor workplace. The Basic Air team's task is to help your organisation keep on-site work going by reducing airborne transferable viruses and making the environment safer for both employees and clients. HEPA filtration is ideally suited to capturing coronavirus particles, whether they are airborne aerosols or larger droplet forms.",
-      "Ensuring and monitoring clean indoor air is the main goal of our cooperation partners. The Swedish company Camfil is one of the largest players in the industry, with more than 50 years of experience. Camfil products stand out with ascetic Scandinavian design and impeccable quality, using the latest methods such as room airflow simulation and visualisation, as well as scientific testing.",
-      "The manufacturer has succeeded in developing an optimal air purification solution for every challenge."
+      "BasicAir offers air filtration, purification and indoor air quality control solutions for homes, offices, educational and healthcare facilities, hotels, restaurants, retail locations, warehouses and production facilities.",
+      "Our team has been working in air quality solutions since 2009. By assessing how spaces are used, pollution sources and ventilation system performance, we select the most suitable technical solution for each site — from air filters and air quality measurement to professional and industrial air purification equipment.",
+      "Quality air filtration helps reduce dust, allergens, aerosols and other airborne particles, improving the indoor environment for employees, clients and visitors.",
+      "For professional filtration solutions, we partner with Swedish air filtration company Camfil, which has been active in the industry for more than 50 years. Using proven technologies, airflow simulations and site-specific calculations, we help select an effective and economically sound air quality solution.",
+      "Contact BasicAir for a consultation and a solution tailored to your premises."
     ],
     "sectors": [
       { "title": "Public buildings and business centres", "image": "/images/icons/sector-public.webp" },
