@@ -230,7 +230,8 @@ collections:
     identifier_field: title
     summary: "{{title}}"
     fields:
-      - { label: Title, name: title, widget: string }
+      - { label: Title, name: title, widget: string, hint: "Short name for nav, breadcrumb and listing cards" }
+      - { label: Heading, name: heading, widget: string, required: false, hint: "Optional page H1; falls back to Title" }
       - { label: Slug, name: slug, widget: string, hint: "Used in URL, e.g. projektesana" }
       - { label: Sort Order, name: order, widget: number, default: 0, required: false }
       - { label: Summary, name: summary, widget: text, hint: "Short text on the services listing page" }
@@ -239,6 +240,17 @@ collections:
       - label: Paragraphs
         name: paragraphs
         widget: list
+        field: { label: Paragraph, name: paragraph, widget: text }
+      - { label: Bullets Intro, name: bullets_intro, widget: text, required: false }
+      - label: Bullets
+        name: bullets
+        widget: list
+        required: false
+        field: { label: Item, name: item, widget: string }
+      - label: Closing Paragraphs
+        name: closing_paragraphs
+        widget: list
+        required: false
         field: { label: Paragraph, name: paragraph, widget: text }
       - { label: CTA Button Text, name: cta_text, widget: string }
 

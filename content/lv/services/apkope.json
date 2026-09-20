@@ -1,14 +1,25 @@
 {
-  "title": "Apkope un rezerves daļas",
+  "title": "Serviss un apkope",
+  "heading": "Ventilācijas iekārtu serviss un tehniskā apkope",
   "slug": "apkope",
   "order": 2,
-  "summary": "Tehniskā apkope, remonts un rezerves daļas sadarbībā ar “Klimata serviss”.",
+  "summary": "Ventilācijas iekārtu serviss, tehniskā apkope, diagnostika, remonts un gaisa filtru nomaiņa.",
   "image": "/images/section/collections-banner-3.jpg",
   "hero_image": "/images/page-title/page-title-6.jpg",
   "paragraphs": [
-    "BasicAir nodrošinās servisa un apkopes saviem klientiem sadarbībā ar uzņēmumu “Klimata serviss”.",
-    "Servisa pakalpojumos ietilpst tādi darbi kā tehniskā apsekošana, regulēšana un nepieciešamības gadījumā remonts. Tehniskā apkope tiek veikta atbilstoši ražotāja ieteikumiem un grafikiem, kas saskaņoti ar pasūtītāju.",
-    "Lai pagarinātu iekārtas ekspluatācijas laiku, savlaicīgi ir jānovērš bojājumi vai jāveic apkopes. Iekārtu uzstādīšanas speciālisti sniegs Jums konsultāciju par iekārtas pareizu ekspluatāciju un Jums optimālākajiem tehniskajiem risinājumiem."
+    "BasicAir nodrošina ventilācijas iekārtu servisu, tehnisko apkopi un remontu, lai iekārtas darbotos efektīvi, droši un uzticami.",
+    "Servisa pakalpojumi ietver ventilācijas iekārtu tehnisko apsekošanu, darbības pārbaudi, regulēšanu, diagnostiku un nepieciešamo remontu, kā arī gaisa filtru pārbaudi un nomaiņu. Piemērotākos ventilācijas filtrus izvēlamies atbilstoši konkrētās iekārtas modelim, ekspluatācijas apstākļiem un nepieciešamajai filtrācijas klasei.",
+    "Regulārā tehniskā apkope tiek veikta saskaņā ar iekārtas ražotāja norādījumiem un ar klientu iepriekš saskaņotu apkopes grafiku."
+  ],
+  "bullets_intro": "Savlaicīga apkope un ventilācijas filtru nomaiņa palīdz:",
+  "bullets": [
+    "pagarināt ventilācijas iekārtu kalpošanas laiku",
+    "samazināt neparedzētu bojājumu risku",
+    "uzturēt efektīvu un ekonomisku iekārtu darbību",
+    "nodrošināt nepieciešamo gaisa apmaiņu un labu iekštelpu gaisa kvalitāti"
+  ],
+  "closing_paragraphs": [
+    "BasicAir speciālisti konsultēs par ventilācijas iekārtu pareizu ekspluatāciju, filtru nomaiņas biežumu, nepieciešamajiem apkopes darbiem un konkrētajam objektam piemērotākajiem tehniskajiem risinājumiem."
   ],
   "cta_text": "Sazināties ar mums"
 }

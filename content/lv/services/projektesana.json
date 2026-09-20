@@ -1,14 +1,16 @@
 {
   "title": "Projektēšana",
+  "heading": "Ventilācijas sistēmu projektēšana",
   "slug": "projektesana",
   "order": 1,
-  "summary": "Profesionāla projektēšana atbilstoši Latvijas būvnormatīviem — no privātmājām līdz rūpniecības objektiem.",
+  "summary": "Ventilācijas sistēmu projektēšana ražotnēm, industriālajiem objektiem, noliktavām, birojiem un sabiedriskajām ēkām.",
   "image": "/images/section/collections-banner-2.jpg",
   "hero_image": "/images/page-title/page-title-6.jpg",
   "paragraphs": [
-    "BasicAir projektētāji ir augsti kvalificēti un profesionāli ar pieredzi dažādu veidu un apjoma projektu izstrādē, projektējot atbilstoši Latvijas būvnormatīviem.",
-    "Projektētājs sniedz mūsdienīgākos un cenas ziņā klientam optimālākos tehniskos risinājumus, atbilstošus visām ugunsdrošības un sanitārajām prasībām. Projektētāji strādā ar modernām projektēšanas programmām, kas garantē augstu projekta kvalitāti.",
-    "BasicAir projektētāji izstrādās klientam labāko tehnisko risinājumu un sniegs klientam ieteikumus par atbilstošāko iekārtu izvēli dažādiem projektiem, piemēram, privātmājām vai dzīvokļiem, kā arī lielāka apjoma objektiem – rūpniecības un ražošanas telpām, noliktavām un birojiem, skolām un bērnu dārziem vai ēdināšanas telpām."
+    "BasicAir piedāvā ventilācijas sistēmu projektēšanu ražotnēm, industriālajiem objektiem, noliktavām, birojiem un sabiedriskajām ēkām.",
+    "Mūsu projektētāji izstrādā dažāda veida un apjoma ventilācijas projektus atbilstoši Latvijas būvnormatīviem, ugunsdrošības un higiēnas prasībām. Katram objektam izstrādājam tehniski pamatotu, energoefektīvu un izmaksu ziņā optimālu risinājumu.",
+    "Projektēšanā izmantojam mūsdienīgas programmas, kas ļauj precīzi veikt nepieciešamos aprēķinus, izvēlēties piemērotākās ventilācijas iekārtas un sagatavot kvalitatīvu projekta dokumentāciju.",
+    "Mūsu speciālisti konsultē par konkrētajam objektam piemērotāko ventilācijas sistēmu un palīdz izvēlēties iekārtas, ņemot vērā telpu izmantošanas veidu, nepieciešamo gaisa apmaiņu, energoefektivitāti, trokšņa līmeni un projekta budžetu."
   ],
-  "cta_text": "Sazināties ar mums"
+  "cta_text": "Saņemt konsultāciju"
 }

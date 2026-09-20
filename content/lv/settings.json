@@ -23,7 +23,7 @@
     ],
     "service_menu": [
       { "label": "Projektēšana", "url": "/lv/services/projektesana/" },
-      { "label": "Apkope", "url": "/lv/services/apkope/" }
+      { "label": "Serviss un apkope", "url": "/lv/services/apkope/" }
     ]
   },
 
