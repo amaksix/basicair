@@ -1,0 +1,15 @@
+{
+  "title": "HEPA filtration for cleanrooms and critical zones",
+  "slug": "hepa-cleanroom-filtration",
+  "date": "2026-05-12",
+  "market": "Life sciences",
+  "order": 4,
+  "summary": "High-efficiency filters and sealed installation are prerequisites for controlled environments.",
+  "image": "/images/section/collections-banner-2.jpg",
+  "hero_image": "/images/page-title/page-title-6.jpg",
+  "paragraphs": [
+    "In cleanrooms and critical medical or lab zones, HEPA and ULPA filters capture fine particles that would otherwise threaten process or patient safety. Filter class alone is not enough — sealing, airflow direction and validation matter just as much.",
+    "Maintenance must avoid bypass around the media. Documenting differential pressure and periodic checks supports internal and external compliance.",
+    "When specifying filters, consider zone classification, air-change rates and how the facility actually operates."
+  ]
+}

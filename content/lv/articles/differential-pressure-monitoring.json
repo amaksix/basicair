@@ -1,0 +1,16 @@
+{
+  "title": "Kā spiediena starpība palīdz novērst filtru atteices",
+  "slug": "differential-pressure-monitoring",
+  "date": "2026-08-07",
+  "market": "Industriālais sektors",
+  "order": 1,
+  "summary": "Spiediena starpības monitorings rāda, cik efektīvi darbojas filtrācija un kad filtrs ir jāmaina.",
+  "image": "/images/section/collections-banner-2.jpg",
+  "hero_image": "/images/page-title/page-title-6.jpg",
+  "paragraphs": [
+    "Spiediena starpība (differential pressure) ir viena no svarīgākajām mērījumu vērtībām daļiņu filtrācijas sistēmās. Tā ir starpība starp spiedienu filtra korpusa ieejā un izejā un rāda, cik lielu pretestību rada filtrējošais materiāls.",
+    "Kad piesārņojums uzkrājas, pretestība un spiediena starpība pieaug. Lielākā daļa ražotāju norāda ieteicamo un maksimālo maiņas spiedienu. Bieži vien pieņem, ka filtrs jāizmanto līdz maksimālajam līmenim, taču pēc aptuveni 15–20 psi spiediens var sākt augt eksponenciāli, tāpēc kalpošanas laiks nepagarinās proporcionāli.",
+    "Mērīšanai izmanto divus manometrus, vienu diferenciālo manometru vai sensorus ar PLC un trauksmēm. Zema sākotnējā spiediena starpība tīram filtram (bieži zem 2 psi) nozīmē, ka sistēma ir pareizi izmērīta un filtrs kalpos ilgāk.",
+    "Pēkšņs spiediena kritums bez plūsmas izmaiņām var signalizēt par filtra bojājumu. Regulāra uzraudzība aizsargā lejupējās iekārtas un samazina avārijas dīkstāves risku."
+  ]
+}

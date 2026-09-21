@@ -393,6 +393,8 @@ collections:
           - { label: Hero Background, name: hero_image, widget: image }
           - { label: Main Heading, name: main_heading, widget: string }
           - { label: Main Intro, name: main_intro, widget: text }
+          - { label: Markets Heading, name: markets_heading, widget: string, required: false }
+          - { label: Markets Intro, name: markets_intro, widget: text, required: false }
           - { label: Articles Label, name: articles_label, widget: string }
           - { label: Articles Summary, name: articles_summary, widget: text }
       - label: Industries Page (English)
@@ -403,6 +405,27 @@ collections:
         name: industries-ru
         file: content/ru/pages/industries.json
         fields: *industries_fields
+
+  - name: industry_markets
+    label: Industry Markets
+    label_singular: Industry Market
+    i18n: true
+    folder: "content/{{locale}}/industry-markets"
+    create: true
+    slug: "{{slug}}"
+    extension: json
+    format: json
+    identifier_field: title
+    summary: "{{title}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string, hint: "Used in URL, e.g. hvac-hepa" }
+      - { label: Sort Order, name: order, widget: number, default: 0, required: false }
+      - { label: Summary, name: summary, widget: text, hint: "Short intro shown above the text block" }
+      - label: Paragraphs
+        name: paragraphs
+        widget: list
+        field: { label: Paragraph, name: paragraph, widget: text }
 
   - name: articles_page
     label: Articles Page
@@ -419,6 +442,7 @@ collections:
           - { label: Hero Background, name: hero_image, widget: image }
           - { label: Main Heading, name: main_heading, widget: string }
           - { label: Main Intro, name: main_intro, widget: text }
+          - { label: Read More Label, name: read_more, widget: string }
           - { label: Empty State, name: empty_state, widget: text }
       - label: Articles Page (English)
         name: articles-en
@@ -428,6 +452,31 @@ collections:
         name: articles-ru
         file: content/ru/pages/articles.json
         fields: *articles_fields
+
+  - name: articles
+    label: Articles
+    label_singular: Article
+    i18n: true
+    folder: "content/{{locale}}/articles"
+    create: true
+    slug: "{{slug}}"
+    extension: json
+    format: json
+    identifier_field: title
+    summary: "{{title}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string, hint: "Used in URL, e.g. differential-pressure-monitoring" }
+      - { label: Date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false }
+      - { label: Market / Category, name: market, widget: string, required: false, hint: "e.g. Industrial, HVAC / HEPA" }
+      - { label: Sort Order, name: order, widget: number, default: 0, required: false, hint: "Used only when dates match" }
+      - { label: Summary, name: summary, widget: text, hint: "Shown on the articles listing page" }
+      - { label: Card Image, name: image, widget: image, required: false }
+      - { label: Hero Image, name: hero_image, widget: image, required: false }
+      - label: Paragraphs
+        name: paragraphs
+        widget: list
+        field: { label: Paragraph, name: paragraph, widget: text }
 
   - name: news_page
     label: News Page

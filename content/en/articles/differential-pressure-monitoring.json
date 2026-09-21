@@ -1,0 +1,16 @@
+{
+  "title": "Preventing filter failure with differential pressure monitoring",
+  "slug": "differential-pressure-monitoring",
+  "date": "2026-08-07",
+  "market": "Industrial",
+  "order": 1,
+  "summary": "Differential pressure monitoring shows how filtration is performing and when a filter should be changed.",
+  "image": "/images/section/collections-banner-2.jpg",
+  "hero_image": "/images/page-title/page-title-6.jpg",
+  "paragraphs": [
+    "Differential pressure is one of the most important measurements in particulate filtration systems. It is the difference between inlet and outlet pressure across a filter housing and shows how much resistance the media is creating.",
+    "As contaminants load the media, resistance and differential pressure rise. Manufacturers publish recommended and maximum change-out pressures. Running a filter all the way to the maximum rating rarely doubles life, because after roughly 15–20 psi pressure often rises exponentially.",
+    "Operators can use two gauges, a dedicated differential gauge, or sensors tied to a PLC with alarms. A low clean start-up differential (often below 2 psi) indicates the system is sized correctly and leaves more usable life before change-out.",
+    "A sudden drop in differential without a flow change can signal media breakthrough. Steady monitoring protects downstream equipment and reduces unplanned downtime."
+  ]
+}

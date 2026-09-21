@@ -1,4 +1,13 @@
-const { loadLocaleContent, loadProducts, loadServices, loadProductCategories, LOCALES, DEFAULT_LOCALE } = require("./lib/content");
+const {
+  loadLocaleContent,
+  loadProducts,
+  loadServices,
+  loadProductCategories,
+  loadIndustryMarkets,
+  loadArticles,
+  LOCALES,
+  DEFAULT_LOCALE,
+} = require("./lib/content");
 
 module.exports = async function (eleventyConfig) {
   // Eleventy v3 is ESM-only; load plugins via dynamic import in CommonJS config
@@ -43,6 +52,8 @@ module.exports = async function (eleventyConfig) {
     products: (data) => (data.locale ? loadProducts(data.locale) : []),
     serviceItems: (data) => (data.locale ? loadServices(data.locale) : []),
     productCategories: (data) => (data.locale ? loadProductCategories(data.locale) : []),
+    industryMarkets: (data) => (data.locale ? loadIndustryMarkets(data.locale) : []),
+    articleItems: (data) => (data.locale ? loadArticles(data.locale) : []),
   });
 
   eleventyConfig.addCollection("allProducts", () => {
@@ -73,6 +84,38 @@ module.exports = async function (eleventyConfig) {
       }
     }
     return items;
+  });
+
+  eleventyConfig.addCollection("allIndustryMarkets", () => {
+    const items = [];
+    for (const locale of LOCALES) {
+      for (const market of loadIndustryMarkets(locale)) {
+        items.push({ ...market, locale });
+      }
+    }
+    return items;
+  });
+
+  eleventyConfig.addCollection("allArticles", () => {
+    const items = [];
+    for (const locale of LOCALES) {
+      for (const article of loadArticles(locale)) {
+        items.push({ ...article, locale });
+      }
+    }
+    return items;
+  });
+
+  eleventyConfig.addFilter("formatDate", (value, locale = "lv") => {
+    if (!value) return "";
+    const date = value instanceof Date ? value : new Date(value);
+    if (Number.isNaN(date.getTime())) return String(value);
+    const localeMap = { lv: "lv-LV", en: "en-GB", ru: "ru-RU" };
+    return date.toLocaleDateString(localeMap[locale] || "lv-LV", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
   });
 
   eleventyConfig.addFilter("localePath", (pagePath, locale) => {

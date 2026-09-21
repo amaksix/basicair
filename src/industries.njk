@@ -50,6 +50,38 @@ eleventyComputed:
             {% endfor %}
         </div>
         {% endif %}
+
+        {% set markets = industryMarkets %}
+        {% if markets and markets.length %}
+        <div class="row justify-center mb_40">
+            <div class="col-lg-8">
+                <div class="heading-section text-center">
+                    {% if industries.markets_heading %}
+                    <h2 class="wow fadeInUp">{{ industries.markets_heading }}</h2>
+                    {% endif %}
+                    {% if industries.markets_intro %}
+                    <p class="text-body-1 text_secondary wow fadeInUp" data-wow-delay="0.1s">{{ industries.markets_intro }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="row justify-center mb_40">
+            <div class="col-lg-8">
+                {% for market in markets %}
+                <div class="wow fadeInUp{% if not loop.last %} mb_40{% endif %}" data-wow-delay="{{ (loop.index0 * 0.05) }}s">
+                    <h3 class="mb_12">{{ market.title }}</h3>
+                    {% if market.summary %}
+                    <p class="text-body-1 text_secondary mb_16">{{ market.summary }}</p>
+                    {% endif %}
+                    {% for paragraph in market.paragraphs %}
+                    <p class="text-body-1 text_secondary{% if not loop.last %} mb_16{% endif %}">{{ paragraph }}</p>
+                    {% endfor %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
         <div class="row justify-center">
             <div class="col-md-6">
                 <a href="/{{ locale }}/industries/raksti/" class="service-card hover-img wow fadeInUp">

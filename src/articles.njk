@@ -34,9 +34,43 @@ eleventyComputed:
                 <div class="heading-section text-center spacing-2">
                     <h1 class="wow fadeInUp">{{ articles.main_heading }}</h1>
                     <p class="text-body-1 text_secondary wow fadeInUp" data-wow-delay="0.1s">{{ articles.main_intro }}</p>
-                    <p class="text-body-1 text_secondary wow fadeInUp mt_16" data-wow-delay="0.2s">{{ articles.empty_state }}</p>
                 </div>
             </div>
         </div>
+
+        {% set items = articleItems %}
+        {% if items and items.length %}
+        <div class="row g-4">
+            {% for item in items %}
+            <div class="col-md-6">
+                <a href="/{{ locale }}/industries/raksti/{{ item.slug }}/" class="service-card hover-img wow fadeInUp">
+                    {% if item.image %}
+                    <div class="image img-style">
+                        <img class="lazyload" src="{{ item.image | asset }}" data-src="{{ item.image | asset | htmlBaseUrl }}" alt="{{ item.title }}">
+                    </div>
+                    {% endif %}
+                    <div class="service-card-content">
+                        {% if item.market or item.date %}
+                        <p class="text-body-1 text_secondary mb_8">
+                            {% if item.market %}<span>{{ item.market }}</span>{% endif %}
+                            {% if item.market and item.date %} · {% endif %}
+                            {% if item.date %}<span>{{ item.date | formatDate(locale) }}</span>{% endif %}
+                        </p>
+                        {% endif %}
+                        <h3 class="mb_12">{{ item.title }}</h3>
+                        <p class="text-body-1 text_secondary mb_16">{{ item.summary }}</p>
+                        <span class="tf-btn btn-onsurface">{{ articles.read_more }} <i class="icon-arrow-up-right"></i></span>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="row justify-center">
+            <div class="col-lg-8">
+                <p class="text-body-1 text_secondary text-center wow fadeInUp">{{ articles.empty_state }}</p>
+            </div>
+        </div>
+        {% endif %}
     </div>
 </section>

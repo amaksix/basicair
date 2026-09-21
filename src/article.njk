@@ -1,0 +1,58 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.allArticles
+  size: 1
+  alias: article
+permalink: "/{{ article.locale }}/industries/raksti/{{ article.slug }}/"
+currentPage: article
+eleventyComputed:
+  locale: "{{ article.locale }}"
+  pageTitle: "{{ article.title }} — BasicAir"
+---
+<div class="page-title relative">
+    <div class="paralaximg" data-parallax="scroll" data-image-src="{{ (article.hero_image or articles.hero_image) | asset | htmlBaseUrl }}"></div>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="title">{{ article.title }}</h3>
+                    <ul class="breadcrumb">
+                        <li><a href="/{{ locale }}/">{{ articles.breadcrumb_home }}</a></li>
+                        <li><a href="/{{ locale }}/industries/">{{ articles.breadcrumb_industries }}</a></li>
+                        <li><a href="/{{ locale }}/industries/raksti/">{{ articles.breadcrumb_current }}</a></li>
+                        <li>{{ article.title }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="flat-spacing-2">
+    <div class="container">
+        <div class="row justify-center">
+            <div class="col-lg-8">
+                <div class="heading-section spacing-2">
+                    {% if article.market or article.date %}
+                    <p class="text-body-1 text_secondary wow fadeInUp mb_12">
+                        {% if article.market %}<span>{{ article.market }}</span>{% endif %}
+                        {% if article.market and article.date %} · {% endif %}
+                        {% if article.date %}<span>{{ article.date | formatDate(locale) }}</span>{% endif %}
+                    </p>
+                    {% endif %}
+                    <h1 class="wow fadeInUp">{{ article.title }}</h1>
+                    {% if article.summary %}
+                    <p class="text-body-1 text_secondary wow fadeInUp mb_16" data-wow-delay="0.05s">{{ article.summary }}</p>
+                    {% endif %}
+                    {% for paragraph in article.paragraphs %}
+                    <p class="text-body-1 text_secondary wow fadeInUp{% if not loop.last %} mb_16{% endif %}" data-wow-delay="{{ (loop.index0 * 0.1 + 0.1) }}s">{{ paragraph }}</p>
+                    {% endfor %}
+                    <div class="mt_30 wow fadeInUp" data-wow-delay="0.3s">
+                        <a href="/{{ locale }}/industries/raksti/" class="tf-btn btn-onsurface">{{ articles.breadcrumb_current }} <i class="icon-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

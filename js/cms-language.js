@@ -7,6 +7,7 @@
     service: "services/",
     industries: "industries/",
     articles: "industries/raksti/",
+    article: "industries/raksti/",
     news: "news/",
     contact: "contact/",
     product: "products/"
@@ -28,6 +29,7 @@
       var productSlug = select.dataset.productSlug;
       var serviceSlug = select.dataset.serviceSlug;
       var categorySlug = select.dataset.categorySlug;
+      var articleSlug = select.dataset.articleSlug;
       var path = pageMap[currentPage] || "";
 
       if (currentPage === "product" && productSlug) {
@@ -42,6 +44,11 @@
 
       if (currentPage === "product-category" && categorySlug) {
         window.location.href = withPrefix("/" + locale + "/shop/" + categorySlug + "/");
+        return;
+      }
+
+      if (currentPage === "article" && articleSlug) {
+        window.location.href = withPrefix("/" + locale + "/industries/raksti/" + articleSlug + "/");
         return;
       }
 
