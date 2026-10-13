@@ -1,0 +1,15 @@
+{
+  "title": "City M",
+  "slug": "city-m",
+  "category": "city",
+  "description": "City M gaisa attīrītājs vidēja izmēra telpām.",
+  "body": "City M ir kompakts gaisa attīrītājs, kas piemērots birojiem un dzīvojamām telpām ar vidēju platību.",
+  "image": "/images/shop/product-6.jpg",
+  "featured": true,
+  "order": 1,
+  "gallery": [
+    {
+      "image": "/images/shop/product-6.jpg"
+    }
+  ]
+}

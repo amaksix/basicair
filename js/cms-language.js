@@ -6,9 +6,9 @@
     services: "services/",
     service: "services/",
     industries: "industries/",
-    articles: "industries/raksti/",
-    article: "industries/raksti/",
-    news: "news/",
+    "industry-market": "industries/",
+    article: "zinojumi/",
+    news: "zinojumi/",
     contact: "contact/",
     product: "products/"
   };
@@ -30,6 +30,7 @@
       var serviceSlug = select.dataset.serviceSlug;
       var categorySlug = select.dataset.categorySlug;
       var articleSlug = select.dataset.articleSlug;
+      var marketSlug = select.dataset.marketSlug;
       var path = pageMap[currentPage] || "";
 
       if (currentPage === "product" && productSlug) {
@@ -48,7 +49,12 @@
       }
 
       if (currentPage === "article" && articleSlug) {
-        window.location.href = withPrefix("/" + locale + "/industries/raksti/" + articleSlug + "/");
+        window.location.href = withPrefix("/" + locale + "/zinojumi/" + articleSlug + "/");
+        return;
+      }
+
+      if (currentPage === "industry-market" && marketSlug) {
+        window.location.href = withPrefix("/" + locale + "/industries/" + marketSlug + "/");
         return;
       }
 

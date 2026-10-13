@@ -1,0 +1,15 @@
+{
+  "title": "Угольные фильтры",
+  "slug": "ogles-filtri",
+  "category": "gaisa-filtri",
+  "description": "Фильтры с активированным углем для снижения запахов и газообразных загрязнений.",
+  "body": "Угольные фильтры помогают снижать запахи и газообразные загрязнения, улучшая качество воздуха в помещении.",
+  "image": "/images/shop/product-4.jpg",
+  "featured": false,
+  "order": 4,
+  "gallery": [
+    {
+      "image": "/images/shop/product-4.jpg"
+    }
+  ]
+}

@@ -28,10 +28,9 @@
   ],
   "categories": [
     { "title": "Воздушные фильтры", "image": "/images/section/collections-banner.jpg", "url": "/ru/shop/gaisa-filtri/" },
-    { "title": "City", "image": "/images/section/collections-banner-1.jpg", "url": "/ru/shop/city/" },
-    { "title": "Технические ткани", "image": "/images/section/collections-banner-2.jpg", "url": "/ru/shop/tehniskie-audumi/" },
-    { "title": "Обслуживание", "image": "/images/section/collections-banner-3.jpg", "url": "/ru/services/apkope/" },
-    { "title": "Проектирование", "image": "/images/section/collections-banner-4.jpg", "url": "/ru/services/projektesana/" }
+    { "title": "Очистители воздуха: City", "image": "/images/section/collections-banner-1.jpg", "url": "/ru/shop/city/" },
+    { "title": "Промышленные очистители воздуха", "image": "/images/section/collections-banner-2.jpg", "url": "/ru/shop/industrialie-gaisa-attiritaji/" },
+    { "title": "Технические ткани", "image": "/images/section/collections-banner-3.jpg", "url": "/ru/shop/tehniskie-audumi/" }
   ],
   "vision": {
     "heading": "Профессиональные решения для более чистого и здорового воздуха в помещениях",

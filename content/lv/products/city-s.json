@@ -1,0 +1,15 @@
+{
+  "title": "City S",
+  "slug": "city-s",
+  "category": "city",
+  "description": "City S gaisa attīrītājs mazākām telpām.",
+  "body": "City S ir kompaktāks modelis telpām, kur nepieciešams efektīvs gaisa attīrīšanas risinājums nelielā izmērā.",
+  "image": "/images/shop/product-7.jpg",
+  "featured": false,
+  "order": 2,
+  "gallery": [
+    {
+      "image": "/images/shop/product-7.jpg"
+    }
+  ]
+}

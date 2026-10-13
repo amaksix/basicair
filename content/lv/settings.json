@@ -10,16 +10,17 @@
     "products": "PRODUKTI",
     "industries": "NOZARES",
     "services": "PAKALPOJUMI",
-    "news": "JAUNUMI",
+    "news": "ZIŅOJUMI",
     "contact": "KONTAKTI",
     "product_menu": [
       { "label": "Gaisa filtri", "url": "/lv/shop/gaisa-filtri/" },
-      { "label": "City", "url": "/lv/shop/city/" },
-      { "label": "Tehniskie audumi", "url": "/lv/shop/tehniskie-audumi/" },
-      { "label": "TBD", "url": "/lv/shop/tbd/" }
+      { "label": "Gaisa attīrītāji: City", "url": "/lv/shop/city/" },
+      { "label": "Industriālie gaisa attīrītāji", "url": "/lv/shop/industrialie-gaisa-attiritaji/" },
+      { "label": "Tehniskie audumi", "url": "/lv/shop/tehniskie-audumi/" }
     ],
     "industry_menu": [
-      { "label": "Raksti", "url": "/lv/industries/raksti/" }
+      { "label": "Vispārējā iekštelpu ventilācija", "url": "/lv/industries/vispareja-iekstelpu-ventilacija/" },
+      { "label": "Apstrādes rūpniecība", "url": "/lv/industries/apstrades-rupnieciba/" }
     ],
     "service_menu": [
       { "label": "Projektēšana", "url": "/lv/services/projektesana/" },
@@ -61,6 +62,7 @@
     "shop": "Produkti",
     "search": "Meklēt",
     "need_help": "Nepieciešama palīdzība?",
-    "send_message": "Nosūtīt ziņu"
+    "send_message": "Nosūtīt ziņu",
+    "learn_more": "Uzzināt vairāk"
   }
 }

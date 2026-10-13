@@ -1,0 +1,15 @@
+{
+  "title": "Рукавные мешочные фильтры",
+  "slug": "piedurknu-maisu-filtri",
+  "category": "gaisa-filtri",
+  "description": "Рукавные мешочные фильтры для промышленной и коммерческой фильтрации.",
+  "body": "Рукавные мешочные фильтры используются для улавливания пыли и частиц в системах, где нужна прочная и эффективная фильтрация.",
+  "image": "/images/shop/product-3.jpg",
+  "featured": false,
+  "order": 3,
+  "gallery": [
+    {
+      "image": "/images/shop/product-3.jpg"
+    }
+  ]
+}

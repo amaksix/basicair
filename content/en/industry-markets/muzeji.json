@@ -1,0 +1,13 @@
+{
+  "title": "Museums",
+  "slug": "muzeji",
+  "order": 5,
+  "parent": "vispareja-iekstelpu-ventilacija",
+  "summary": "Air quality and filtration solutions for: Museums.",
+  "image": "/images/section/categories-5.jpg",
+  "hero_image": "/images/section/categories-5.jpg",
+  "paragraphs": [
+    "BasicAir provides tailored air filtration and ventilation solutions for «Museums». Contact us for a custom proposal."
+  ],
+  "cta_text": "Contact us"
+}

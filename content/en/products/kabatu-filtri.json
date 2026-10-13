@@ -1,0 +1,15 @@
+{
+  "title": "Pocket filters",
+  "slug": "kabatu-filtri",
+  "category": "gaisa-filtri",
+  "description": "Pocket filters for ventilation and heat-recovery systems.",
+  "body": "Pocket filters provide effective dust and particle capture in ventilation systems. Available in multiple filter classes and sizes.",
+  "image": "/images/shop/product-1.jpg",
+  "featured": false,
+  "order": 1,
+  "gallery": [
+    {
+      "image": "/images/shop/product-1.jpg"
+    }
+  ]
+}

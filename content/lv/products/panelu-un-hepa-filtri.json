@@ -1,0 +1,15 @@
+{
+  "title": "Paneļu un HEPA filtri",
+  "slug": "panelu-un-hepa-filtri",
+  "category": "gaisa-filtri",
+  "description": "Paneļu un HEPA filtri augstas kvalitātes gaisa filtrācijai.",
+  "body": "Paneļu un HEPA filtri piemēroti situācijām, kur nepieciešama augsta filtrācijas efektivitāte, tostarp tīrām un jutīgām telpām.",
+  "image": "/images/shop/product-2.jpg",
+  "featured": false,
+  "order": 2,
+  "gallery": [
+    {
+      "image": "/images/shop/product-2.jpg"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Airports",
+  "slug": "lidostas",
+  "order": 7,
+  "parent": "vispareja-iekstelpu-ventilacija",
+  "summary": "Air quality and filtration solutions for: Airports.",
+  "image": "/images/banner/collections-1.jpg",
+  "hero_image": "/images/banner/collections-1.jpg",
+  "paragraphs": [
+    "BasicAir provides tailored air filtration and ventilation solutions for «Airports». Contact us for a custom proposal."
+  ],
+  "cta_text": "Contact us"
+}

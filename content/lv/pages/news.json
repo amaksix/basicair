@@ -1,10 +1,11 @@
 {
-  "title": "BasicAir — Jaunumi",
+  "title": "BasicAir — Ziņojumi",
   "breadcrumb_home": "Sākums",
-  "breadcrumb_current": "Jaunumi",
-  "hero_title": "Jaunumi",
+  "breadcrumb_current": "Ziņojumi",
+  "hero_title": "Ziņojumi",
   "hero_image": "/images/page-title/page-title-6.jpg",
-  "main_heading": "Uzņēmuma jaunumi",
-  "main_intro": "Aktuālā informācija par BasicAir produktiem, pakalpojumiem un nozares aktualitātēm.",
-  "empty_state": "Jaunumi tiek sagatavoti. Drīzumā šeit būs pieejamas aktualitātes."
+  "main_heading": "Ziņojumi",
+  "main_intro": "Ieskati par filtrāciju, gaisa kvalitāti un risinājumiem dažādiem gala lietojuma tirgiem.",
+  "read_more": "Lasīt vairāk",
+  "empty_state": "Ziņojumi tiek sagatavoti. Drīzumā šeit būs pieejamas aktualitātes."
 }

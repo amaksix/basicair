@@ -1,0 +1,15 @@
+{
+  "title": "City S",
+  "slug": "city-s",
+  "category": "city",
+  "description": "City S air purifier for smaller rooms.",
+  "body": "City S is a more compact model for spaces that need effective air purification in a smaller footprint.",
+  "image": "/images/shop/product-7.jpg",
+  "featured": false,
+  "order": 2,
+  "gallery": [
+    {
+      "image": "/images/shop/product-7.jpg"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Kārtridžu filtri",
+  "slug": "kartridzu-filtri",
+  "category": "gaisa-filtri",
+  "description": "Kārtridžu filtri kompaktai un precīzai filtrācijai.",
+  "body": "Kārtridžu filtri piemēroti sistēmām, kur nepieciešama kompakta konstrukcija un stabila filtrācijas veiktspēja.",
+  "image": "/images/shop/product-5.jpg",
+  "featured": false,
+  "order": 5,
+  "gallery": [
+    {
+      "image": "/images/shop/product-5.jpg"
+    }
+  ]
+}

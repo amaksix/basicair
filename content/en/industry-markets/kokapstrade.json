@@ -1,0 +1,13 @@
+{
+  "title": "Woodworking",
+  "slug": "kokapstrade",
+  "order": 2,
+  "parent": "apstrades-rupnieciba",
+  "summary": "Air quality and filtration solutions for: Woodworking.",
+  "image": "/images/banner/collections-2.jpg",
+  "hero_image": "/images/banner/collections-2.jpg",
+  "paragraphs": [
+    "BasicAir provides tailored air filtration and ventilation solutions for «Woodworking». Contact us for a custom proposal."
+  ],
+  "cta_text": "Contact us"
+}

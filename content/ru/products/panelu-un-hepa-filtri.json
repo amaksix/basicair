@@ -1,0 +1,15 @@
+{
+  "title": "Панельные и HEPA фильтры",
+  "slug": "panelu-un-hepa-filtri",
+  "category": "gaisa-filtri",
+  "description": "Панельные и HEPA фильтры для высококачественной фильтрации воздуха.",
+  "body": "Панельные и HEPA фильтры подходят для задач с высокой эффективностью фильтрации, включая чистые и чувствительные помещения.",
+  "image": "/images/shop/product-2.jpg",
+  "featured": false,
+  "order": 2,
+  "gallery": [
+    {
+      "image": "/images/shop/product-2.jpg"
+    }
+  ]
+}

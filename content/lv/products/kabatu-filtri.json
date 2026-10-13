@@ -1,0 +1,15 @@
+{
+  "title": "Kabatu filtri",
+  "slug": "kabatu-filtri",
+  "category": "gaisa-filtri",
+  "description": "Kabatu filtri ventilācijas un rekuperācijas sistēmām.",
+  "body": "Kabatu filtri nodrošina efektīvu putekļu un daļiņu aizturēšanu ventilācijas sistēmās. Pieejami dažādās filtrācijas klasēs un izmēros.",
+  "image": "/images/shop/product-1.jpg",
+  "featured": false,
+  "order": 1,
+  "gallery": [
+    {
+      "image": "/images/shop/product-1.jpg"
+    }
+  ]
+}

@@ -24,7 +24,7 @@
                     <a href="/{{ locale }}/shop/" class="mb-menu-link"><span>{{ settings.navigation.products }}</span></a>
                     {% endif %}
                 </li>
-                <li class="nav-mb-item{% if currentPage == 'industries' or currentPage == 'articles' %} active{% endif %}">
+                <li class="nav-mb-item{% if currentPage == 'industries' or currentPage == 'industry-market' %} active{% endif %}">
                     {% if settings.navigation.industry_menu and settings.navigation.industry_menu.length %}
                     <a href="#dropdown-menu-industries" class="collapsed mb-menu-link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="dropdown-menu-industries">
                         <span>{{ settings.navigation.industries }}</span>
@@ -60,8 +60,8 @@
                     <a href="/{{ locale }}/services/" class="mb-menu-link"><span>{{ settings.navigation.services }}</span></a>
                     {% endif %}
                 </li>
-                <li class="nav-mb-item{% if currentPage == 'news' %} active{% endif %}">
-                    <a href="/{{ locale }}/news/" class="mb-menu-link"><span>{{ settings.navigation.news }}</span></a>
+                <li class="nav-mb-item{% if currentPage == 'news' or currentPage == 'article' %} active{% endif %}">
+                    <a href="/{{ locale }}/zinojumi/" class="mb-menu-link"><span>{{ settings.navigation.news }}</span></a>
                 </li>
                 <li class="nav-mb-item{% if currentPage == 'contact' %} active{% endif %}">
                     <a href="/{{ locale }}/contact/" class="mb-menu-link"><span>{{ settings.navigation.contact }}</span></a>

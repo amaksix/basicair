@@ -1,0 +1,15 @@
+{
+  "title": "City M",
+  "slug": "city-m",
+  "category": "city",
+  "description": "City M air purifier for medium-sized rooms.",
+  "body": "City M is a compact air purifier suited to offices and living spaces of medium size.",
+  "image": "/images/shop/product-6.jpg",
+  "featured": true,
+  "order": 1,
+  "gallery": [
+    {
+      "image": "/images/shop/product-6.jpg"
+    }
+  ]
+}

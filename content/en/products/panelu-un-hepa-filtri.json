@@ -1,0 +1,15 @@
+{
+  "title": "Panel and HEPA filters",
+  "slug": "panelu-un-hepa-filtri",
+  "category": "gaisa-filtri",
+  "description": "Panel and HEPA filters for high-quality air filtration.",
+  "body": "Panel and HEPA filters are suited to applications that require high filtration efficiency, including clean and sensitive spaces.",
+  "image": "/images/shop/product-2.jpg",
+  "featured": false,
+  "order": 2,
+  "gallery": [
+    {
+      "image": "/images/shop/product-2.jpg"
+    }
+  ]
+}

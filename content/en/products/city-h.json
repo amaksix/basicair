@@ -1,0 +1,15 @@
+{
+  "title": "City H",
+  "slug": "city-h",
+  "category": "city",
+  "description": "City H air purifier for specialised applications.",
+  "body": "City H is designed for situations that require targeted air extraction and purification.",
+  "image": "/images/shop/product-8.jpg",
+  "featured": false,
+  "order": 3,
+  "gallery": [
+    {
+      "image": "/images/shop/product-8.jpg"
+    }
+  ]
+}

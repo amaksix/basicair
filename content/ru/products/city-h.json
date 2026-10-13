@@ -1,0 +1,15 @@
+{
+  "title": "City H",
+  "slug": "city-h",
+  "category": "city",
+  "description": "Очиститель воздуха City H для специализированных применений.",
+  "body": "City H предназначен для ситуаций, где нужна целенаправленная вытяжка и очистка воздуха.",
+  "image": "/images/shop/product-8.jpg",
+  "featured": false,
+  "order": 3,
+  "gallery": [
+    {
+      "image": "/images/shop/product-8.jpg"
+    }
+  ]
+}

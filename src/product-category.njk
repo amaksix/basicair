@@ -10,6 +10,7 @@ eleventyComputed:
   locale: "{{ category.locale }}"
   pageTitle: "{{ category.title }} — BasicAir"
 ---
+{% set categoryProducts = products | byCategory(category.slug) %}
 <div class="page-title relative">
     <div class="paralaximg" data-parallax="scroll" data-image-src="{{ category.hero_image | asset | htmlBaseUrl }}"></div>
     <div class="content">
@@ -30,24 +31,45 @@ eleventyComputed:
 
 <section class="flat-spacing-2">
     <div class="container">
+        {% if category.paragraphs and category.paragraphs.length %}
+        <div class="row justify-center mb_40">
+            <div class="col-lg-10">
+                <div class="heading-section spacing-2 text-center">
+                    {% for paragraph in category.paragraphs %}
+                    <p class="text-body-1 text_secondary wow fadeInUp{% if not loop.last %} mb_16{% endif %}" data-wow-delay="{{ (loop.index0 * 0.1) }}s">{{ paragraph }}</p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        {% if categoryProducts.length %}
+        <div class="row g-4">
+            {% for product in categoryProducts %}
+            <div class="col-sm-6 {% if categoryProducts.length == 3 %}col-lg-4{% else %}col-lg-3{% endif %}">
+                <a href="/{{ locale }}/products/{{ product.slug }}/" class="category-product-card hover-img wow fadeInUp" data-wow-delay="{{ (loop.index0 * 0.05) }}s">
+                    <h3 class="category-product-card__title">{{ product.title }}</h3>
+                    <div class="category-product-card__image img-style">
+                        <img class="lazyload" src="{{ product.image | asset }}" data-src="{{ product.image | asset | htmlBaseUrl }}" alt="{{ product.title }}">
+                    </div>
+                    <span class="tf-btn btn-onsurface">{{ settings.labels.learn_more }} <i class="icon-arrow-up-right"></i></span>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
         <div class="row justify-center">
             <div class="col-lg-8">
-                <div class="heading-section spacing-2">
-                    <h1 class="wow fadeInUp">{{ category.title }}</h1>
-                    {% if category.summary %}
-                    <p class="text-body-1 text_secondary wow fadeInUp mb_16" data-wow-delay="0.05s">{{ category.summary }}</p>
-                    {% endif %}
-                    {% for paragraph in category.paragraphs %}
-                    <p class="text-body-1 text_secondary wow fadeInUp{% if not loop.last %} mb_16{% endif %}" data-wow-delay="{{ (loop.index0 * 0.1 + 0.1) }}s">{{ paragraph }}</p>
-                    {% endfor %}
+                <div class="heading-section spacing-2 text-center">
                     {% if category.coming_soon %}
-                    <p class="text-body-1 text_secondary wow fadeInUp mt_16" data-wow-delay="0.3s">{{ category.coming_soon }}</p>
+                    <p class="text-body-1 text_secondary wow fadeInUp">{{ category.coming_soon }}</p>
                     {% endif %}
-                    <div class="mt_30 wow fadeInUp" data-wow-delay="0.35s">
+                    <div class="mt_30 wow fadeInUp">
                         <a href="/{{ locale }}/contact/" class="tf-btn btn-onsurface">{{ category.cta_text }} <i class="icon-arrow-up-right"></i></a>
                     </div>
                 </div>
             </div>
         </div>
+        {% endif %}
     </div>
 </section>

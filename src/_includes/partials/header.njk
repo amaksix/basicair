@@ -21,12 +21,12 @@
                                 {% endif %}
                             </li>
                             <li class="menu-item position-relative">
-                                <a href="/{{ locale }}/industries/" class="item-link{% if currentPage == 'industries' or currentPage == 'articles' %} active{% endif %}">{{ settings.navigation.industries }}{% if settings.navigation.industry_menu and settings.navigation.industry_menu.length %}<i class="icon icon-down"></i>{% endif %}</a>
+                                <a href="/{{ locale }}/industries/" class="item-link{% if currentPage == 'industries' or currentPage == 'industry-market' %} active{% endif %}">{{ settings.navigation.industries }}{% if settings.navigation.industry_menu and settings.navigation.industry_menu.length %}<i class="icon icon-down"></i>{% endif %}</a>
                                 {% if settings.navigation.industry_menu and settings.navigation.industry_menu.length %}
                                 <div class="sub-menu submenu-default">
                                     <ul class="menu-list">
                                         {% for link in settings.navigation.industry_menu %}
-                                        <li><a href="{{ link.url }}" class="menu-link-text{% if currentPage == 'articles' %} active{% endif %}">{{ link.label }}</a></li>
+                                        <li><a href="{{ link.url }}" class="menu-link-text{% if currentPage == 'industry-market' and market.slug and link.url.indexOf(market.slug) >= 0 %} active{% endif %}">{{ link.label }}</a></li>
                                         {% endfor %}
                                     </ul>
                                 </div>
@@ -45,7 +45,7 @@
                                 {% endif %}
                             </li>
                             <li class="menu-item">
-                                <a href="/{{ locale }}/news/" class="item-link{% if currentPage == 'news' %} active{% endif %}">{{ settings.navigation.news }}</a>
+                                <a href="/{{ locale }}/zinojumi/" class="item-link{% if currentPage == 'news' or currentPage == 'article' %} active{% endif %}">{{ settings.navigation.news }}</a>
                             </li>
                             <li class="menu-item">
                                 <a href="/{{ locale }}/contact/" class="item-link{% if currentPage == 'contact' %} active{% endif %}">{{ settings.navigation.contact }}</a>

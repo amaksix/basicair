@@ -28,10 +28,9 @@
   ],
   "categories": [
     { "title": "Gaisa filtri", "image": "/images/section/collections-banner.jpg", "url": "/lv/shop/gaisa-filtri/" },
-    { "title": "City", "image": "/images/section/collections-banner-1.jpg", "url": "/lv/shop/city/" },
-    { "title": "Tehniskie audumi", "image": "/images/section/collections-banner-2.jpg", "url": "/lv/shop/tehniskie-audumi/" },
-    { "title": "Serviss un apkope", "image": "/images/section/collections-banner-3.jpg", "url": "/lv/services/apkope/" },
-    { "title": "Projektēšana", "image": "/images/section/collections-banner-4.jpg", "url": "/lv/services/projektesana/" }
+    { "title": "Gaisa attīrītāji: City", "image": "/images/section/collections-banner-1.jpg", "url": "/lv/shop/city/" },
+    { "title": "Industriālie gaisa attīrītāji", "image": "/images/section/collections-banner-2.jpg", "url": "/lv/shop/industrialie-gaisa-attiritaji/" },
+    { "title": "Tehniskie audumi", "image": "/images/section/collections-banner-3.jpg", "url": "/lv/shop/tehniskie-audumi/" }
   ],
   "vision": {
     "heading": "Profesionāli risinājumi tīrākam un veselīgākam iekštelpu gaisam",

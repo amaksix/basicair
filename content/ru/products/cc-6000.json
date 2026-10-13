@@ -1,0 +1,15 @@
+{
+  "title": "CC 6000",
+  "slug": "cc-6000",
+  "category": "industrialie-gaisa-attiritaji",
+  "description": "Промышленный очиститель воздуха CC 6000.",
+  "body": "CC 6000 — мощное промышленное решение для крупных производств и помещений с интенсивным загрязнением.",
+  "image": "/images/shop/product-12.jpg",
+  "featured": false,
+  "order": 4,
+  "gallery": [
+    {
+      "image": "/images/shop/product-12.jpg"
+    }
+  ]
+}

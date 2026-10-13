@@ -47,7 +47,6 @@ module.exports = async function (eleventyConfig) {
     contact: (data) => (data.locale ? loadLocaleContent(data.locale, "pages/contact") : null),
     shop: (data) => (data.locale ? loadLocaleContent(data.locale, "pages/shop") : null),
     industries: (data) => (data.locale ? loadLocaleContent(data.locale, "pages/industries") : null),
-    articles: (data) => (data.locale ? loadLocaleContent(data.locale, "pages/articles") : null),
     news: (data) => (data.locale ? loadLocaleContent(data.locale, "pages/news") : null),
     products: (data) => (data.locale ? loadProducts(data.locale) : []),
     serviceItems: (data) => (data.locale ? loadServices(data.locale) : []),
@@ -133,6 +132,22 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addFilter("nl2br", (value) => {
     if (!value) return "";
     return String(value).replace(/\n/g, "<br>");
+  });
+
+  eleventyConfig.addFilter("byCategory", (items, categorySlug) => {
+    if (!items || !categorySlug) return [];
+    return items.filter((item) => item.category === categorySlug);
+  });
+
+  eleventyConfig.addFilter("byParent", (items, parentSlug) => {
+    if (!items) return [];
+    const target = parentSlug || "";
+    return items.filter((item) => (item.parent || "") === target);
+  });
+
+  eleventyConfig.addFilter("findBySlug", (items, slug) => {
+    if (!items || !slug) return null;
+    return items.find((item) => item.slug === slug) || null;
   });
 
   eleventyConfig.addShortcode("year", () => String(new Date().getFullYear()));

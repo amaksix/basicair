@@ -1,0 +1,15 @@
+{
+  "title": "CC 400",
+  "slug": "cc-400",
+  "category": "industrialie-gaisa-attiritaji",
+  "description": "Industriālais gaisa attīrītājs CC 400.",
+  "body": "CC 400 ir kompaktāks industriālais gaisa attīrītājs mazākām ražošanas un tehniskajām zonām.",
+  "image": "/images/shop/product-9.jpg",
+  "featured": false,
+  "order": 1,
+  "gallery": [
+    {
+      "image": "/images/shop/product-9.jpg"
+    }
+  ]
+}

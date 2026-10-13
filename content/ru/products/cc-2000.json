@@ -1,0 +1,15 @@
+{
+  "title": "CC 2000",
+  "slug": "cc-2000",
+  "category": "industrialie-gaisa-attiritaji",
+  "description": "Промышленный очиститель воздуха CC 2000.",
+  "body": "CC 2000 предназначен для более крупных помещений с повышенной нагрузкой загрязнения.",
+  "image": "/images/shop/product-11.jpg",
+  "featured": false,
+  "order": 3,
+  "gallery": [
+    {
+      "image": "/images/shop/product-11.jpg"
+    }
+  ]
+}

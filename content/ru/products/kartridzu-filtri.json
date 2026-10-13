@@ -1,0 +1,15 @@
+{
+  "title": "Картриджные фильтры",
+  "slug": "kartridzu-filtri",
+  "category": "gaisa-filtri",
+  "description": "Картриджные фильтры для компактной и точной фильтрации.",
+  "body": "Картриджные фильтры подходят для систем, где нужна компактная конструкция и стабильная эффективность фильтрации.",
+  "image": "/images/shop/product-5.jpg",
+  "featured": false,
+  "order": 5,
+  "gallery": [
+    {
+      "image": "/images/shop/product-5.jpg"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "CC 6000",
+  "slug": "cc-6000",
+  "category": "industrialie-gaisa-attiritaji",
+  "description": "Industrial air purifier CC 6000.",
+  "body": "CC 6000 is a high-capacity industrial solution for large factories and spaces with intensive pollution.",
+  "image": "/images/shop/product-12.jpg",
+  "featured": false,
+  "order": 4,
+  "gallery": [
+    {
+      "image": "/images/shop/product-12.jpg"
+    }
+  ]
+}

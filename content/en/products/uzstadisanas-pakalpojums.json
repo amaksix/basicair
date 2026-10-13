@@ -1,13 +1,15 @@
-﻿{
+{
   "title": "AC Installation Service",
   "slug": "uzstadisanas-pakalpojums",
   "description": "Professional installation with warranty.",
   "body": "Standard installation up to 3 m piping. Includes system testing and user instructions.",
   "image": "/images/shop/product-4.jpg",
   "image_hover": "/images/shop/product-4.1.jpg",
-  "featured": true,
+  "featured": false,
   "order": 4,
   "gallery": [
-    { "image": "/images/shop/product-4.jpg" }
+    {
+      "image": "/images/shop/product-4.jpg"
+    }
   ]
 }

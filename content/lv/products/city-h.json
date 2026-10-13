@@ -1,0 +1,15 @@
+{
+  "title": "City H",
+  "slug": "city-h",
+  "category": "city",
+  "description": "City H gaisa attīrītājs specializētiem pielietojumiem.",
+  "body": "City H paredzēts situācijām, kur nepieciešama mērķtiecīga gaisa nosūkšana un attīrīšana.",
+  "image": "/images/shop/product-8.jpg",
+  "featured": false,
+  "order": 3,
+  "gallery": [
+    {
+      "image": "/images/shop/product-8.jpg"
+    }
+  ]
+}

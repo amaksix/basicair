@@ -1,0 +1,15 @@
+{
+  "title": "Carbon filters",
+  "slug": "ogles-filtri",
+  "category": "gaisa-filtri",
+  "description": "Activated carbon filters for odour and gaseous pollutant reduction.",
+  "body": "Carbon filters help reduce odours and gaseous pollutants, improving indoor air quality.",
+  "image": "/images/shop/product-4.jpg",
+  "featured": false,
+  "order": 4,
+  "gallery": [
+    {
+      "image": "/images/shop/product-4.jpg"
+    }
+  ]
+}

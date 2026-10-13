@@ -1,0 +1,13 @@
+{
+  "title": "Laboratories",
+  "slug": "laboratorijas",
+  "order": 6,
+  "parent": "apstrades-rupnieciba",
+  "summary": "Air quality and filtration solutions for: Laboratories.",
+  "image": "/images/section/categories-2.jpg",
+  "hero_image": "/images/section/categories-2.jpg",
+  "paragraphs": [
+    "BasicAir provides tailored air filtration and ventilation solutions for «Laboratories». Contact us for a custom proposal."
+  ],
+  "cta_text": "Contact us"
+}

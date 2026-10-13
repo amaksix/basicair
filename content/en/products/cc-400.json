@@ -1,0 +1,15 @@
+{
+  "title": "CC 400",
+  "slug": "cc-400",
+  "category": "industrialie-gaisa-attiritaji",
+  "description": "Industrial air purifier CC 400.",
+  "body": "CC 400 is a more compact industrial air purifier for smaller production and technical areas.",
+  "image": "/images/shop/product-9.jpg",
+  "featured": false,
+  "order": 1,
+  "gallery": [
+    {
+      "image": "/images/shop/product-9.jpg"
+    }
+  ]
+}

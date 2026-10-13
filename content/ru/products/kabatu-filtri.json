@@ -1,0 +1,15 @@
+{
+  "title": "Карманные фильтры",
+  "slug": "kabatu-filtri",
+  "category": "gaisa-filtri",
+  "description": "Карманные фильтры для систем вентиляции и рекуперации.",
+  "body": "Карманные фильтры обеспечивают эффективный захват пыли и частиц в вентиляционных системах. Доступны в разных классах фильтрации и размерах.",
+  "image": "/images/shop/product-1.jpg",
+  "featured": false,
+  "order": 1,
+  "gallery": [
+    {
+      "image": "/images/shop/product-1.jpg"
+    }
+  ]
+}

@@ -41,7 +41,7 @@ collections:
               - { label: Products, name: products, widget: string }
               - { label: Industries, name: industries, widget: string }
               - { label: Services, name: services, widget: string }
-              - { label: News, name: news, widget: string }
+              - { label: Announcements / Ziņojumi, name: news, widget: string }
               - { label: Contact, name: contact, widget: string }
               - label: Products Dropdown
                 name: product_menu
@@ -104,6 +104,7 @@ collections:
               - { label: Search, name: search, widget: string }
               - { label: Need Help, name: need_help, widget: string }
               - { label: Send Message, name: send_message, widget: string }
+              - { label: Learn More, name: learn_more, widget: string }
       - label: General Settings (English)
         name: settings-en
         file: content/en/settings.json
@@ -393,10 +394,6 @@ collections:
           - { label: Hero Background, name: hero_image, widget: image }
           - { label: Main Heading, name: main_heading, widget: string }
           - { label: Main Intro, name: main_intro, widget: text }
-          - { label: Markets Heading, name: markets_heading, widget: string, required: false }
-          - { label: Markets Intro, name: markets_intro, widget: text, required: false }
-          - { label: Articles Label, name: articles_label, widget: string }
-          - { label: Articles Summary, name: articles_summary, widget: text }
       - label: Industries Page (English)
         name: industries-en
         file: content/en/pages/industries.json
@@ -419,43 +416,21 @@ collections:
     summary: "{{title}}"
     fields:
       - { label: Title, name: title, widget: string }
-      - { label: Slug, name: slug, widget: string, hint: "Used in URL, e.g. hvac-hepa" }
+      - { label: Slug, name: slug, widget: string, hint: "Used in URL, e.g. biroji" }
+      - { label: Parent Slug, name: parent, widget: string, required: false, hint: "Leave empty for top-level groups (e.g. vispareja-iekstelpu-ventilacija). For sub-sectors, set parent slug." }
       - { label: Sort Order, name: order, widget: number, default: 0, required: false }
-      - { label: Summary, name: summary, widget: text, hint: "Short intro shown above the text block" }
+      - { label: Summary, name: summary, widget: text, hint: "Short intro on the market page / card" }
+      - { label: Card Image, name: image, widget: image, required: false }
+      - { label: Hero Image, name: hero_image, widget: image, required: false }
       - label: Paragraphs
         name: paragraphs
         widget: list
         field: { label: Paragraph, name: paragraph, widget: text }
-
-  - name: articles_page
-    label: Articles Page
-    files:
-      - label: Articles Page (Latviešu)
-        name: articles-lv
-        file: content/lv/pages/articles.json
-        fields: &articles_fields
-          - { label: Page Title, name: title, widget: string }
-          - { label: Breadcrumb Home, name: breadcrumb_home, widget: string }
-          - { label: Breadcrumb Industries, name: breadcrumb_industries, widget: string }
-          - { label: Breadcrumb Current, name: breadcrumb_current, widget: string }
-          - { label: Hero Title, name: hero_title, widget: string }
-          - { label: Hero Background, name: hero_image, widget: image }
-          - { label: Main Heading, name: main_heading, widget: string }
-          - { label: Main Intro, name: main_intro, widget: text }
-          - { label: Read More Label, name: read_more, widget: string }
-          - { label: Empty State, name: empty_state, widget: text }
-      - label: Articles Page (English)
-        name: articles-en
-        file: content/en/pages/articles.json
-        fields: *articles_fields
-      - label: Articles Page (Русский)
-        name: articles-ru
-        file: content/ru/pages/articles.json
-        fields: *articles_fields
+      - { label: CTA Button Text, name: cta_text, widget: string, required: false }
 
   - name: articles
-    label: Articles
-    label_singular: Article
+    label: Announcements / Ziņojumi
+    label_singular: Announcement
     i18n: true
     folder: "content/{{locale}}/articles"
     create: true
@@ -470,7 +445,7 @@ collections:
       - { label: Date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false }
       - { label: Market / Category, name: market, widget: string, required: false, hint: "e.g. Industrial, HVAC / HEPA" }
       - { label: Sort Order, name: order, widget: number, default: 0, required: false, hint: "Used only when dates match" }
-      - { label: Summary, name: summary, widget: text, hint: "Shown on the articles listing page" }
+      - { label: Summary, name: summary, widget: text, hint: "Shown on the ziņojumi listing page" }
       - { label: Card Image, name: image, widget: image, required: false }
       - { label: Hero Image, name: hero_image, widget: image, required: false }
       - label: Paragraphs
@@ -479,9 +454,9 @@ collections:
         field: { label: Paragraph, name: paragraph, widget: text }
 
   - name: news_page
-    label: News Page
+    label: Ziņojumi Page
     files:
-      - label: News Page (Latviešu)
+      - label: Ziņojumi Page (Latviešu)
         name: news-lv
         file: content/lv/pages/news.json
         fields: &news_fields
@@ -492,12 +467,13 @@ collections:
           - { label: Hero Background, name: hero_image, widget: image }
           - { label: Main Heading, name: main_heading, widget: string }
           - { label: Main Intro, name: main_intro, widget: text }
+          - { label: Read More Label, name: read_more, widget: string }
           - { label: Empty State, name: empty_state, widget: text }
-      - label: News Page (English)
+      - label: Announcements Page (English)
         name: news-en
         file: content/en/pages/news.json
         fields: *news_fields
-      - label: News Page (Русский)
+      - label: Сообщения Page (Русский)
         name: news-ru
         file: content/ru/pages/news.json
         fields: *news_fields
@@ -516,6 +492,15 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Slug, name: slug, widget: string, hint: "Used in URL, e.g. air-conditioner-pro" }
+      - label: Product Category
+        name: category
+        widget: select
+        required: false
+        options:
+          - { label: Gaisa filtri, value: gaisa-filtri }
+          - { label: City, value: city }
+          - { label: Industriālie gaisa attīrītāji, value: industrialie-gaisa-attiritaji }
+          - { label: Tehniskie audumi, value: tehniskie-audumi }
       - { label: Short Description, name: description, widget: text, required: false }
       - { label: Full Description, name: body, widget: markdown, required: false }
       - { label: Main Image, name: image, widget: image }

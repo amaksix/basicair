@@ -1,13 +1,15 @@
-﻿{
+{
   "title": "Ventilācijas rekuperators",
   "slug": "ventilacijas-rekuperators",
   "description": "Svaigs gaiss ar siltuma atgūšanu.",
   "body": "Kompakts rekuperators mājām ar augstu siltummaiņas efektivitāti un zemu enerģijas patēriņu.",
   "image": "/images/shop/product-3.jpg",
   "image_hover": "/images/shop/product-3.1.jpg",
-  "featured": true,
+  "featured": false,
   "order": 3,
   "gallery": [
-    { "image": "/images/shop/product-3.jpg" }
+    {
+      "image": "/images/shop/product-3.jpg"
+    }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "title": "Cartridge filters",
+  "slug": "kartridzu-filtri",
+  "category": "gaisa-filtri",
+  "description": "Cartridge filters for compact and precise filtration.",
+  "body": "Cartridge filters are suited to systems that need a compact design and stable filtration performance.",
+  "image": "/images/shop/product-5.jpg",
+  "featured": false,
+  "order": 5,
+  "gallery": [
+    {
+      "image": "/images/shop/product-5.jpg"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "City M",
+  "slug": "city-m",
+  "category": "city",
+  "description": "Очиститель воздуха City M для помещений среднего размера.",
+  "body": "City M — компактный очиститель воздуха для офисов и жилых помещений среднего размера.",
+  "image": "/images/shop/product-6.jpg",
+  "featured": true,
+  "order": 1,
+  "gallery": [
+    {
+      "image": "/images/shop/product-6.jpg"
+    }
+  ]
+}

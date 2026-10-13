@@ -1,0 +1,15 @@
+{
+  "title": "CC 800",
+  "slug": "cc-800",
+  "category": "industrialie-gaisa-attiritaji",
+  "description": "Industrial air purifier CC 800.",
+  "body": "CC 800 provides effective air purification for medium-sized industrial spaces.",
+  "image": "/images/shop/product-10.jpg",
+  "featured": true,
+  "order": 2,
+  "gallery": [
+    {
+      "image": "/images/shop/product-10.jpg"
+    }
+  ]
+}

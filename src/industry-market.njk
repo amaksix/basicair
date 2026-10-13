@@ -1,0 +1,77 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.allIndustryMarkets
+  size: 1
+  alias: market
+permalink: "/{{ market.locale }}/industries/{{ market.slug }}/"
+currentPage: industry-market
+eleventyComputed:
+  locale: "{{ market.locale }}"
+  pageTitle: "{{ market.title }} — BasicAir"
+---
+{% set parentMarket = industryMarkets | findBySlug(market.parent) %}
+{% set childMarkets = industryMarkets | byParent(market.slug) %}
+<div class="page-title relative">
+    <div class="paralaximg" data-parallax="scroll" data-image-src="{{ market.hero_image | default(industries.hero_image) | asset | htmlBaseUrl }}"></div>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="title">{{ market.title }}</h3>
+                    <ul class="breadcrumb">
+                        <li><a href="/{{ locale }}/">{{ industries.breadcrumb_home }}</a></li>
+                        <li><a href="/{{ locale }}/industries/">{{ industries.breadcrumb_current }}</a></li>
+                        {% if parentMarket %}
+                        <li><a href="/{{ locale }}/industries/{{ parentMarket.slug }}/">{{ parentMarket.title }}</a></li>
+                        {% endif %}
+                        <li>{{ market.title }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="flat-spacing-2">
+    <div class="container">
+        <div class="row justify-center mb_40">
+            <div class="col-lg-8">
+                <div class="heading-section text-center spacing-2">
+                    <h1 class="wow fadeInUp">{{ market.title }}</h1>
+                    {% if market.summary %}
+                    <p class="text-body-1 text_secondary wow fadeInUp" data-wow-delay="0.1s">{{ market.summary }}</p>
+                    {% endif %}
+                    {% for paragraph in market.paragraphs %}
+                    <p class="text-body-1 text_secondary wow fadeInUp{% if not loop.last %} mb_16{% endif %}" data-wow-delay="{{ (loop.index0 * 0.1 + 0.15) }}s">{{ paragraph }}</p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        {% if childMarkets and childMarkets.length %}
+        <div class="row g-4">
+            {% for child in childMarkets %}
+            <div class="col-sm-6 col-lg-4">
+                <div class="collection-position hover-img style-4 wow fadeInUp" data-wow-delay="{{ (loop.index0 * 0.05) }}s">
+                    <a href="/{{ locale }}/industries/{{ child.slug }}/" class="img-style">
+                        <img class="lazyload" src="{{ child.image | asset }}" data-src="{{ child.image | asset | htmlBaseUrl }}" alt="{{ child.title }}">
+                    </a>
+                    <div class="content cls-content">
+                        <h4><a href="/{{ locale }}/industries/{{ child.slug }}/" class="link">{{ child.title }}</a></h4>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="row justify-center">
+            <div class="col-lg-8 text-center">
+                <div class="mt_10 wow fadeInUp">
+                    <a href="/{{ locale }}/contact/" class="tf-btn btn-onsurface">{{ market.cta_text or settings.labels.learn_more }} <i class="icon-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</section>

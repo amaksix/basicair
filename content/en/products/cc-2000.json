@@ -1,0 +1,15 @@
+{
+  "title": "CC 2000",
+  "slug": "cc-2000",
+  "category": "industrialie-gaisa-attiritaji",
+  "description": "Industrial air purifier CC 2000.",
+  "body": "CC 2000 is designed for larger spaces with higher pollution loads.",
+  "image": "/images/shop/product-11.jpg",
+  "featured": false,
+  "order": 3,
+  "gallery": [
+    {
+      "image": "/images/shop/product-11.jpg"
+    }
+  ]
+}

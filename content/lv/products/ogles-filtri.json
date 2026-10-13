@@ -1,0 +1,15 @@
+{
+  "title": "Ogles filtri",
+  "slug": "ogles-filtri",
+  "category": "gaisa-filtri",
+  "description": "Aktīvās ogles filtri smaku un gāzveida piesārņojuma samazināšanai.",
+  "body": "Ogles filtri palīdz samazināt smakas un gāzveida piesārņojumu, uzlabojot iekštelpu gaisa kvalitāti.",
+  "image": "/images/shop/product-4.jpg",
+  "featured": false,
+  "order": 4,
+  "gallery": [
+    {
+      "image": "/images/shop/product-4.jpg"
+    }
+  ]
+}

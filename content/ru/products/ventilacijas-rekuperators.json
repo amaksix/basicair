@@ -1,13 +1,15 @@
-﻿{
+{
   "title": "Рекуператор вентиляции",
   "slug": "ventilacijas-rekuperators",
   "description": "Свежий воздух с рекуперацией тепла.",
   "body": "Компактный рекуператор для домов с высокой эффективностью теплообмена и низким энергопотреблением.",
   "image": "/images/shop/product-3.jpg",
   "image_hover": "/images/shop/product-3.1.jpg",
-  "featured": true,
+  "featured": false,
   "order": 3,
   "gallery": [
-    { "image": "/images/shop/product-3.jpg" }
+    {
+      "image": "/images/shop/product-3.jpg"
+    }
   ]
 }

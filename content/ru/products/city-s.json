@@ -1,0 +1,15 @@
+{
+  "title": "City S",
+  "slug": "city-s",
+  "category": "city",
+  "description": "Очиститель воздуха City S для небольших помещений.",
+  "body": "City S — более компактная модель для помещений, где нужно эффективное очищение воздуха в меньшем формате.",
+  "image": "/images/shop/product-7.jpg",
+  "featured": false,
+  "order": 2,
+  "gallery": [
+    {
+      "image": "/images/shop/product-7.jpg"
+    }
+  ]
+}

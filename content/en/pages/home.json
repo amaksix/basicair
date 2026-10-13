@@ -28,10 +28,9 @@
   ],
   "categories": [
     { "title": "Air filters", "image": "/images/section/collections-banner.jpg", "url": "/en/shop/gaisa-filtri/" },
-    { "title": "City", "image": "/images/section/collections-banner-1.jpg", "url": "/en/shop/city/" },
-    { "title": "Technical fabrics", "image": "/images/section/collections-banner-2.jpg", "url": "/en/shop/tehniskie-audumi/" },
-    { "title": "Maintenance", "image": "/images/section/collections-banner-3.jpg", "url": "/en/services/apkope/" },
-    { "title": "Design", "image": "/images/section/collections-banner-4.jpg", "url": "/en/services/projektesana/" }
+    { "title": "Air purifiers: City", "image": "/images/section/collections-banner-1.jpg", "url": "/en/shop/city/" },
+    { "title": "Industrial air purifiers", "image": "/images/section/collections-banner-2.jpg", "url": "/en/shop/industrialie-gaisa-attiritaji/" },
+    { "title": "Technical fabrics", "image": "/images/section/collections-banner-3.jpg", "url": "/en/shop/tehniskie-audumi/" }
   ],
   "vision": {
     "heading": "Professional solutions for cleaner and healthier indoor air",

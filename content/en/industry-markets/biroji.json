@@ -1,0 +1,13 @@
+{
+  "title": "Offices",
+  "slug": "biroji",
+  "order": 1,
+  "parent": "vispareja-iekstelpu-ventilacija",
+  "summary": "Air quality and filtration solutions for: Offices.",
+  "image": "/images/section/categories-1.jpg",
+  "hero_image": "/images/section/categories-1.jpg",
+  "paragraphs": [
+    "BasicAir provides tailored air filtration and ventilation solutions for «Offices». Contact us for a custom proposal."
+  ],
+  "cta_text": "Contact us"
+}
