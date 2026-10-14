@@ -1512,9 +1512,12 @@ header {
   color: #181818;
 }
 .box-nav-ul .item-link.active::after, .box-nav-ul .item-link:hover::after {
-  width: calc(100% - 20px);
+  width: 100%;
   left: 0;
   right: auto;
+}
+.box-nav-ul .item-link:has(.icon).active::after, .box-nav-ul .item-link:has(.icon):hover::after {
+  width: calc(100% - 20px);
 }
 .box-nav-ul .sub-menu {
   pointer-events: none;

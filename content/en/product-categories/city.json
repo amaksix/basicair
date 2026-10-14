@@ -1,11 +1,12 @@
 {
-  "title": "Air purifiers: City",
+  "title": "Mobile air purifiers",
   "slug": "city",
   "order": 2,
-  "summary": "City air purifiers for urban and commercial needs.",
+  "image": "/images/section/collections-banner-1.jpg",
+  "summary": "Mobile air purifiers for homes, offices and commercial spaces.",
   "hero_image": "/images/page-title/page-title-3.jpg",
   "paragraphs": [
-    "The City air purifier range offers solutions for offices, living spaces and commercial interiors."
+    "The mobile air purifier range offers solutions for offices, living spaces and commercial interiors."
   ],
   "cta_text": "Contact us"
 }

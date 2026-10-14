@@ -14,7 +14,7 @@
     "contact": "KONTAKTI",
     "product_menu": [
       { "label": "Gaisa filtri", "url": "/lv/shop/gaisa-filtri/" },
-      { "label": "Gaisa attīrītāji: City", "url": "/lv/shop/city/" },
+      { "label": "Mobilie gaisa attīrītāji", "url": "/lv/shop/city/" },
       { "label": "Industriālie gaisa attīrītāji", "url": "/lv/shop/industrialie-gaisa-attiritaji/" },
       { "label": "Tehniskie audumi", "url": "/lv/shop/tehniskie-audumi/" }
     ],

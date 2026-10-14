@@ -269,9 +269,17 @@ header {
         &:hover {
             color: #181818;
             &::after {
-                width: calc(100% - 20px);
+                width: 100%;
                 left: 0;
                 right: auto;
+            }
+        }
+        &:has(.icon) {
+            &.active,
+            &:hover {
+                &::after {
+                    width: calc(100% - 20px);
+                }
             }
         }
     }

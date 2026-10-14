@@ -1,11 +1,12 @@
 {
-  "title": "Gaisa attīrītāji: City",
+  "title": "Mobilie gaisa attīrītāji",
   "slug": "city",
   "order": 2,
-  "summary": "City gaisa attīrītāji pilsētvides un komerciālām vajadzībām.",
+  "image": "/images/section/collections-banner-1.jpg",
+  "summary": "Mobilie gaisa attīrītāji mājām, birojiem un komerciālām telpām.",
   "hero_image": "/images/page-title/page-title-3.jpg",
   "paragraphs": [
-    "City gaisa attīrītāju sērija piedāvā risinājumus birojiem, dzīvojamām un komerciālām telpām."
+    "Mobilo gaisa attīrītāju sērija piedāvā risinājumus birojiem, dzīvojamām un komerciālām telpām."
   ],
   "cta_text": "Sazināties ar mums"
 }

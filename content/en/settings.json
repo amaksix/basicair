@@ -14,7 +14,7 @@
     "contact": "CONTACT",
     "product_menu": [
       { "label": "Air filters", "url": "/en/shop/gaisa-filtri/" },
-      { "label": "Air purifiers: City", "url": "/en/shop/city/" },
+      { "label": "Mobile air purifiers", "url": "/en/shop/city/" },
       { "label": "Industrial air purifiers", "url": "/en/shop/industrialie-gaisa-attiritaji/" },
       { "label": "Technical fabrics", "url": "/en/shop/tehniskie-audumi/" }
     ],

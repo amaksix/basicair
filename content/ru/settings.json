@@ -14,7 +14,7 @@
     "contact": "КОНТАКТЫ",
     "product_menu": [
       { "label": "Воздушные фильтры", "url": "/ru/shop/gaisa-filtri/" },
-      { "label": "Очистители воздуха: City", "url": "/ru/shop/city/" },
+      { "label": "Мобильные очистители воздуха", "url": "/ru/shop/city/" },
       { "label": "Промышленные очистители воздуха", "url": "/ru/shop/industrialie-gaisa-attiritaji/" },
       { "label": "Технические ткани", "url": "/ru/shop/tehniskie-audumi/" }
     ],
