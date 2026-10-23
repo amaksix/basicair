@@ -1,0 +1,65 @@
+{
+  "title": "Rigid media panel filters",
+  "slug": "panelu-filtri",
+  "category": "gaisa-filtri",
+  "description": "Panel filters with a large filtration surface and low airflow resistance — primary filters and pre-filters for HEPA or carbon filters.",
+  "paragraphs": [
+    "Panel filters made of rigid nonwoven media, Z-folded or finely pleated and bonded with separator lines, provide a large filtration surface and low airflow resistance — meaning lower electricity consumption and reduced overall operating costs. Filter media can vary — impregnated with activated carbon, antibacterial, or HT media for use at high temperatures up to 260°C.",
+    "These panel filters are ideal as primary air filters and as pre-filters for absolute HEPA or carbon filters, protecting them from premature dust loading. As primary filters they help reduce ventilation system maintenance costs by preventing unnecessary dust build-up on filter components, fans and ductwork."
+  ],
+  "specs": [
+    {
+      "label": "ISO 16890",
+      "value": "Coarse 70% – ePM10 70%, ePM1 55%, ePM1 65%, ePM1 80%, ePM10 70%"
+    },
+    {
+      "label": "EN779:2012",
+      "value": "G4, M5, F6, F7, F8, F9"
+    },
+    {
+      "label": "Media type",
+      "value": "Glass fibre, polyester, carbon"
+    },
+    {
+      "label": "Standard frame size (mm)",
+      "value": "46; 48; 96"
+    },
+    {
+      "label": "Frame material",
+      "value": "Cardboard, plastic, galvanised steel"
+    },
+    {
+      "label": "Max. operating temperature",
+      "value": "40°C, 65°C, 260°C"
+    },
+    {
+      "label": "Recommended final pressure drop max.",
+      "value": "250 Pa"
+    },
+    {
+      "label": "Recommended airflow range",
+      "value": "75% – 125%"
+    }
+  ],
+  "keywords": [
+    "panel filters",
+    "pre-filter",
+    "ISO 16890",
+    "EN779",
+    "G4",
+    "F7",
+    "F9",
+    "HEPA pre-filter",
+    "HT filters",
+    "antibacterial filter",
+    "air filters"
+  ],
+  "image": "/images/shop/product-2.jpg",
+  "featured": false,
+  "order": 5,
+  "gallery": [
+    {
+      "image": "/images/shop/product-2.jpg"
+    }
+  ]
+}

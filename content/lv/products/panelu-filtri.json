@@ -1,0 +1,66 @@
+{
+  "title": "Paneļu tipa filtri no stingra neaustā materiāla",
+  "slug": "panelu-filtri",
+  "category": "gaisa-filtri",
+  "description": "Paneļu filtri ar lielu filtrējošo virsmu un zemu gaisa pretestību — primārie filtri un priekšfiltri HEPA vai ogles filtriem.",
+  "paragraphs": [
+    "Paneļu tipa filtri no stingra neaustā materiāla, kas plisēti Z-veidā vai smalki gofrēti, salīmēti ar atdalošām līnijām, nodrošina lielu filtrējošo virsmu un ir ar zemu gaisa pretestību, kas nozīmē zemāku elektrības patēriņu un kopējo ekspluatācijas izmaksu samazinājumu. Paneļfiltriem filtrējošais materiāls var būt daudzveidīgs — impregnēts ar aktīvo ogli, vai būt antibakteriāls, kā arī HT materiāls, kas paredzēts lietošanai augstā temperatūrā līdz 260°C.",
+    "Šie paneļu filtri ir ideāli piemēroti kā primārās attīrīšanas gaisa filtri un priekšfiltri absolūtās attīrīšanas HEPA vai ogles filtriem, lai pasargātu tos no priekšlaicīgas putekļu uzkrāšanās tajos. Kā primārie filtri tie palīdz samazināt ventilācijas sistēmas uzturēšanas izmaksas, novēršot nevajadzīgu putekļu uzkrāšanos uz filtru komponentēm, ventilatoriem un gaisa vadiem."
+  ],
+  "specs": [
+    {
+      "label": "ISO 16890",
+      "value": "Coarse 70% – ePM10 70%, ePM1 55%, ePM1 65%, ePM1 80%, ePM10 70%"
+    },
+    {
+      "label": "EN779:2012",
+      "value": "G4, M5, F6, F7, F8, F9"
+    },
+    {
+      "label": "Materiāla veids",
+      "value": "Stikla šķiedra, poliesters, ogles"
+    },
+    {
+      "label": "Rāmja standarta izmērs (mm)",
+      "value": "46; 48; 96"
+    },
+    {
+      "label": "Rāmja materiāls",
+      "value": "Kartons, plastmasa, cinkots tērauds"
+    },
+    {
+      "label": "Maks. darba temperatūra",
+      "value": "40°C, 65°C, 260°C"
+    },
+    {
+      "label": "Ieteicamais galīgais spiediena kritums maks.",
+      "value": "250 Pa"
+    },
+    {
+      "label": "Ieteicamais gaisa plūsmas diapazons",
+      "value": "75% – 125%"
+    }
+  ],
+  "keywords": [
+    "paneļu filtri",
+    "panel filters",
+    "priekšfiltrs",
+    "ISO 16890",
+    "EN779",
+    "G4",
+    "F7",
+    "F9",
+    "HEPA priekšfiltrs",
+    "HT filtri",
+    "antibakteriāls filtrs",
+    "gaisa filtri"
+  ],
+  "image": "/images/shop/product-2.jpg",
+  "featured": false,
+  "order": 5,
+  "gallery": [
+    {
+      "image": "/images/shop/product-2.jpg"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "title": "HEPA filtri",
+  "slug": "hepa-filtri",
+  "category": "gaisa-filtri",
+  "description": "HEPA/ULPA filtri ļoti smalku daļiņu, vīrusu, baktēriju un toksisku aerosolu savākšanai — tīrām telpām, slimnīcām un laboratorijām.",
+  "paragraphs": [
+    "HEPA/ULPA filtrēšana tiek izmantota ļoti smalku vielu un daļiņu savākšanai gaisā, tādiem piesārņotājiem kā vīrusi, baktērijas un toksiski putekļi-aerosoli. Šāda gaisa attīrīšana tiek nodrošināta tīrajās telpās, slimnīcās, laboratorijās un citās ārstniecības iestādēs.",
+    "Filtrs sastāv no krokota, īpaši smalka mikrošķiedras materiāla, kas ļauj gandrīz pilnībā atdalīt submikroniskas daļiņas gaisā."
+  ],
+  "specs": [
+    {
+      "label": "Filtrācijas klases",
+      "value": "H10 līdz U17 ar skenēšanas testu saskaņā ar DIN EN 1822"
+    },
+    {
+      "label": "Rāmja materiāls",
+      "value": "MDF, alumīnijs vai cinkots tērauds"
+    },
+    {
+      "label": "Temperatūras izturība",
+      "value": "Versijas ar nepārtrauktu temperatūras izturību līdz 250°C"
+    }
+  ],
+  "keywords": [
+    "HEPA",
+    "ULPA",
+    "HEPA filtri",
+    "tīrās telpas",
+    "DIN EN 1822",
+    "H13",
+    "H14",
+    "U15",
+    "laboratorijas",
+    "slimnīcas",
+    "absolūtā filtrācija",
+    "gaisa filtri"
+  ],
+  "image": "/images/shop/product-7.jpg",
+  "featured": false,
+  "order": 7,
+  "gallery": [
+    {
+      "image": "/images/shop/product-7.jpg"
+    }
+  ]
+}

@@ -105,6 +105,12 @@ collections:
               - { label: Need Help, name: need_help, widget: string }
               - { label: Send Message, name: send_message, widget: string }
               - { label: Learn More, name: learn_more, widget: string }
+              - { label: Technical Specs, name: technical_specs, widget: string, required: false }
+              - { label: Device Specs, name: device_specs, widget: string, required: false }
+              - { label: Benefits, name: benefits, widget: string, required: false }
+              - { label: Performance Table, name: performance_table, widget: string, required: false }
+              - { label: Related Products, name: related_products, widget: string, required: false }
+              - { label: Order, name: order, widget: string, required: false }
       - label: General Settings (English)
         name: settings-en
         file: content/en/settings.json
@@ -380,6 +386,7 @@ collections:
         field: { label: Paragraph, name: paragraph, widget: text }
       - { label: CTA Button Text, name: cta_text, widget: string }
       - { label: Coming Soon Note, name: coming_soon, widget: string, required: false }
+      - { label: Layout, name: layout, widget: string, required: false, hint: "Use price for a priced product grid" }
 
   - name: industries_page
     label: Industries Page
@@ -503,8 +510,75 @@ collections:
           - { label: Industriālie gaisa attīrītāji, value: industrialie-gaisa-attiritaji }
           - { label: Tehniskie audumi, value: tehniskie-audumi }
       - { label: Short Description, name: description, widget: text, required: false }
-      - { label: Full Description, name: body, widget: markdown, required: false }
-      - { label: Main Image, name: image, widget: image }
+      - { label: Price, name: price, widget: string, required: false }
+      - { label: Price Note, name: price_note, widget: string, required: false }
+      - label: Card Highlights
+        name: highlights
+        widget: list
+        required: false
+        field: { label: Line, name: line, widget: string }
+      - { label: Full Description, name: body, widget: markdown, required: false, hint: "Legacy single body field; prefer Paragraphs when possible" }
+      - label: Paragraphs
+        name: paragraphs
+        widget: list
+        required: false
+        field: { label: Paragraph, name: paragraph, widget: text }
+      - label: Content Sections
+        name: sections
+        widget: list
+        required: false
+        fields:
+          - { label: Section Title, name: title, widget: string }
+          - label: Paragraphs
+            name: paragraphs
+            widget: list
+            field: { label: Paragraph, name: paragraph, widget: text }
+      - { label: Benefits Title, name: benefits_title, widget: string, required: false }
+      - label: Benefits
+        name: benefits
+        widget: list
+        required: false
+        field: { label: Benefit, name: benefit, widget: string }
+      - { label: Specs Title, name: specs_title, widget: string, required: false }
+      - label: Technical Specs
+        name: specs
+        widget: list
+        required: false
+        fields:
+          - { label: Label, name: label, widget: string }
+          - { label: Value, name: value, widget: string }
+      - { label: Device Specs Title, name: device_specs_title, widget: string, required: false }
+      - label: Device Specs
+        name: device_specs
+        widget: list
+        required: false
+        fields:
+          - { label: Label, name: label, widget: string }
+          - { label: Value, name: value, widget: string }
+      - label: Spec Table
+        name: spec_table
+        widget: object
+        required: false
+        fields:
+          - { label: Table Title, name: title, widget: string, required: false }
+          - label: Headers
+            name: headers
+            widget: list
+            field: { label: Header, name: header, widget: string }
+          - label: Rows
+            name: rows
+            widget: list
+            fields:
+              - label: Cells
+                name: cells
+                widget: list
+                field: { label: Cell, name: cell, widget: string }
+      - label: SEO Keywords
+        name: keywords
+        widget: list
+        required: false
+        field: { label: Keyword, name: keyword, widget: string }
+      - { label: Main Image, name: image, widget: image, required: false }
       - { label: Hover Image, name: image_hover, widget: image, required: false }
       - { label: Featured on Homepage, name: featured, widget: boolean, default: false }
       - { label: Sort Order, name: order, widget: number, default: 0, required: false }
@@ -514,3 +588,4 @@ collections:
         required: false
         fields:
           - { label: Image, name: image, widget: image }
+          - { label: Alt Text, name: alt, widget: string, required: false }

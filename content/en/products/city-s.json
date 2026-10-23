@@ -1,15 +1,89 @@
 {
-  "title": "City S",
+  "title": "City S air purifier",
   "slug": "city-s",
   "category": "city",
-  "description": "City S air purifier for smaller rooms.",
-  "body": "City S is a more compact model for spaces that need effective air purification in a smaller footprint.",
+  "description": "CITY S air purifier with HEPA H14 and activated carbon filters — a compact solution for homes, offices, schools and public buildings.",
+  "paragraphs": [
+    "CITY S is an air purifier equipped with efficient HEPA and activated carbon filters. Each HEPA filter includes an individual scan test that complies with EN 1822 and serves as proof of H14 filtration efficiency."
+  ],
+  "sections": [
+    {
+      "title": "Why choose City S?",
+      "paragraphs": [
+        "The filters ensure that the CITY S air purifier effectively reduces harmful particles, odours and other volatile organic compounds commonly found in indoor air in homes, offices, schools, hospitals, sports halls and other public buildings."
+      ]
+    },
+    {
+      "title": "Air quality benefits of purifying with City S",
+      "paragraphs": [
+        "Compared with products available on the market, the filtration area of the filters used in the CITY S unit can be up to 14 times larger than filters from other manufacturers. This provides a longer filter service life and dust holding capacity without reducing airflow. CITY S is equipped with high-efficiency HEPA H14 filters that remove up to 99.995% of MPPS (the most penetrating particle size), ranging from 0.1 to 0.25 microns. Clean air, free from harmful particles and pollutants, is dispersed 360 degrees."
+      ]
+    },
+    {
+      "title": "Why HEPA molecular filtration?",
+      "paragraphs": [
+        "HEPA filters belong to the so-called “absolute” purification filter category. This term confirms their high filtration efficiency. The City S air purifier is equipped with two combined HEPA H14 and carbon filters that capture both particulate matter and volatile organic compounds in the air. HEPA H14 filter efficiency is 99.995%, calculated by MPPS density. The activated carbon filter removes odours and gases using RAD (rapid adsorption dynamics) properties. Every Camfil HEPA filter is manufactured and tested according to EN 1822, which certifies filter efficiency. Activated carbon filters are manufactured in accordance with ISO 10121."
+      ]
+    }
+  ],
+  "benefits_title": "Benefits",
+  "benefits": [
+    "Captures the smallest particulate matter in the air",
+    "Reduces airborne infections",
+    "Each filter is individually tested",
+    "Reduces microbiological contamination",
+    "Reduces dust in the room",
+    "Simple to use",
+    "Healthier employees",
+    "Fewer asthma and allergy cases",
+    "Reduced presence of volatile organic compounds in the air",
+    "Less time spent on cleaning"
+  ],
+  "specs_title": "Filter specification",
+  "specs": [
+    { "label": "Filter size (WxHxD)", "value": "300×205×98 mm" },
+    { "label": "Airflow", "value": "100 m³/h" },
+    { "label": "Pressure drop", "value": "200 Pa" },
+    { "label": "Filter media", "value": "Activated carbon type CS and HEPA glass fibre" },
+    { "label": "Protective grille", "value": "On the HEPA filter side" },
+    { "label": "Efficiency", "value": "H14 according to EN 1822" },
+    { "label": "MPPS efficiency", "value": "≥99.995% (each filter has a scan test)" },
+    { "label": "Max. final pressure drop", "value": "500 Pa" },
+    { "label": "Max. temperature", "value": "60°C" },
+    { "label": "Max. relative humidity (HEPA filter)", "value": "100%" },
+    { "label": "Max. relative humidity (molecular filter)", "value": "up to 70%" },
+    { "label": "Weight", "value": "1.0 kg" }
+  ],
+  "device_specs_title": "Technical information",
+  "device_specs": [
+    { "label": "Unit dimensions (WxHxD)", "value": "340×465×345 mm" },
+    { "label": "Colour", "value": "White or black" },
+    { "label": "Weight", "value": "11 kg (including filters)" },
+    { "label": "Power supply", "value": "200…240 V" },
+    { "label": "Recommended coverage area", "value": "45 m²" },
+    { "label": "Fan speeds", "value": "1–6" },
+    { "label": "Processed airflow", "value": "21–247 m³/h" },
+    { "label": "Noise level", "value": "21–52 dBA" },
+    { "label": "Power consumption", "value": "5–36 W" }
+  ],
+  "keywords": [
+    "City S",
+    "air purifier",
+    "HEPA H14",
+    "activated carbon",
+    "EN 1822",
+    "ISO 10121",
+    "MPPS",
+    "Camfil",
+    "VOC",
+    "compact",
+    "office"
+  ],
   "image": "/images/shop/product-7.jpg",
   "featured": false,
   "order": 2,
   "gallery": [
-    {
-      "image": "/images/shop/product-7.jpg"
-    }
+    { "image": "/images/shop/product-7.jpg", "alt": "City S air purifier" },
+    { "image": "/images/shop/product-2.jpg", "alt": "City S — view 2" }
   ]
 }

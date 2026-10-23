@@ -1,0 +1,86 @@
+{
+  "title": "Kompaktfiltrs",
+  "slug": "kompaktfiltri",
+  "category": "gaisa-filtri",
+  "description": "8 paneļu augstas efektivitātes kompaktfiltrs komerciālām un rūpnieciskām ventilācijas sistēmām — liela gaisa plūsma un ilgs kalpošanas laiks.",
+  "paragraphs": [
+    "Kompaktfiltrs ir 8 paneļu augstas efektivitātes filtrs, kas paredzēts izmantošanai komerciālās un rūpnieciskās ventilācijas sistēmās, nodrošinot vēlamo gaisa kvalitāti sarežģītos ekspluatācijas apstākļos.",
+    "Astoņi smalki gofrēti bloki, kas samontēti 4 V-veida karkasā, ļauj būtiski palielināt filtrējošo laukumu. Maksimāli efektīvais smalki gofrētais materiāls nodrošina lielāku gaisa plūsmas jaudu, zemu pretestību, augstu putekļu uztveršanas spēju un ilgu kalpošanas laiku."
+  ],
+  "specs": [
+    {
+      "label": "Filtra klase",
+      "value": "Saskaņā ar ISO 16890"
+    },
+    {
+      "label": "Maks. relatīvais mitrums",
+      "value": "100%"
+    },
+    {
+      "label": "Temperatūras izturība",
+      "value": "maks. 60 °C"
+    },
+    {
+      "label": "Filtra materiāls",
+      "value": "Sintētiskās šķiedras"
+    },
+    {
+      "label": "Ieteicamais beigu spiediena kritums",
+      "value": "650 Pa"
+    },
+    {
+      "label": "Rāmis",
+      "value": "Plastmasa"
+    },
+    {
+      "label": "Raksturlielumi",
+      "value": "Liela apjoma gaisa plūsmai un ilgam kalpošanas laikam"
+    }
+  ],
+  "spec_table": {
+    "title": "Izmēri un veiktspēja",
+    "headers": [
+      "Izmērs",
+      "Filtrējošais laukums",
+      "Sākotnējais spiediena kritums Pa",
+      "Gaisa daudzums m³/h",
+      "EN779:2012",
+      "ISO 16890"
+    ],
+    "rows": [
+      { "cells": ["592×592×292", "12,2", "60", "3400", "M6", "ePM10 70%"] },
+      { "cells": ["592×490×292", "9,9", "60", "2800", "M6", "ePM10 70%"] },
+      { "cells": ["592×287×292", "5,4", "60", "1700", "M6", "ePM10 70%"] },
+      { "cells": ["592×592×292", "12,2", "75", "3400", "F7", "ePM1 55%"] },
+      { "cells": ["592×490×292", "9,9", "75", "2800", "F7", "ePM1 55%"] },
+      { "cells": ["592×287×292", "5,4", "75", "1700", "F7", "ePM1 55%"] },
+      { "cells": ["592×592×292", "12,2", "100", "3400", "F8", "ePM1 75%"] },
+      { "cells": ["592×490×292", "9,9", "100", "2800", "F8", "ePM1 75%"] },
+      { "cells": ["592×287×292", "5,4", "100", "1700", "F8", "ePM1 75%"] },
+      { "cells": ["592×592×292", "12,2", "130", "3400", "F9", "ePM1 85%"] },
+      { "cells": ["592×490×292", "9,9", "130", "2800", "F9", "ePM1 85%"] },
+      { "cells": ["592×287×292", "5,4", "130", "1700", "F9", "ePM1 85%"] }
+    ]
+  },
+  "keywords": [
+    "kompaktfiltrs",
+    "compact filter",
+    "V-bank",
+    "ISO 16890",
+    "EN779",
+    "F7",
+    "F8",
+    "F9",
+    "ePM1",
+    "ventilācijas filtri",
+    "gaisa filtri"
+  ],
+  "image": "/images/shop/product-6.jpg",
+  "featured": false,
+  "order": 6,
+  "gallery": [
+    {
+      "image": "/images/shop/product-6.jpg"
+    }
+  ]
+}

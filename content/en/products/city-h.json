@@ -1,15 +1,88 @@
 {
-  "title": "City H",
+  "title": "City H air purifier",
   "slug": "city-h",
   "category": "city",
-  "description": "City H air purifier for specialised applications.",
-  "body": "City H is designed for situations that require targeted air extraction and purification.",
+  "description": "CITY H air purifier with HEPA H14 filters — for healthcare, dentistry, hygienist clinics and laboratories.",
+  "paragraphs": [
+    "CITY H is an air purifier equipped with efficient HEPA filters. Each HEPA filter includes an individual scan test that complies with EN 1822 and serves as proof of H14 filtration efficiency."
+  ],
+  "sections": [
+    {
+      "title": "Why choose City H?",
+      "paragraphs": [
+        "The filters ensure that the CITY H air purifier effectively reduces harmful particles, odours and other volatile organic compounds commonly found in indoor air in hospitals, dental and hygienist clinics and other healthcare spaces.",
+        "City H is an air purifier designed for industries such as healthcare, hygienists, dentistry and laboratories. Its operation removes air pollutants — viruses and bacteria — at the source where they are generated."
+      ]
+    },
+    {
+      "title": "Air quality benefits of purifying with City H",
+      "paragraphs": [
+        "Compared with products available on the market, the filtration area of the filters used in the CITY H unit can be up to 14 times larger than filters from other manufacturers. This provides a longer filter service life and dust holding capacity without reducing airflow. CITY H is equipped with high-efficiency HEPA H14 filters that remove up to 99.995% of MPPS (the most penetrating particle size), ranging from 0.1 to 0.25 microns."
+      ]
+    },
+    {
+      "title": "Why HEPA molecular filtration?",
+      "paragraphs": [
+        "HEPA filters belong to the so-called “absolute” purification filter category. This term confirms their high filtration efficiency. The City H air purifier is equipped with two combined HEPA H14 and carbon filters that capture both particulate matter and volatile organic compounds in the room. HEPA H14 filter efficiency is 99.995%, calculated by MPPS density. Every Camfil HEPA filter is manufactured and tested according to EN 1822, which certifies filter efficiency."
+      ]
+    },
+    {
+      "title": "What is MPPS and how does it relate to viruses?",
+      "paragraphs": [
+        "HEPA filter efficiency is measured in MPPS (Most Penetrating Particle Size) units, which indicate the smallest particle size that will pass through the filter, reflecting filter efficiency. MPPS is typically from 0.1 to 0.25 microns, meaning that 0.005% of 0.1-micron particles pass through an H14 class filter. HEPA filters are used in operating theatres, laboratories, pharmacies, pharmaceutical production facilities and more."
+      ]
+    }
+  ],
+  "benefits_title": "Benefits",
+  "benefits": [
+    "Scanned H14 filters according to EN 1822, providing 99.995% filtration efficiency",
+    "Easy to clean thanks to the smooth housing surface",
+    "Simple to use — plug in and it captures harmful particles",
+    "Easy to move. Equipped with castors",
+    "At maximum power, the unit provides 8 air changes in 30 minutes"
+  ],
+  "specs_title": "Filter specification",
+  "specs": [
+    { "label": "Filter size (WxHxD)", "value": "300×460×98 mm" },
+    { "label": "Airflow", "value": "300 m³/h" },
+    { "label": "Pressure drop", "value": "94 Pa" },
+    { "label": "Filter media", "value": "HEPA glass fibre" },
+    { "label": "Protective grille", "value": "On the HEPA filter side" },
+    { "label": "Efficiency", "value": "H14 according to EN 1822" },
+    { "label": "MPPS efficiency", "value": "≥99.995% (each filter has a scan test)" },
+    { "label": "Max. final pressure drop", "value": "500 Pa" },
+    { "label": "Max. temperature", "value": "60°C" },
+    { "label": "Max. relative humidity (HEPA filter)", "value": "100%" },
+    { "label": "Max. relative humidity (molecular filter)", "value": "up to 70%" },
+    { "label": "Weight", "value": "2.0 kg" },
+    { "label": "Notes", "value": "Combined filter: molecular to remove odours, organic and inorganic gases, and HEPA filter for particulate capture" }
+  ],
+  "device_specs_title": "Technical information",
+  "device_specs": [
+    { "label": "Unit dimensions (WxHxD)", "value": "454×1290×454 mm" },
+    { "label": "Weight", "value": "25 kg (including filters)" },
+    { "label": "Power supply", "value": "200…240 V" },
+    { "label": "Recommended coverage area", "value": "75 m²" }
+  ],
+  "keywords": [
+    "City H",
+    "air purifier",
+    "HEPA H14",
+    "EN 1822",
+    "MPPS",
+    "Camfil",
+    "healthcare",
+    "dentistry",
+    "laboratory",
+    "hospital",
+    "viruses",
+    "bacteria"
+  ],
   "image": "/images/shop/product-8.jpg",
   "featured": false,
   "order": 3,
   "gallery": [
-    {
-      "image": "/images/shop/product-8.jpg"
-    }
+    { "image": "/images/shop/product-8.jpg", "alt": "City H air purifier" },
+    { "image": "/images/shop/product-3.jpg", "alt": "City H — HEPA filter" }
   ]
 }

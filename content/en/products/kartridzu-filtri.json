@@ -2,11 +2,49 @@
   "title": "Cartridge filters",
   "slug": "kartridzu-filtri",
   "category": "gaisa-filtri",
-  "description": "Cartridge filters for compact and precise filtration.",
-  "body": "Cartridge filters are suited to systems that need a compact design and stable filtration performance.",
+  "description": "Filter cartridges for dust collection systems — suitable for Plymovent, KEMPER, Camfil, TEKA and other manufacturers’ equipment.",
+  "paragraphs": [
+    "We offer filter cartridges suitable for filtration equipment from various manufacturers, including Plymovent, KEMPER, Camfil, TEKA and others.",
+    "Cartridge filters are widely used in industrial processing equipment within dust collection systems. Cartridges are made from various materials such as cellulose, polyester, PES with ePTFE membrane, or antistatic media."
+  ],
+  "specs": [
+    {
+      "label": "Max. operating temperature",
+      "value": "70°C"
+    },
+    {
+      "label": "Recommended final pressure drop max.",
+      "value": "450 Pa"
+    },
+    {
+      "label": "Recommended airflow range",
+      "value": "75% – 125%"
+    },
+    {
+      "label": "Moisture resistance",
+      "value": "100% relative humidity"
+    },
+    {
+      "label": "Materials",
+      "value": "Cellulose, polyester, PES with ePTFE membrane, antistatic"
+    }
+  ],
+  "keywords": [
+    "cartridge filters",
+    "filter cartridge",
+    "dust collection",
+    "Plymovent",
+    "KEMPER",
+    "Camfil",
+    "TEKA",
+    "ePTFE",
+    "industrial filters",
+    "polyester",
+    "cellulose"
+  ],
   "image": "/images/shop/product-5.jpg",
   "featured": false,
-  "order": 5,
+  "order": 2,
   "gallery": [
     {
       "image": "/images/shop/product-5.jpg"

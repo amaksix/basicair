@@ -1,15 +1,28 @@
 {
-  "title": "CC 2000",
+  "title": "Gaisa attīrītājs CC 2000",
   "slug": "cc-2000",
   "category": "industrialie-gaisa-attiritaji",
-  "description": "Industriālais gaisa attīrītājs CC 2000.",
-  "body": "CC 2000 paredzēts lielākām telpām ar paaugstinātu piesārņojuma slodzi.",
+  "description": "Gaisa attīrītājs CC 2000 ar maināmiem filtriem — daļiņu, smaku un gaistošo organisko savienojumu samazināšanai.",
+  "paragraphs": [
+    "CC 2000 ir gaisa attīrītājs, kas var tikt aprīkots ar dažādiem filtriem pēc nepieciešamības un pielietojuma. Filtri nodrošina, ka gaisa attīrītājs CC 2000 efektīvi samazina kaitīgās daļiņas, smakas un citus gaistošos organiskos savienojumus, kas parasti sastopami iekštelpu gaisā mājās, birojos, skolās, slimnīcās, sporta zālēs un citās sabiedriskās ēkās."
+  ],
+  "benefits_title": "Ieguvumi",
+  "benefits": [
+    "Veselīgāki darbinieki",
+    "Mazāk astmas un alerģiju saslimšanu",
+    "Samazināta gaistošo organisko savienojumu klātbūtne gaisā",
+    "Mazāks laika patēriņš uzkopšanai"
+  ],
+  "device_specs_title": "Tehniskā informācija",
+  "device_specs": [
+    { "label": "Ventilatora ātrumi", "value": "1" },
+    { "label": "Apstrādātais gaisa daudzums", "value": "1400 m³/h" },
+    { "label": "Skaļuma līmenis", "value": "68 dBA" },
+    { "label": "Efektivitāte pie H13 attīrīšanas", "value": ">99%" }
+  ],
+  "keywords": ["CC 2000", "gaisa attīrītājs", "H13", "industriālais", "VOC"],
   "image": "/images/shop/product-11.jpg",
   "featured": false,
   "order": 3,
-  "gallery": [
-    {
-      "image": "/images/shop/product-11.jpg"
-    }
-  ]
+  "gallery": [{ "image": "/images/shop/product-11.jpg", "alt": "Gaisa attīrītājs CC 2000" }]
 }

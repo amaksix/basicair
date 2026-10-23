@@ -139,6 +139,24 @@ module.exports = async function (eleventyConfig) {
     return items.filter((item) => item.category === categorySlug);
   });
 
+  eleventyConfig.addFilter("relatedProducts", (items, categorySlug, currentSlug, limit = 4) => {
+    if (!items || !categorySlug) return [];
+    return items
+      .filter((item) => item.category === categorySlug && item.slug !== currentSlug)
+      .slice(0, limit);
+  });
+
+  eleventyConfig.addFilter("productGallery", (product) => {
+    if (!product) return [];
+    if (Array.isArray(product.gallery) && product.gallery.length) {
+      return product.gallery.filter((item) => item && item.image);
+    }
+    if (product.image) {
+      return [{ image: product.image, alt: product.title }];
+    }
+    return [];
+  });
+
   eleventyConfig.addFilter("byParent", (items, parentSlug) => {
     if (!items) return [];
     const target = parentSlug || "";

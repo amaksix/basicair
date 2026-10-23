@@ -2,11 +2,41 @@
   "title": "Piedurkņu maisu filtri",
   "slug": "piedurknu-maisu-filtri",
   "category": "gaisa-filtri",
-  "description": "Piedurkņu maisu filtri rūpnieciskai un komerciālai filtrācijai.",
-  "body": "Piedurkņu maisu filtri tiek izmantoti putekļu un daļiņu aizturēšanai sistēmās, kur nepieciešama izturīga un efektīva filtrācija.",
+  "description": "Filtru maisi putekļu atdalīšanas sistēmām — impulsa strūklas, reversās gaisa un nopurināšanas sistēmas ar ilgu kalpošanas laiku.",
+  "paragraphs": [
+    "Mēs ražojam un piegādājam filtru maisus, izmantojot modernas dražošanas tehnoloģijas, kas ir lieliski piemērotas visu veidu putekļu atdalīšanas sistēmām (impulsa strūklas, reversās gaisa vai nopurināšanas sistēmas).",
+    "Pateicoties augstas kvalitātes neaustā tehniskā auduma izvēlei ar dažādu virsmas apstrādi, mūsu filtru maisiem ir ilgs kalpošanas laiks ar optimālu filtrēšanas veiktspēju un zemu spiediena kritumu."
+  ],
+  "specs": [
+    {
+      "label": "Pielietojums",
+      "value": "Putekļu atdalīšanas sistēmas (impulsa strūkla, reversā gaisa, nopurināšana)"
+    },
+    {
+      "label": "Tehnoloģija",
+      "value": "Modernas dražošanas tehnoloģijas"
+    },
+    {
+      "label": "Materiāls",
+      "value": "Neaustais tehniskais audums ar dažādu virsmas apstrādi"
+    },
+    {
+      "label": "Priekšrocības",
+      "value": "Ilgs kalpošanas laiks, optimāla filtrēšanas veiktspēja, zems spiediena kritums"
+    }
+  ],
+  "keywords": [
+    "piedurkņu maisu filtri",
+    "filtru maisi",
+    "bag filters",
+    "putekļu atdalīšana",
+    "impulsa strūkla",
+    "tehniskais audums",
+    "rūpnieciskie filtri"
+  ],
   "image": "/images/shop/product-3.jpg",
   "featured": false,
-  "order": 3,
+  "order": 4,
   "gallery": [
     {
       "image": "/images/shop/product-3.jpg"

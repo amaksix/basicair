@@ -2,13 +2,13 @@
   "title": "Technical fabrics",
   "slug": "tehniskie-audumi",
   "order": 4,
+  "layout": "price",
   "image": "/images/section/collections-banner-3.jpg",
-  "summary": "Technical fabrics and materials for filtration and industrial applications.",
+  "summary": "Technical fabrics and materials for filtration, upholstery and packaging.",
   "hero_image": "/images/page-title/page-title-3.jpg",
   "paragraphs": [
-    "Technical fabrics are used in filtration and other industrial applications where durability and precise material selection matter.",
-    "We advise on the most suitable materials for your technical requirements."
+    "Technical fabric is a textile product specially designed and manufactured for functional purposes and applications. These textiles are developed with specific performance properties, making them suitable for various industrial production processes such as medicine, packaging, chemical processing, food production, air and liquid filtration, furniture and clothing manufacturing, building construction, road embankment reinforcement or plant cultivation. Technical fabrics are designed to provide properties such as fire resistance, chemical resistance, moisture resistance, tensile and abrasion resistance, insulation, cushioning and acoustics.",
+    "Technical textiles can be woven or nonwoven depending on the application. Nonwoven textiles have excellent air and liquid permeability and are widely used for furniture and clothing upholstery and insulation."
   ],
-  "cta_text": "Contact us",
-  "coming_soon": "The product catalogue for this category is being updated."
+  "cta_text": "Contact us"
 }

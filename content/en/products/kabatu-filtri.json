@@ -2,8 +2,47 @@
   "title": "Pocket filters",
   "slug": "kabatu-filtri",
   "category": "gaisa-filtri",
-  "description": "Pocket filters for ventilation and heat-recovery systems.",
-  "body": "Pocket filters provide effective dust and particle capture in ventilation systems. Available in multiple filter classes and sizes.",
+  "description": "Pocket filters with a large filtration surface — for fine filtration in offices, schools and shopping centres, or as pre-filters for industrial processes.",
+  "paragraphs": [
+    "Pocket filters have pockets made of microfine glass fibre or polyester nonwoven media with a special design that ensures optimised airflow distribution combined with moderate energy consumption. The filter pockets provide a large filtration surface.",
+    "Whether the air filter is installed as a fine filter in office buildings, schools or shopping centres, or as a primary pre-filter for industrial processes, it is an excellent solution for both better indoor climate and low operating costs."
+  ],
+  "specs": [
+    {
+      "label": "ISO 16890 (EN779:2012)",
+      "value": "ePM1, ePM2.5, ePM10 (G3–F9)"
+    },
+    {
+      "label": "Media type",
+      "value": "Glass fibre or nonwoven polyester"
+    },
+    {
+      "label": "Gasket material",
+      "value": "Neoprene"
+    },
+    {
+      "label": "Frame material",
+      "value": "Galvanised steel or plastic"
+    },
+    {
+      "label": "Pocket depth (mm)",
+      "value": "360, 525, 625 or on request"
+    }
+  ],
+  "keywords": [
+    "pocket filters",
+    "bag filters",
+    "air filters",
+    "ISO 16890",
+    "EN779",
+    "ePM1",
+    "ePM2.5",
+    "ePM10",
+    "pre-filter",
+    "ventilation filters",
+    "glass fibre",
+    "polyester"
+  ],
   "image": "/images/shop/product-1.jpg",
   "featured": false,
   "order": 1,

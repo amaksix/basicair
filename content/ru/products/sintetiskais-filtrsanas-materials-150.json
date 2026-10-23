@@ -1,0 +1,14 @@
+{
+  "title": "Синтетический материал для фильтрации и обивки",
+  "slug": "sintetiskais-filtrsanas-materials-150",
+  "category": "tehniskie-audumi",
+  "description": "Полиэстер / синтепон для фильтрации и обивки. 150 г/м², 10 мм, рулон 1,6 м × 10 м.",
+  "highlights": ["Полиэстер / синтепон", "Вес: 150 г/м² (10 мм)", "Ширина: 1,6 м", "Длина: 10 м"],
+  "price": "51,20 EUR + НДС",
+  "price_note": "3,20 EUR/м²",
+  "keywords": ["синтетический материал", "синтепон", "полиэстер", "фильтрация", "обивка", "технические ткани"],
+  "image": "/images/shop/product-2.jpg",
+  "featured": false,
+  "order": 2,
+  "gallery": [{ "image": "/images/shop/product-2.jpg" }]
+}

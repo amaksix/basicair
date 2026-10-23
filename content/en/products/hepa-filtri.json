@@ -1,0 +1,46 @@
+{
+  "title": "HEPA filters",
+  "slug": "hepa-filtri",
+  "category": "gaisa-filtri",
+  "description": "HEPA/ULPA filters for capturing very fine particles, viruses, bacteria and toxic aerosols — for cleanrooms, hospitals and laboratories.",
+  "paragraphs": [
+    "HEPA/ULPA filtration is used to capture very fine substances and particles in the air, including pollutants such as viruses, bacteria and toxic dust aerosols. This level of air purification is provided in cleanrooms, hospitals, laboratories and other healthcare facilities.",
+    "The filter consists of pleated, ultra-fine microfibre media that allows nearly complete separation of submicron particles from the air."
+  ],
+  "specs": [
+    {
+      "label": "Filtration classes",
+      "value": "H10 to U17 with scan testing according to DIN EN 1822"
+    },
+    {
+      "label": "Frame material",
+      "value": "MDF, aluminium or galvanised steel"
+    },
+    {
+      "label": "Temperature resistance",
+      "value": "Versions with continuous temperature resistance up to 250°C"
+    }
+  ],
+  "keywords": [
+    "HEPA",
+    "ULPA",
+    "HEPA filters",
+    "cleanrooms",
+    "DIN EN 1822",
+    "H13",
+    "H14",
+    "U15",
+    "laboratories",
+    "hospitals",
+    "absolute filtration",
+    "air filters"
+  ],
+  "image": "/images/shop/product-7.jpg",
+  "featured": false,
+  "order": 7,
+  "gallery": [
+    {
+      "image": "/images/shop/product-7.jpg"
+    }
+  ]
+}

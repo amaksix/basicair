@@ -44,6 +44,35 @@ eleventyComputed:
         {% endif %}
 
         {% if categoryProducts.length %}
+        {% if category.layout == "price" %}
+        <div class="row g-4">
+            {% for product in categoryProducts %}
+            <div class="col-sm-6 col-lg-4">
+                <article class="category-product-card category-product-card--price wow fadeInUp" data-wow-delay="{{ (loop.index0 * 0.05) }}s">
+                    <h3 class="category-product-card__title">
+                        <a href="/{{ locale }}/products/{{ product.slug }}/" class="link">{{ product.title }}</a>
+                    </h3>
+                    <a href="/{{ locale }}/products/{{ product.slug }}/" class="category-product-card__image img-style">
+                        {% if product.image %}
+                        <img class="lazyload" src="{{ product.image | asset }}" data-src="{{ product.image | asset | htmlBaseUrl }}" alt="{{ product.title }}">
+                        {% endif %}
+                    </a>
+                    {% if product.highlights and product.highlights.length %}
+                    <ul class="category-product-card__details">
+                        {% for line in product.highlights %}
+                        <li>{{ line }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                    {% if product.price %}
+                    <p class="category-product-card__price">{{ product.price }}{% if product.price_note %} <span>{{ product.price_note }}</span>{% endif %}</p>
+                    {% endif %}
+                    <a href="/{{ locale }}/contact/" class="tf-btn btn-onsurface">{{ settings.labels.order }}</a>
+                </article>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
         <div class="row g-4">
             {% for product in categoryProducts %}
             <div class="col-sm-6 {% if categoryProducts.length == 3 %}col-lg-4{% else %}col-lg-3{% endif %}">
@@ -57,6 +86,7 @@ eleventyComputed:
             </div>
             {% endfor %}
         </div>
+        {% endif %}
         {% else %}
         <div class="row justify-center">
             <div class="col-lg-8">

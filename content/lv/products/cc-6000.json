@@ -1,15 +1,28 @@
 {
-  "title": "CC 6000",
+  "title": "Gaisa attīrītājs CC 6000",
   "slug": "cc-6000",
   "category": "industrialie-gaisa-attiritaji",
-  "description": "Industriālais gaisa attīrītājs CC 6000.",
-  "body": "CC 6000 ir jaudīgs industriālais risinājums lielām ražotnēm un telpām ar intensīvu piesārņojumu.",
+  "description": "Gaisa attīrītājs CC 6000 ar maināmiem filtriem — lielam gaisa daudzumam un daļiņu, smaku un VOC samazināšanai.",
+  "paragraphs": [
+    "CC 6000 ir gaisa attīrītājs, kas var tikt aprīkots ar dažādiem filtriem pēc nepieciešamības un pielietojuma. Filtri nodrošina, ka gaisa attīrītājs CC 6000 efektīvi samazina kaitīgās daļiņas, smakas un citus gaistošos organiskos savienojumus, kas parasti sastopami iekštelpu gaisā mājās, birojos, skolās, slimnīcās, sporta zālēs un citās sabiedriskās ēkās."
+  ],
+  "benefits_title": "Ieguvumi",
+  "benefits": [
+    "Veselīgāki darbinieki",
+    "Mazāk astmas un alerģiju saslimšanu",
+    "Samazināta gaistošo organisko savienojumu klātbūtne gaisā",
+    "Mazāks laika patēriņš uzkopšanai"
+  ],
+  "device_specs_title": "Tehniskā informācija",
+  "device_specs": [
+    { "label": "Ventilatora ātrumi", "value": "1–4" },
+    { "label": "Apstrādātais gaisa daudzums", "value": "3000–6000 m³/h" },
+    { "label": "Skaļuma līmenis", "value": "52–67 dBA" },
+    { "label": "Efektivitāte pie H13 attīrīšanas", "value": ">99%" }
+  ],
+  "keywords": ["CC 6000", "gaisa attīrītājs", "H13", "industriālais", "VOC"],
   "image": "/images/shop/product-12.jpg",
   "featured": false,
   "order": 4,
-  "gallery": [
-    {
-      "image": "/images/shop/product-12.jpg"
-    }
-  ]
+  "gallery": [{ "image": "/images/shop/product-12.jpg", "alt": "Gaisa attīrītājs CC 6000" }]
 }

@@ -1,15 +1,88 @@
 {
-  "title": "City H",
+  "title": "Gaisa attīrītājs City H",
   "slug": "city-h",
   "category": "city",
-  "description": "City H gaisa attīrītājs specializētiem pielietojumiem.",
-  "body": "City H paredzēts situācijām, kur nepieciešama mērķtiecīga gaisa nosūkšana un attīrīšana.",
+  "description": "CITY H gaisa attīrītājs ar HEPA H14 filtriem — veselības aprūpei, zobārstniecībai, higiēnistu kabinetiem un laboratorijām.",
+  "paragraphs": [
+    "CITY H ir gaisa attīrītājs, kas aprīkots ar efektīviem HEPA filtriem. Klāt pie katra HEPA filtra iekšpusē ir individuāls skenēšanas tests, kas atbilst EN 1822 normai un kalpo kā apliecinājums H14 filtrācijas efektivitātei."
+  ],
+  "sections": [
+    {
+      "title": "Kāpēc izvēlēties City H?",
+      "paragraphs": [
+        "Filtri nodrošina, ka gaisa attīrītājs CITY H efektīvi samazina kaitīgās daļiņas, smakas un citus gaistošos organiskos savienojumus, kas parasti sastopami iekštelpu gaisā slimnīcās, zobārstniecības un higiēnistu kabinetos un citās veselības aprūpes telpās.",
+        "City H ir gaisa attīrītājs, kas izstrādāts tādām nozarēm kā veselības aprūpe, higiēnisti, zobārstniecība un laboratorijas. Darbības process nodrošina gaisa piesārņotāju — vīrusu un baktēriju — noņemšanu tieši to rašanās vietā."
+      ]
+    },
+    {
+      "title": "Gaisa kvalitātes priekšrocības attīrot gaisu ar City H",
+      "paragraphs": [
+        "Salīdzinājumā ar tirgū pieejamiem produktiem filtrējošais laukums filtriem, kurus izmanto CITY H iekārtai, var būt līdz pat 14 reizēm lielāks kā citu ražotāju filtriem. Tas nodrošina ilgāku filtra kalpošanas laiku un putekļu uztveršanas spējas, nesamazinot gaisa plūsmu. CITY H ir aprīkota ar augstas efektivitātes HEPA H14 filtriem, kas noņem līdz 99,995% MPPS (vissmalkākā izmēra daļiņas), kuru izmērs ir no 0,1 līdz 0,25 mikroniem."
+      ]
+    },
+    {
+      "title": "Kāpēc tieši HEPA molekulārā filtrēšana?",
+      "paragraphs": [
+        "HEPA filtri ietilpst tā saukto „absolūtās” attīrīšanas filtru kategorijā. Šis termins apstiprina to, ka filtriem ir augsta filtrēšanas efektivitāte. City H gaisa attīrītājs ir aprīkots ar diviem kombinētiem HEPA H14 un ogles filtriem, kas savāc gan partikulārās daļiņas, gan gaistošos organiskos savienojumus telpā. HEPA H14 filtru efektivitāte ir 99,995%, aprēķinot pēc MPPS blīvuma. Ikviens Camfil HEPA filtrs tiek izgatavots un testēts saskaņā ar EN 1822 normu, kas ir kā apliecinājums filtra efektivitātei."
+      ]
+    },
+    {
+      "title": "Kas ir MPPS un kāds tam sakars ar vīrusiem?",
+      "paragraphs": [
+        "HEPA filtru efektivitāti mēra MPPS (Most Penetrating Particle Size) vienībās, kas norāda uz mazāko daļiņu lielumu, kas pārvietosies cauri filtram, atspoguļojot filtra efektivitāti. MPPS parasti ir no 0,1 līdz 0,25 mikroniem, kas nozīmē, ka caur H14 klases filtru iziet 0,005% no 0,1 mikronu lielām daļiņām. HEPA filtri tiek izmantoti operāciju zālēm, laboratorijām, farmācijai, zāļu ražotnēm u.c."
+      ]
+    }
+  ],
+  "benefits_title": "Ieguvumi",
+  "benefits": [
+    "Skenēti H14 filtri atbilstoši EN 1822 normai, nodrošinot 99,995% filtrācijas pakāpi",
+    "Viegli tīrāms, pateicoties korpusa gludajai virsmai",
+    "Vienkāršs lietošanā — ieslēdz kontaktā un tas nodrošina kaitīgo daļiņu savākšanu",
+    "Viegli pārvietojams. Aprīkots ar ritentiņiem",
+    "Darbinot iekārtu uz maksimālo jaudu, tā nodrošina 8 gaisa apmaiņas reizes 30 minūtēs"
+  ],
+  "specs_title": "Filtra specifikācija",
+  "specs": [
+    { "label": "Filtra izmērs (PxAxDz)", "value": "300×460×98 mm" },
+    { "label": "Gaisa daudzums", "value": "300 m³/h" },
+    { "label": "Pretspiediens", "value": "94 Pa" },
+    { "label": "Filtrējošais materiāls", "value": "HEPA stiklašķiedras" },
+    { "label": "Aizsargrežģis", "value": "HEPA filtra pusē" },
+    { "label": "Efektivitāte", "value": "H14 atbilstoši EN 1822 normai" },
+    { "label": "MPPS efektivitāte", "value": "≥99,995% (katram filtram ir skenēšanas tests)" },
+    { "label": "Maks. beigu spiediena kritums", "value": "500 Pa" },
+    { "label": "Maks. temperatūra", "value": "60°C" },
+    { "label": "Maks. relatīvais mitrums (HEPA filtrs)", "value": "100%" },
+    { "label": "Maks. relatīvais mitrums (molekulārais filtrs)", "value": "līdz 70%" },
+    { "label": "Svars", "value": "2,0 kg" },
+    { "label": "Atzīmes", "value": "Kombinētais filtrs: molekulārais, lai noņemtu smakas, organiskās un neorganiskās gāzes, un HEPA filtrs partikulāro daļiņu savākšanai" }
+  ],
+  "device_specs_title": "Tehniskā informācija",
+  "device_specs": [
+    { "label": "Iekārtas izmēri (PxAxDz)", "value": "454×1290×454 mm" },
+    { "label": "Svars", "value": "25 kg (ieskaitot filtrus)" },
+    { "label": "Elektrības padeve", "value": "200…240 V" },
+    { "label": "Ieteicamais attīrīšanas laukums", "value": "75 m²" }
+  ],
+  "keywords": [
+    "City H",
+    "gaisa attīrītājs",
+    "HEPA H14",
+    "EN 1822",
+    "MPPS",
+    "Camfil",
+    "veselības aprūpe",
+    "zobārstniecība",
+    "laboratorija",
+    "slimnīca",
+    "vīrusi",
+    "baktērijas"
+  ],
   "image": "/images/shop/product-8.jpg",
   "featured": false,
   "order": 3,
   "gallery": [
-    {
-      "image": "/images/shop/product-8.jpg"
-    }
+    { "image": "/images/shop/product-8.jpg", "alt": "City H gaisa attīrītājs" },
+    { "image": "/images/shop/product-3.jpg", "alt": "City H — HEPA filtrs" }
   ]
 }

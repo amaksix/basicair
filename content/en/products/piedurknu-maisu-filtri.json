@@ -2,11 +2,41 @@
   "title": "Sleeve bag filters",
   "slug": "piedurknu-maisu-filtri",
   "category": "gaisa-filtri",
-  "description": "Sleeve bag filters for industrial and commercial filtration.",
-  "body": "Sleeve bag filters are used to capture dust and particles in systems that require durable and effective filtration.",
+  "description": "Filter bags for dust separation systems — pulse-jet, reverse-air and shaker systems with long service life.",
+  "paragraphs": [
+    "We manufacture and supply filter bags using modern finishing technologies that are well suited to all types of dust separation systems (pulse-jet, reverse-air or shaker systems).",
+    "Thanks to the selection of high-quality nonwoven technical fabrics with various surface treatments, our filter bags offer a long service life with optimal filtration performance and low pressure drop."
+  ],
+  "specs": [
+    {
+      "label": "Application",
+      "value": "Dust separation systems (pulse-jet, reverse-air, shaker)"
+    },
+    {
+      "label": "Technology",
+      "value": "Modern finishing technologies"
+    },
+    {
+      "label": "Material",
+      "value": "Nonwoven technical fabric with various surface treatments"
+    },
+    {
+      "label": "Benefits",
+      "value": "Long service life, optimal filtration performance, low pressure drop"
+    }
+  ],
+  "keywords": [
+    "sleeve bag filters",
+    "filter bags",
+    "bag filters",
+    "dust separation",
+    "pulse-jet",
+    "technical fabric",
+    "industrial filters"
+  ],
   "image": "/images/shop/product-3.jpg",
   "featured": false,
-  "order": 3,
+  "order": 4,
   "gallery": [
     {
       "image": "/images/shop/product-3.jpg"

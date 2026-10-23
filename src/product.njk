@@ -9,38 +9,203 @@ currentPage: product
 eleventyComputed:
   locale: "{{ product.locale }}"
   pageTitle: "{{ product.title }} — BasicAir"
+  pageDescription: "{{ product.description }}"
+  pageKeywords: "{% if product.keywords %}{{ product.keywords | join(', ') }}{% endif %}"
 ---
+{% set galleryItems = product | productGallery %}
+
 <section class="flat-spacing-2">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <div class="tf-product-media-wrap">
-                    <img class="lazyload w-100" src="{{ product.image | asset }}" data-src="{{ product.image | asset | htmlBaseUrl }}" alt="{{ product.title }}">
+                <div class="tf-product-media-wrap sticky-top" data-product-gallery>
+                    {% if galleryItems.length %}
+                    <div class="item">
+                        <img class="lazyload w-100 radius-4" id="product-main-image" src="{{ galleryItems[0].image | asset }}" data-src="{{ galleryItems[0].image | asset | htmlBaseUrl }}" alt="{{ galleryItems[0].alt or product.title }}">
+                    </div>
+                    {% if galleryItems.length > 1 %}
+                    <div class="product-gallery-thumbs mt_20 d-flex flex-row flex-wrap align-items-start gap-8" style="width: 100%;">
+                        {% for item in galleryItems %}
+                        <button type="button" class="product-gallery-thumb border-0 p-0 bg-transparent flex-shrink-0{% if loop.first %} is-active{% endif %}" data-gallery-src="{{ item.image | asset }}" data-gallery-alt="{{ item.alt or product.title }}" aria-label="{{ product.title }} {{ loop.index }}" style="cursor: pointer; width: 80px;">
+                            <img class="lazyload radius-4 w-100" src="{{ item.image | asset }}" data-src="{{ item.image | asset | htmlBaseUrl }}" alt="{{ item.alt or product.title }}" style="height: 80px; object-fit: cover; display: block;{% if loop.first %} outline: 2px solid currentColor; outline-offset: 2px;{% endif %}">
+                        </button>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                    {% else %}
+                    <div class="item product-image-placeholder d-flex align-items-center justify-content-center radius-4 bg-surface" style="min-height: 360px;">
+                        <span class="text_secondary text-body-default">{{ product.title }}</span>
+                    </div>
+                    {% endif %}
                 </div>
-                {% if product.gallery and product.gallery.length > 1 %}
-                <div class="tf-product-media-thumbs mt_20">
-                    {% for item in product.gallery %}
-                    <img class="lazyload" src="{{ item.image | asset }}" alt="{{ product.title }}" style="max-width: 80px; margin-right: 8px;">
-                    {% endfor %}
-                </div>
-                {% endif %}
             </div>
             <div class="col-lg-6">
-                <div class="tf-product-info-wrap">
+                <div class="tf-product-info-wrap tf-product-info-list">
                     <h3 class="mb_12">{{ product.title }}</h3>
                     {% if product.description %}
                     <p class="text_secondary mb_20">{{ product.description }}</p>
                     {% endif %}
-                    {% if product.body %}
-                    <div class="product-body text-body-default mb_30">{{ product.body }}</div>
+                    {% if product.price %}
+                    <p class="text-title mb_8">{{ product.price }}</p>
+                    {% if product.price_note %}
+                    <p class="text_secondary mb_20">{{ product.price_note }}</p>
                     {% endif %}
-                    <a href="/{{ locale }}/contact/" class="tf-btn btn-onsurface">{{ settings.labels.request_quote }} <i class="icon-arrow-up-right"></i></a>
+                    {% endif %}
+                    {% if product.highlights and product.highlights.length %}
+                    <ul class="list-text type-disc gap-6 mb_24">
+                        {% for line in product.highlights %}
+                        <li class="text-body-default text_secondary mb_8">{{ line }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                    {% if product.paragraphs and product.paragraphs.length %}
+                    <div class="product-body mb_30">
+                        {% for paragraph in product.paragraphs %}
+                        <p class="text-body-default text_secondary{% if not loop.last %} mb_16{% endif %}">{{ paragraph }}</p>
+                        {% endfor %}
+                    </div>
+                    {% elif product.body %}
+                    <div class="product-body text-body-default text_secondary mb_30">{{ product.body }}</div>
+                    {% endif %}
+                    <a href="/{{ locale }}/contact/" class="tf-btn btn-onsurface">{% if product.price %}{{ settings.labels.order }}{% else %}{{ settings.labels.request_quote }}{% endif %} <i class="icon-arrow-up-right"></i></a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+{% if product.sections and product.sections.length %}
+{% for section in product.sections %}
+<section class="flat-spacing-2 pt-0">
+    <div class="container">
+        <div class="heading-section mb_24">
+            <h4 class="border-bottom pb_10">{{ section.title }}</h4>
+        </div>
+        {% if section.paragraphs and section.paragraphs.length %}
+        <div class="row">
+            <div class="col-lg-10">
+                {% for paragraph in section.paragraphs %}
+                <p class="text-body-default text_secondary{% if not loop.last %} mb_16{% else %} mb-0{% endif %}">{{ paragraph }}</p>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</section>
+{% endfor %}
+{% endif %}
+
+{% if product.benefits and product.benefits.length %}
+<section class="flat-spacing-2 pt-0">
+    <div class="container">
+        <div class="heading-section mb_24">
+            <h4 class="border-bottom pb_10">{{ product.benefits_title or settings.labels.benefits }}</h4>
+        </div>
+        <div class="row">
+            <div class="col-lg-10">
+                <ul class="list-text type-disc gap-6 mb-0">
+                    {% for benefit in product.benefits %}
+                    <li class="text-body-default text_secondary mb_8">{{ benefit }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+{% if product.specs and product.specs.length %}
+<section class="flat-spacing-2 pt-0">
+    <div class="container">
+        <div class="heading-section mb_24">
+            <h4 class="border-bottom pb_10">{{ product.specs_title or settings.labels.technical_specs }}</h4>
+        </div>
+        <div class="row">
+            <div class="col-lg-10">
+                <ul class="list-text type-disc gap-6 mb-0">
+                    {% for spec in product.specs %}
+                    <li class="text-body-default mb_8">
+                        <span class="text-title">{{ spec.label }}:</span>
+                        <span class="text_secondary"> {{ spec.value }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+{% if product.device_specs and product.device_specs.length %}
+<section class="flat-spacing-2 pt-0">
+    <div class="container">
+        <div class="heading-section mb_24">
+            <h4 class="border-bottom pb_10">{{ product.device_specs_title or settings.labels.device_specs }}</h4>
+        </div>
+        <div class="row">
+            <div class="col-lg-10">
+                <ul class="list-text type-disc gap-6 mb-0">
+                    {% for spec in product.device_specs %}
+                    <li class="text-body-default mb_8">
+                        <span class="text-title">{{ spec.label }}:</span>
+                        <span class="text_secondary"> {{ spec.value }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+{% if product.spec_table and product.spec_table.headers and product.spec_table.rows %}
+<section class="flat-spacing-2 pt-0">
+    <div class="container">
+        <div class="heading-section mb_24">
+            <h4 class="border-bottom pb_10">{{ product.spec_table.title or settings.labels.performance_table }}</h4>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-bordered align-middle mb-0">
+                <thead>
+                    <tr>
+                        {% for header in product.spec_table.headers %}
+                        <th scope="col" class="text-title">{{ header }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in product.spec_table.rows %}
+                    <tr>
+                        {% set cells = row.cells if row.cells else row %}
+                        {% for cell in cells %}
+                        <td class="text-body-default text_secondary">{{ cell }}</td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+{% set relatedList = products | relatedProducts(product.category, product.slug, 4) %}
+{% if relatedList.length %}
+<section class="flat-spacing-2 pt-0">
+    <div class="container">
+        <div class="heading-section">
+            <h3>{{ settings.labels.related_products or home.featured_section.heading }}</h3>
+        </div>
+        <div class="tf-grid-layout tf-col-2 lg-col-4">
+            {% for item in relatedList %}
+            {% set product = item %}
+            {% set delay = (loop.index0 * 0.1) ~ 's' %}
+            {% include "partials/product-card.njk" %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% else %}
 <section class="flat-spacing-2 pt-0">
     <div class="container">
         <div class="heading-section">
@@ -57,3 +222,31 @@ eleventyComputed:
         </div>
     </div>
 </section>
+{% endif %}
+
+{% if galleryItems.length > 1 %}
+<script>
+(function () {
+  var main = document.getElementById("product-main-image");
+  if (!main) return;
+  document.querySelectorAll("[data-gallery-src]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var src = btn.getAttribute("data-gallery-src");
+      var alt = btn.getAttribute("data-gallery-alt") || "";
+      main.src = src;
+      main.setAttribute("data-src", src);
+      main.alt = alt;
+      document.querySelectorAll("[data-gallery-src] img").forEach(function (img) {
+        img.style.outline = "";
+        img.style.outlineOffset = "";
+      });
+      var thumb = btn.querySelector("img");
+      if (thumb) {
+        thumb.style.outline = "2px solid currentColor";
+        thumb.style.outlineOffset = "2px";
+      }
+    });
+  });
+})();
+</script>
+{% endif %}

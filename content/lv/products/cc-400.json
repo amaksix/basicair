@@ -1,15 +1,29 @@
 {
-  "title": "CC 400",
+  "title": "Gaisa attīrītājs CC 400",
   "slug": "cc-400",
   "category": "industrialie-gaisa-attiritaji",
-  "description": "Industriālais gaisa attīrītājs CC 400.",
-  "body": "CC 400 ir kompaktāks industriālais gaisa attīrītājs mazākām ražošanas un tehniskajām zonām.",
+  "description": "Iebūvēts gaisa attīrītājs CC 400 ar maināmiem filtriem — daļiņu, smaku un gaistošo organisko savienojumu samazināšanai.",
+  "paragraphs": [
+    "CC 400 ir iebūvēts gaisa attīrītājs, kas var tikt aprīkots ar dažādiem filtriem pēc nepieciešamības un pielietojuma. Filtri nodrošina, ka gaisa attīrītājs CC 400 efektīvi samazina kaitīgās daļiņas, smakas un citus gaistošos organiskos savienojumus, kas parasti sastopami iekštelpu gaisā mājās, birojos, skolās, slimnīcās, sporta zālēs un citās sabiedriskās ēkās."
+  ],
+  "benefits_title": "Ieguvumi",
+  "benefits": [
+    "Veselīgāki darbinieki",
+    "Mazāk astmas un alerģiju saslimšanu",
+    "Samazināta gaistošo organisko savienojumu klātbūtne gaisā",
+    "Mazāks laika patēriņš uzkopšanai"
+  ],
+  "device_specs_title": "Tehniskā informācija",
+  "device_specs": [
+    { "label": "Ventilatora ātrumi", "value": "1–6" },
+    { "label": "Apstrādātais gaisa daudzums", "value": "83–700 m³/h" },
+    { "label": "Skaļuma līmenis", "value": "23,5–61,3 dBA" },
+    { "label": "Efektivitāte pie H13 attīrīšanas", "value": ">99%" },
+    { "label": "Pieslēguma diametrs", "value": "Ø250 mm (2 gab.)" }
+  ],
+  "keywords": ["CC 400", "gaisa attīrītājs", "iebūvēts", "H13", "industriālais", "VOC"],
   "image": "/images/shop/product-9.jpg",
   "featured": false,
   "order": 1,
-  "gallery": [
-    {
-      "image": "/images/shop/product-9.jpg"
-    }
-  ]
+  "gallery": [{ "image": "/images/shop/product-9.jpg", "alt": "Gaisa attīrītājs CC 400" }]
 }

@@ -1,15 +1,68 @@
 {
-  "title": "City M",
+  "title": "Gaisa attīrītājs City M",
   "slug": "city-m",
   "category": "city",
-  "description": "City M gaisa attīrītājs vidēja izmēra telpām.",
-  "body": "City M ir kompakts gaisa attīrītājs, kas piemērots birojiem un dzīvojamām telpām ar vidēju platību.",
+  "description": "CITY M gaisa attīrītājs ar HEPA H14 un aktivētās ogles filtriem — efektīvai daļiņu, smaku un VOC samazināšanai mājās, birojos, skolās un sabiedriskās telpās.",
+  "paragraphs": [
+    "CITY M ir gaisa attīrītājs, kas aprīkots ar efektīviem HEPA un aktivētās ogles filtriem. Klāt pie katra HEPA filtra iekšpusē ir individuāls skenēšanas tests, kas atbilst EN 1822 normai un kalpo kā apliecinājums H14 filtrācijas efektivitātei."
+  ],
+  "sections": [
+    {
+      "title": "Kāpēc izvēlēties City M?",
+      "paragraphs": [
+        "Filtri nodrošina, ka gaisa attīrītājs CITY M efektīvi samazina kaitīgās daļiņas, smakas un citus gaistošos organiskos savienojumus, kas parasti sastopami iekštelpu gaisā mājās, birojos, skolās, slimnīcās, sporta zālēs un citās sabiedriskās telpās.",
+        "Daudzi no šiem iekštelpu gaisa piesārņotājiem ir emisija no mēbelēm, sienu krāsas, gaisa atsvaidzinātājiem, tīrīšanas līdzekļiem, paklājiem, dažādiem aerosoliem, celtniecības materiāliem, vaskiem, pulēšanas līdzekļiem un citiem sadzīves priekšmetiem. Telpās ar augstu piesārņojuma līmeni cilvēkiem ar paaugstinātu jūtību var rasties alerģiski simptomi. Ar gaisa attīrītāju CITY M piesārņojumu var novērst un nodrošināt veselīgāku darba vidi ar mazāk putekļiem un mazāk kaitīgajām daļiņām gaisā."
+      ]
+    },
+    {
+      "title": "Gaisa kvalitātes priekšrocības attīrot gaisu ar City M",
+      "paragraphs": [
+        "Salīdzinājumā ar tirgū pieejamiem produktiem filtrējošais laukums filtriem, kurus izmanto CITY M iekārtai, var būt līdz pat 14 reizēm lielāks kā citu ražotāju filtriem. Tas nodrošina ilgāku filtra kalpošanas laiku un putekļu uztveršanas spējas, nesamazinot gaisa plūsmu. CITY M ir aprīkota ar augstas efektivitātes HEPA H14 filtriem, kas noņem līdz 99,995% MPPS (vissmalkākā izmēra daļiņas), kuru izmērs ir no 0,1 līdz 0,25 mikroniem. Tīrs gaiss, bez kaitīgām daļiņām un piesārņotājiem, tiek izkliedēts 360 grādos."
+      ]
+    },
+    {
+      "title": "Kāpēc tieši HEPA molekulārā filtrēšana?",
+      "paragraphs": [
+        "HEPA filtri ietilpst tā saukto „absolūtās” attīrīšanas filtru kategorijā. Šis termins apstiprina to, ka filtriem ir augsta filtrēšanas efektivitāte. City M gaisa attīrītājs ir aprīkots ar diviem kombinētiem HEPA H14 un ogles filtriem, kas savāc gan partikulārās daļiņas, gan gaistošos organiskos savienojumus telpā. HEPA H14 filtru efektivitāte ir 99,995%, aprēķinot pēc MPPS blīvuma. Aktivētās ogles filtrs novērš smakas un gāzes, izmantojot RAD (ātras adsorbcijas dinamikas) īpašības. Ikviens Camfil HEPA filtrs tiek izgatavots un testēts saskaņā ar EN 1822 normu, kas ir kā apliecinājums filtra efektivitātei. Aktivētās ogles filtri tiek izgatavoti atbilstoši standartam ISO 10121."
+      ]
+    }
+  ],
+  "specs_title": "Filtra specifikācija",
+  "specs": [
+    { "label": "Filtra izmērs (PxAxDz)", "value": "300×460×98 mm" },
+    { "label": "Gaisa daudzums", "value": "150 m³/h" },
+    { "label": "Pretspiediens", "value": "94 Pa" },
+    { "label": "Filtrējošais materiāls", "value": "Aktivētās ogles veids CS un HEPA stiklašķiedras" },
+    { "label": "Aizsargrežģis", "value": "HEPA filtra pusē" },
+    { "label": "Efektivitāte", "value": "H14 atbilstoši EN 1822 normai" },
+    { "label": "MPPS efektivitāte", "value": "≥99,995% (katram filtram ir skenēšanas tests)" },
+    { "label": "Maks. beigu spiediena kritums", "value": "500 Pa" },
+    { "label": "Maks. temperatūra", "value": "60°C" },
+    { "label": "Maks. relatīvais mitrums (HEPA filtrs)", "value": "100%" },
+    { "label": "Maks. relatīvais mitrums (molekulārais filtrs)", "value": "līdz 70%" },
+    { "label": "Svars", "value": "2,0 kg" },
+    { "label": "Atzīmes", "value": "Kombinētais filtrs: molekulārais, lai noņemtu smakas, organiskās un neorganiskās gāzes, un HEPA filtrs partikulāro daļiņu savākšanai" }
+  ],
+  "keywords": [
+    "City M",
+    "gaisa attīrītājs",
+    "HEPA H14",
+    "aktivētā ogle",
+    "EN 1822",
+    "ISO 10121",
+    "MPPS",
+    "Camfil",
+    "VOC",
+    "iekštelpu gaiss",
+    "birojs",
+    "skola"
+  ],
   "image": "/images/shop/product-6.jpg",
   "featured": true,
   "order": 1,
   "gallery": [
-    {
-      "image": "/images/shop/product-6.jpg"
-    }
+    { "image": "/images/shop/product-6.jpg", "alt": "City M gaisa attīrītājs" },
+    { "image": "/images/shop/product-6.1.jpg", "alt": "City M — skats 2" },
+    { "image": "/images/shop/product-1.jpg", "alt": "City M — HEPA filtrs" }
   ]
 }

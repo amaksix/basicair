@@ -2,11 +2,42 @@
   "title": "Carbon filters",
   "slug": "ogles-filtri",
   "category": "gaisa-filtri",
-  "description": "Activated carbon filters for odour and gaseous pollutant reduction.",
-  "body": "Carbon filters help reduce odours and gaseous pollutants, improving indoor air quality.",
+  "description": "Activated carbon filters for gaseous pollutants, odours and harmful gases — metal and plastic cylinders, plus cassette-type solutions.",
+  "paragraphs": [
+    "Activated carbon filters are used to separate gaseous air pollutants, eliminate odours and adsorb harmful gases. Metal cylinders are made with a durable construction so they can be refilled with activated carbon.",
+    "Plastic cylinders for single use are also available; this design has a minimal pressure drop (lower than metal cylinders), a large adsorption surface and low weight. Both cylinder types share the same mounting method.",
+    "Carbon can also be filled into flat cassette-type filters depending on customer needs and equipment."
+  ],
+  "specs": [
+    {
+      "label": "Application",
+      "value": "Separation of gaseous pollutants, odours and harmful gases"
+    },
+    {
+      "label": "Metal cylinders",
+      "value": "Refillable with activated carbon"
+    },
+    {
+      "label": "Plastic cylinders",
+      "value": "Single use, minimal pressure drop, large adsorption surface, low weight"
+    },
+    {
+      "label": "Alternative format",
+      "value": "Flat cassette-type filters on request"
+    }
+  ],
+  "keywords": [
+    "carbon filters",
+    "activated carbon",
+    "odour filters",
+    "gas adsorption",
+    "carbon cylinders",
+    "cassette filters",
+    "air filters"
+  ],
   "image": "/images/shop/product-4.jpg",
   "featured": false,
-  "order": 4,
+  "order": 3,
   "gallery": [
     {
       "image": "/images/shop/product-4.jpg"

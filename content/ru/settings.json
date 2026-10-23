@@ -63,6 +63,12 @@
     "search": "Поиск",
     "need_help": "Нужна помощь?",
     "send_message": "Отправить сообщение",
-    "learn_more": "Узнать больше"
+    "learn_more": "Узнать больше",
+    "technical_specs": "Техническая спецификация",
+    "device_specs": "Техническая информация",
+    "benefits": "Преимущества",
+    "performance_table": "Характеристики",
+    "related_products": "Похожие продукты",
+    "order": "Заказать"
   }
 }

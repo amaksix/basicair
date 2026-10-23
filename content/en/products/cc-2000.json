@@ -1,15 +1,28 @@
 {
-  "title": "CC 2000",
+  "title": "CC 2000 air purifier",
   "slug": "cc-2000",
   "category": "industrialie-gaisa-attiritaji",
-  "description": "Industrial air purifier CC 2000.",
-  "body": "CC 2000 is designed for larger spaces with higher pollution loads.",
+  "description": "CC 2000 air purifier with interchangeable filters — reduces particles, odours and volatile organic compounds.",
+  "paragraphs": [
+    "CC 2000 is an air purifier that can be equipped with different filters according to the need and application. The filters ensure that the CC 2000 air purifier effectively reduces harmful particles, odours and other volatile organic compounds commonly found in indoor air in homes, offices, schools, hospitals, sports halls and other public buildings."
+  ],
+  "benefits_title": "Benefits",
+  "benefits": [
+    "Healthier employees",
+    "Fewer asthma and allergy cases",
+    "Reduced presence of volatile organic compounds in the air",
+    "Less time spent on cleaning"
+  ],
+  "device_specs_title": "Technical information",
+  "device_specs": [
+    { "label": "Fan speeds", "value": "1" },
+    { "label": "Processed airflow", "value": "1400 m³/h" },
+    { "label": "Noise level", "value": "68 dBA" },
+    { "label": "Efficiency at H13 purification", "value": ">99%" }
+  ],
+  "keywords": ["CC 2000", "air purifier", "H13", "industrial", "VOC"],
   "image": "/images/shop/product-11.jpg",
   "featured": false,
   "order": 3,
-  "gallery": [
-    {
-      "image": "/images/shop/product-11.jpg"
-    }
-  ]
+  "gallery": [{ "image": "/images/shop/product-11.jpg", "alt": "CC 2000 air purifier" }]
 }

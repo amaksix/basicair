@@ -63,6 +63,12 @@
     "search": "Search",
     "need_help": "Need help?",
     "send_message": "Send Message",
-    "learn_more": "Learn more"
+    "learn_more": "Learn more",
+    "technical_specs": "Technical specification",
+    "device_specs": "Technical information",
+    "benefits": "Benefits",
+    "performance_table": "Performance data",
+    "related_products": "Related products",
+    "order": "Order"
   }
 }

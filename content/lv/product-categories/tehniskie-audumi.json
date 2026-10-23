@@ -2,13 +2,13 @@
   "title": "Tehniskie audumi",
   "slug": "tehniskie-audumi",
   "order": 4,
+  "layout": "price",
   "image": "/images/section/collections-banner-3.jpg",
-  "summary": "Tehniskie audumi un materiāli filtrācijai un rūpnieciskiem pielietojumiem.",
+  "summary": "Tehniskie audumi un materiāli filtrācijai, polsterēšanai un iepakošanai.",
   "hero_image": "/images/page-title/page-title-3.jpg",
   "paragraphs": [
-    "Tehniskie audumi tiek izmantoti filtrācijas un citos rūpnieciskos risinājumos, kur nepieciešama izturība un precīza materiāla izvēle.",
-    "Konsultējam par piemērotāko materiālu atbilstoši tehniskajām prasībām."
+    "Tehniskais audums ir tekstilizstrādājums, kas ir īpaši izstrādāts un ražots funkcionāliem mērķiem un pielietojumam. Šie tekstilizstrādājumi ir izstrādāti ar īpašām veiktspējas īpašībām, padarot tos piemērotus dažādiem rūpnieciskiem ražošanas procesiem, tādiem kā medicīna, iepakošana, ķīmisko vielu pārstrāde, pārtikas ražošana, gaisa un šķidrumu filtrēšana, mēbeļu un apģērba ražošana, ēku būvniecība, ceļu uzbērumu pastiprināšana vai augu audzēšana. Tehniskie audumi ir izstrādāti tā, lai nodrošinātu tādas īpašības kā ugunsizturību, ķīmisko izturību, mitruma noturību, raušanas un nodiluma izturību, siltināšanu, amortizāciju un akustiku.",
+    "Tehniskie tekstilizstrādājumi var būt austi vai neausti atkarībā no pielietojuma. Neaustiem tekstiliem ir lieliska gaisa un šķidruma caurlaidība, kā arī tie plaši tiek izmantoti mēbeļu un apģērba polsterēšanai un siltināšanai."
   ],
-  "cta_text": "Sazināties ar mums",
-  "coming_soon": "Produktu katalogs šajā kategorijā tiek papildināts."
+  "cta_text": "Sazināties ar mums"
 }

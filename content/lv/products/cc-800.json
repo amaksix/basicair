@@ -1,15 +1,28 @@
 {
-  "title": "CC 800",
+  "title": "Gaisa attīrītājs CC 800",
   "slug": "cc-800",
   "category": "industrialie-gaisa-attiritaji",
-  "description": "Industriālais gaisa attīrītājs CC 800.",
-  "body": "CC 800 nodrošina efektīvu gaisa attīrīšanu vidēja izmēra industriālās telpās.",
+  "description": "Gaisa attīrītājs CC 800 ar maināmiem filtriem — daļiņu, smaku un gaistošo organisko savienojumu samazināšanai.",
+  "paragraphs": [
+    "CC 800 ir gaisa attīrītājs, kas var tikt aprīkots ar dažādiem filtriem pēc nepieciešamības un pielietojuma. Filtri nodrošina, ka gaisa attīrītājs CC 800 efektīvi samazina kaitīgās daļiņas, smakas un citus gaistošos organiskos savienojumus, kas parasti sastopami iekštelpu gaisā mājās, birojos, skolās, slimnīcās, sporta zālēs un citās sabiedriskās ēkās."
+  ],
+  "benefits_title": "Ieguvumi",
+  "benefits": [
+    "Veselīgāki darbinieki",
+    "Mazāk astmas un alerģiju saslimšanu",
+    "Samazināta gaistošo organisko savienojumu klātbūtne gaisā",
+    "Mazāks laika patēriņš uzkopšanai"
+  ],
+  "device_specs_title": "Tehniskā informācija",
+  "device_specs": [
+    { "label": "Ventilatora ātrumi", "value": "1–6" },
+    { "label": "Apstrādātais gaisa daudzums", "value": "180–720 m³/h" },
+    { "label": "Skaļuma līmenis", "value": "30–56 dBA" },
+    { "label": "Efektivitāte pie H13 attīrīšanas", "value": ">99%" }
+  ],
+  "keywords": ["CC 800", "gaisa attīrītājs", "H13", "industriālais", "VOC"],
   "image": "/images/shop/product-10.jpg",
   "featured": true,
   "order": 2,
-  "gallery": [
-    {
-      "image": "/images/shop/product-10.jpg"
-    }
-  ]
+  "gallery": [{ "image": "/images/shop/product-10.jpg", "alt": "Gaisa attīrītājs CC 800" }]
 }

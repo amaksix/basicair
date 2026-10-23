@@ -1,15 +1,89 @@
 {
-  "title": "City S",
+  "title": "Gaisa attīrītājs City S",
   "slug": "city-s",
   "category": "city",
-  "description": "City S gaisa attīrītājs mazākām telpām.",
-  "body": "City S ir kompaktāks modelis telpām, kur nepieciešams efektīvs gaisa attīrīšanas risinājums nelielā izmērā.",
+  "description": "CITY S gaisa attīrītājs ar HEPA H14 un aktivētās ogles filtriem — kompakts risinājums mājām, birojiem, skolām un sabiedriskām ēkām.",
+  "paragraphs": [
+    "CITY S ir gaisa attīrītājs, kas aprīkots ar efektīviem HEPA un aktivētās ogles filtriem. Klāt pie katra HEPA filtra iekšpusē ir individuāls skenēšanas tests, kas atbilst EN 1822 normai un kalpo kā apliecinājums H14 filtrācijas efektivitātei."
+  ],
+  "sections": [
+    {
+      "title": "Kāpēc izvēlēties City S?",
+      "paragraphs": [
+        "Filtri nodrošina, ka gaisa attīrītājs CITY S efektīvi samazina kaitīgās daļiņas, smakas un citus gaistošos organiskos savienojumus, kas parasti sastopami iekštelpu gaisā mājās, birojos, skolās, slimnīcās, sporta zālēs un citās sabiedriskās ēkās."
+      ]
+    },
+    {
+      "title": "Gaisa kvalitātes priekšrocības attīrot gaisu ar City S",
+      "paragraphs": [
+        "Salīdzinājumā ar tirgū pieejamiem produktiem filtrējošais laukums filtriem, ko izmanto CITY S iekārtai, var būt līdz pat 14 reizēm lielāks kā citu ražotāju filtriem. Tas nodrošina ilgāku filtra kalpošanas laiku un putekļu uztveršanas spēju, nesamazinot gaisa plūsmu. CITY S ir aprīkota ar augstas efektivitātes HEPA H14 filtriem, kas noņem līdz 99,995% MPPS (vissmalkākā izmēra daļiņas), kuru izmērs ir no 0,1 līdz 0,25 mikroniem. Tīrs gaiss, bez kaitīgām daļiņām un piesārņotājiem, tiek izkliedēts 360 grādos."
+      ]
+    },
+    {
+      "title": "Kāpēc tieši HEPA molekulārā filtrēšana?",
+      "paragraphs": [
+        "HEPA filtri ietilpst tā saukto „absolūtās” attīrīšanas filtru kategorijā. Šis termins apstiprina to, ka filtriem ir augsta filtrēšanas efektivitāte. City S gaisa attīrītājs ir aprīkots ar diviem kombinētiem HEPA H14 un ogles filtriem, kas savāc gan partikulārās daļiņas, gan gaistošos organiskos savienojumus gaisā. HEPA H14 filtru efektivitāte ir 99,995%, aprēķinot pēc MPPS blīvuma. Aktivētās ogles filtrs novērš smakas un gāzes, izmantojot RAD (ātras adsorbcijas dinamikas) īpašības. Ikviens Camfil HEPA filtrs tiek izgatavots un testēts saskaņā ar EN 1822 normu, kas ir kā apliecinājums filtra efektivitātei. Aktivētās ogles filtri tiek izgatavoti atbilstoši standartam ISO 10121."
+      ]
+    }
+  ],
+  "benefits_title": "Ieguvumi",
+  "benefits": [
+    "Uztver vismazākās partikulārās daļiņas gaisā",
+    "Samazina gaisā esošās infekcijas",
+    "Katrs filtrs ir individuāli testēts",
+    "Samazina mikrobioloģisko piesārņojumu",
+    "Samazina putekļus telpā",
+    "Vienkāršs lietošanā",
+    "Veselīgāki darbinieki",
+    "Mazāk astmas un alerģiju saslimšanu",
+    "Samazināta gaistošo organisko savienojumu klātbūtne gaisā",
+    "Mazāks laika patēriņš uzkopšanai"
+  ],
+  "specs_title": "Filtra specifikācija",
+  "specs": [
+    { "label": "Filtra izmērs (PxAxDz)", "value": "300×205×98 mm" },
+    { "label": "Gaisa daudzums", "value": "100 m³/h" },
+    { "label": "Pretspiediens", "value": "200 Pa" },
+    { "label": "Filtrējošais materiāls", "value": "Aktivētās ogles veids CS un HEPA stiklašķiedras" },
+    { "label": "Aizsargrežģis", "value": "HEPA filtra pusē" },
+    { "label": "Efektivitāte", "value": "H14 atbilstoši EN 1822 normai" },
+    { "label": "MPPS efektivitāte", "value": "≥99,995% (katram filtram ir skenēšanas tests)" },
+    { "label": "Maks. beigu spiediena kritums", "value": "500 Pa" },
+    { "label": "Maks. temperatūra", "value": "60°C" },
+    { "label": "Maks. relatīvais mitrums (HEPA filtrs)", "value": "100%" },
+    { "label": "Maks. relatīvais mitrums (molekulārais filtrs)", "value": "līdz 70%" },
+    { "label": "Svars", "value": "1,0 kg" }
+  ],
+  "device_specs_title": "Tehniskā informācija",
+  "device_specs": [
+    { "label": "Iekārtas izmēri (WxHxD)", "value": "340×465×345 mm" },
+    { "label": "Krāsa", "value": "Balta vai melna" },
+    { "label": "Svars", "value": "11 kg (ieskaitot filtrus)" },
+    { "label": "Elektrības padeve", "value": "200…240 V" },
+    { "label": "Ieteicamais attīrīšanas laukums", "value": "45 m²" },
+    { "label": "Ventilatora ātrumi", "value": "1–6" },
+    { "label": "Apstrādātais gaisa daudzums", "value": "21–247 m³/h" },
+    { "label": "Skaļuma līmenis", "value": "21–52 dBA" },
+    { "label": "Elektrības patēriņš", "value": "5–36 W" }
+  ],
+  "keywords": [
+    "City S",
+    "gaisa attīrītājs",
+    "HEPA H14",
+    "aktivētā ogle",
+    "EN 1822",
+    "ISO 10121",
+    "MPPS",
+    "Camfil",
+    "VOC",
+    "kompakts",
+    "birojs"
+  ],
   "image": "/images/shop/product-7.jpg",
   "featured": false,
   "order": 2,
   "gallery": [
-    {
-      "image": "/images/shop/product-7.jpg"
-    }
+    { "image": "/images/shop/product-7.jpg", "alt": "City S gaisa attīrītājs" },
+    { "image": "/images/shop/product-2.jpg", "alt": "City S — skats 2" }
   ]
 }

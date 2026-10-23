@@ -63,6 +63,12 @@
     "search": "Meklēt",
     "need_help": "Nepieciešama palīdzība?",
     "send_message": "Nosūtīt ziņu",
-    "learn_more": "Uzzināt vairāk"
+    "learn_more": "Uzzināt vairāk",
+    "technical_specs": "Tehniskā specifikācija",
+    "device_specs": "Tehniskā informācija",
+    "benefits": "Ieguvumi",
+    "performance_table": "Raksturlielumi",
+    "related_products": "Līdzīgi produkti",
+    "order": "Pasūtīt"
   }
 }

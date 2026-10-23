@@ -2,11 +2,49 @@
   "title": "Kārtridžu filtri",
   "slug": "kartridzu-filtri",
   "category": "gaisa-filtri",
-  "description": "Kārtridžu filtri kompaktai un precīzai filtrācijai.",
-  "body": "Kārtridžu filtri piemēroti sistēmām, kur nepieciešama kompakta konstrukcija un stabila filtrācijas veiktspēja.",
+  "description": "Filtru kārtridži putekļu savākšanas sistēmām — piemēroti Plymovent, KEMPER, Camfil, TEKA un citu ražotāju iekārtām.",
+  "paragraphs": [
+    "Mēs piedāvājam filtru kārtridžus, kas piemēroti dažādu ražotāju filtru iekārtām, tostarp tie piemēroti Plymovent, KEMPER, Camfil vai TEKA iekārtām un citām.",
+    "Kārtridžu filtri tiek plaši izmantoti rūpnieciskajās apstrādes iekārtās putekļu savākšanas sistēmās. Kārtridži tiek izgatavoti no dažādiem materiāliem, tādiem kā: celuloze, poliesters, PES ar ePTFE membrānu vai antistatisks."
+  ],
+  "specs": [
+    {
+      "label": "Maks. darba temperatūra",
+      "value": "70°C"
+    },
+    {
+      "label": "Ieteicamais galīgais spiediena kritums maks.",
+      "value": "450 Pa"
+    },
+    {
+      "label": "Ieteicamais gaisa plūsmas diapazons",
+      "value": "75% – 125%"
+    },
+    {
+      "label": "Mitrumizturība",
+      "value": "100% relatīvais mitrums"
+    },
+    {
+      "label": "Materiāli",
+      "value": "Celuloze, poliesters, PES ar ePTFE membrānu, antistatisks"
+    }
+  ],
+  "keywords": [
+    "kārtridžu filtri",
+    "filter cartridge",
+    "putekļu savākšana",
+    "Plymovent",
+    "KEMPER",
+    "Camfil",
+    "TEKA",
+    "ePTFE",
+    "rūpnieciskie filtri",
+    "poliesters",
+    "celuloze"
+  ],
   "image": "/images/shop/product-5.jpg",
   "featured": false,
-  "order": 5,
+  "order": 2,
   "gallery": [
     {
       "image": "/images/shop/product-5.jpg"

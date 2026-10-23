@@ -1,0 +1,85 @@
+{
+  "title": "Compact filters",
+  "slug": "kompaktfiltri",
+  "category": "gaisa-filtri",
+  "description": "8-panel high-efficiency compact filter for commercial and industrial ventilation systems — high airflow and long service life.",
+  "paragraphs": [
+    "The compact filter is an 8-panel high-efficiency filter designed for commercial and industrial ventilation systems, delivering the required air quality under demanding operating conditions.",
+    "Eight finely pleated packs assembled in a 4 V-bank frame significantly increase the filtration area. Highly effective finely pleated media provides higher airflow capacity, low resistance, high dust holding capacity and long service life."
+  ],
+  "specs": [
+    {
+      "label": "Filter class",
+      "value": "According to ISO 16890"
+    },
+    {
+      "label": "Max. relative humidity",
+      "value": "100%"
+    },
+    {
+      "label": "Temperature resistance",
+      "value": "max. 60 °C"
+    },
+    {
+      "label": "Filter media",
+      "value": "Synthetic fibres"
+    },
+    {
+      "label": "Recommended final pressure drop",
+      "value": "650 Pa"
+    },
+    {
+      "label": "Frame",
+      "value": "Plastic"
+    },
+    {
+      "label": "Features",
+      "value": "For high airflow volumes and long service life"
+    }
+  ],
+  "spec_table": {
+    "title": "Sizes and performance",
+    "headers": [
+      "Size",
+      "Filtration area",
+      "Initial pressure drop Pa",
+      "Airflow m³/h",
+      "EN779:2012",
+      "ISO 16890"
+    ],
+    "rows": [
+      { "cells": ["592×592×292", "12.2", "60", "3400", "M6", "ePM10 70%"] },
+      { "cells": ["592×490×292", "9.9", "60", "2800", "M6", "ePM10 70%"] },
+      { "cells": ["592×287×292", "5.4", "60", "1700", "M6", "ePM10 70%"] },
+      { "cells": ["592×592×292", "12.2", "75", "3400", "F7", "ePM1 55%"] },
+      { "cells": ["592×490×292", "9.9", "75", "2800", "F7", "ePM1 55%"] },
+      { "cells": ["592×287×292", "5.4", "75", "1700", "F7", "ePM1 55%"] },
+      { "cells": ["592×592×292", "12.2", "100", "3400", "F8", "ePM1 75%"] },
+      { "cells": ["592×490×292", "9.9", "100", "2800", "F8", "ePM1 75%"] },
+      { "cells": ["592×287×292", "5.4", "100", "1700", "F8", "ePM1 75%"] },
+      { "cells": ["592×592×292", "12.2", "130", "3400", "F9", "ePM1 85%"] },
+      { "cells": ["592×490×292", "9.9", "130", "2800", "F9", "ePM1 85%"] },
+      { "cells": ["592×287×292", "5.4", "130", "1700", "F9", "ePM1 85%"] }
+    ]
+  },
+  "keywords": [
+    "compact filter",
+    "V-bank",
+    "ISO 16890",
+    "EN779",
+    "F7",
+    "F8",
+    "F9",
+    "ePM1",
+    "ventilation filters",
+    "air filters"
+  ],
+  "image": "/images/shop/product-6.jpg",
+  "featured": false,
+  "order": 6,
+  "gallery": [
+    {
+      "image": "/images/shop/product-6.jpg"
+    }
+  ]
+}

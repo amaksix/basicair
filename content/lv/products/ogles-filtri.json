@@ -2,11 +2,43 @@
   "title": "Ogles filtri",
   "slug": "ogles-filtri",
   "category": "gaisa-filtri",
-  "description": "Aktīvās ogles filtri smaku un gāzveida piesārņojuma samazināšanai.",
-  "body": "Ogles filtri palīdz samazināt smakas un gāzveida piesārņojumu, uzlabojot iekštelpu gaisa kvalitāti.",
+  "description": "Aktīvās ogles filtri gāzveida piesārņotāju, smaku un kaitīgu gāzu adsorbcijai — metāla un plastikāta cilindri, kā arī kasešu tipa risinājumi.",
+  "paragraphs": [
+    "Aktīvās ogles filtrus izmanto, lai atdalītu gāzveida gaisa piesārņotājus, likvidētu smakas un adsorbētu kaitīgas gāzes. Metāla cilindri ir izgatavoti no izturīgas konstrukcijas, tādēļ tos var atkārtoti uzpildīt ar aktivēto ogli.",
+    "Pieejami arī plastikāta cilindri, kas ir vienreizējai lietošanai, taču šai konstrukcijai ir minimāls spiediena kritums (mazāks nekā metāla cilindriem) un tiem ir liela adsorbcijas virsma un mazs svars. Abu tipu cilindriem ir identiska montāžas metode.",
+    "Kā arī ogli var pildīt plakanos kasešu veida filtros atkarībā no klienta vajadzībām un iekārtas."
+  ],
+  "specs": [
+    {
+      "label": "Pielietojums",
+      "value": "Gāzveida piesārņotāju, smaku un kaitīgu gāzu atdalīšana"
+    },
+    {
+      "label": "Metāla cilindri",
+      "value": "Atkārtoti uzpildāmi ar aktivēto ogli"
+    },
+    {
+      "label": "Plastikāta cilindri",
+      "value": "Vienreizējai lietošanai, minimāls spiediena kritums, liela adsorbcijas virsma, mazs svars"
+    },
+    {
+      "label": "Alternatīvais formāts",
+      "value": "Plakanie kasešu tipa filtri pēc pieprasījuma"
+    }
+  ],
+  "keywords": [
+    "ogles filtri",
+    "aktīvā ogle",
+    "activated carbon",
+    "smaku filtri",
+    "gāzu adsorbcija",
+    "ogles cilindri",
+    "kasešu filtri",
+    "gaisa filtri"
+  ],
   "image": "/images/shop/product-4.jpg",
   "featured": false,
-  "order": 4,
+  "order": 3,
   "gallery": [
     {
       "image": "/images/shop/product-4.jpg"

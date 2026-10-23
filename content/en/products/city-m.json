@@ -1,15 +1,68 @@
 {
-  "title": "City M",
+  "title": "City M air purifier",
   "slug": "city-m",
   "category": "city",
-  "description": "City M air purifier for medium-sized rooms.",
-  "body": "City M is a compact air purifier suited to offices and living spaces of medium size.",
+  "description": "CITY M air purifier with HEPA H14 and activated carbon filters — effective reduction of particles, odours and VOCs in homes, offices, schools and public spaces.",
+  "paragraphs": [
+    "CITY M is an air purifier equipped with efficient HEPA and activated carbon filters. Each HEPA filter includes an individual scan test that complies with EN 1822 and serves as proof of H14 filtration efficiency."
+  ],
+  "sections": [
+    {
+      "title": "Why choose City M?",
+      "paragraphs": [
+        "The filters ensure that the CITY M air purifier effectively reduces harmful particles, odours and other volatile organic compounds commonly found in indoor air in homes, offices, schools, hospitals, sports halls and other public spaces.",
+        "Many of these indoor air pollutants come from furniture, wall paint, air fresheners, cleaning products, carpets, various aerosols, construction materials, waxes, polishing agents and other household items. In rooms with high pollution levels, people with increased sensitivity may develop allergic symptoms. With the CITY M air purifier, pollution can be reduced to provide a healthier working environment with less dust and fewer harmful particles in the air."
+      ]
+    },
+    {
+      "title": "Air quality benefits of purifying with City M",
+      "paragraphs": [
+        "Compared with products available on the market, the filtration area of the filters used in the CITY M unit can be up to 14 times larger than filters from other manufacturers. This provides a longer filter service life and dust holding capacity without reducing airflow. CITY M is equipped with high-efficiency HEPA H14 filters that remove up to 99.995% of MPPS (the most penetrating particle size), ranging from 0.1 to 0.25 microns. Clean air, free from harmful particles and pollutants, is dispersed 360 degrees."
+      ]
+    },
+    {
+      "title": "Why HEPA molecular filtration?",
+      "paragraphs": [
+        "HEPA filters belong to the so-called “absolute” purification filter category. This term confirms their high filtration efficiency. The City M air purifier is equipped with two combined HEPA H14 and carbon filters that capture both particulate matter and volatile organic compounds in the room. HEPA H14 filter efficiency is 99.995%, calculated by MPPS density. The activated carbon filter removes odours and gases using RAD (rapid adsorption dynamics) properties. Every Camfil HEPA filter is manufactured and tested according to EN 1822, which certifies filter efficiency. Activated carbon filters are manufactured in accordance with ISO 10121."
+      ]
+    }
+  ],
+  "specs_title": "Filter specification",
+  "specs": [
+    { "label": "Filter size (WxHxD)", "value": "300×460×98 mm" },
+    { "label": "Airflow", "value": "150 m³/h" },
+    { "label": "Pressure drop", "value": "94 Pa" },
+    { "label": "Filter media", "value": "Activated carbon type CS and HEPA glass fibre" },
+    { "label": "Protective grille", "value": "On the HEPA filter side" },
+    { "label": "Efficiency", "value": "H14 according to EN 1822" },
+    { "label": "MPPS efficiency", "value": "≥99.995% (each filter has a scan test)" },
+    { "label": "Max. final pressure drop", "value": "500 Pa" },
+    { "label": "Max. temperature", "value": "60°C" },
+    { "label": "Max. relative humidity (HEPA filter)", "value": "100%" },
+    { "label": "Max. relative humidity (molecular filter)", "value": "up to 70%" },
+    { "label": "Weight", "value": "2.0 kg" },
+    { "label": "Notes", "value": "Combined filter: molecular to remove odours, organic and inorganic gases, and HEPA filter for particulate capture" }
+  ],
+  "keywords": [
+    "City M",
+    "air purifier",
+    "HEPA H14",
+    "activated carbon",
+    "EN 1822",
+    "ISO 10121",
+    "MPPS",
+    "Camfil",
+    "VOC",
+    "indoor air",
+    "office",
+    "school"
+  ],
   "image": "/images/shop/product-6.jpg",
   "featured": true,
   "order": 1,
   "gallery": [
-    {
-      "image": "/images/shop/product-6.jpg"
-    }
+    { "image": "/images/shop/product-6.jpg", "alt": "City M air purifier" },
+    { "image": "/images/shop/product-6.1.jpg", "alt": "City M — view 2" },
+    { "image": "/images/shop/product-1.jpg", "alt": "City M — HEPA filter" }
   ]
 }
