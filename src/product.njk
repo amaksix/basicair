@@ -43,7 +43,7 @@ eleventyComputed:
                 <div class="tf-product-info-wrap tf-product-info-list">
                     <h3 class="mb_12">{{ product.title }}</h3>
                     {% if product.description %}
-                    <p class="text_secondary mb_20">{{ product.description }}</p>
+                    <p class="text_secondary mb_20" style="white-space: pre-line;">{{ product.description }}</p>
                     {% endif %}
                     {% if product.price %}
                     <p class="text-title mb_8">{{ product.price }}</p>

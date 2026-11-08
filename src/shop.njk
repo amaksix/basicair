@@ -32,15 +32,15 @@ eleventyComputed:
         <p class="text-body-default text_secondary text-center mb_30">{{ shop.description }}</p>
         {% endif %}
         {% if productCategories and productCategories.length %}
-        <div class="row g-4">
+        <div class="row g-4 category-cards">
             {% for category in productCategories %}
             <div class="col-md-6 col-lg-3">
                 <a href="/{{ locale }}/shop/{{ category.slug }}/" class="service-card hover-img wow fadeInUp" data-wow-delay="{{ (loop.index0 * 0.05) }}s">
-                    {% if category.image %}
                     <div class="image img-style">
+                        {% if category.image %}
                         <img class="lazyload" src="{{ category.image | asset }}" data-src="{{ category.image | asset | htmlBaseUrl }}" alt="{{ category.title }}">
+                        {% endif %}
                     </div>
-                    {% endif %}
                     <div class="service-card-content">
                         <h3 class="mb_12">{{ category.title }}</h3>
                         <p class="text-body-1 text_secondary mb_16">{{ category.summary }}</p>

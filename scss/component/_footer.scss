@@ -41,6 +41,11 @@ footer {
         .footer-heading {
             text-transform: capitalize;
             margin-bottom: 20px;
+            hyphens: manual;
+            -webkit-hyphens: manual;
+            .footer-nowrap {
+                white-space: nowrap;
+            }
         }
         .form-newsletter {
             max-width: 435px;
@@ -86,11 +91,26 @@ footer {
     .form-newsletter {
         margin-bottom: 96px;
         position: relative;
+        .subscribe-content {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            gap: 8px;
+            max-width: 100%;
+            background: #FFFFFF1A;
+            border-radius: 8px;
+            padding: 6px 6px 6px 8px;
+        }
         fieldset {
+            flex: 1 1 auto;
+            min-width: 0;
+            margin: 0;
             input {
+                width: 100%;
+                min-width: 0;
                 border-radius: 8px;
-                padding: 13px 16px 13px 24px;
-                background: #FFFFFF1A;
+                padding: 7px 8px 7px 16px;
+                background: transparent;
                 border: 0;
                 color: var(--White);
                 &::placeholder {
@@ -98,19 +118,24 @@ footer {
                 }
             }
         }
+        .button-submit {
+            flex: 0 0 auto;
+        }
         .subscribe-button {
-            position: absolute;
+            position: static;
+            top: auto;
+            right: auto;
+            transform: none;
             height: 40px;
             padding: 0 16px;
             border-radius: 6px;
+            white-space: nowrap;
+            flex-shrink: 0;
             @include d-flex();
             align-items: center;
             gap: 4px;
             background-color: var(--White);
             color: #181818;
-            top: 50%;
-            transform: translateY(-50%);
-            right: 6px;
             @include transition3();
             i {
                 font-weight: 700;
@@ -118,6 +143,7 @@ footer {
             &:hover {
                 color: var(--White);
                 background-color: #181818;
+                transform: none;
             }
         }
     }

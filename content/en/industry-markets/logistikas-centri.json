@@ -9,5 +9,9 @@
   "paragraphs": [
     "BasicAir provides tailored air filtration and ventilation solutions for «Logistics centres». Contact us for a custom proposal."
   ],
-  "cta_text": "Contact us"
+  "cta_text": "Contact us",
+  "recommended_products": [
+    "kabatu-filtri",
+    "panelu-filtri"
+  ]
 }

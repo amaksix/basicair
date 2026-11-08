@@ -402,6 +402,7 @@ collections:
           - { label: Hero Background, name: hero_image, widget: image }
           - { label: Main Heading, name: main_heading, widget: string }
           - { label: Main Intro, name: main_intro, widget: text }
+          - { label: Recommended filters heading, name: recommended_heading, widget: string, required: false }
       - label: Industries Page (English)
         name: industries-en
         file: content/en/pages/industries.json
@@ -435,6 +436,12 @@ collections:
         widget: list
         field: { label: Paragraph, name: paragraph, widget: text }
       - { label: CTA Button Text, name: cta_text, widget: string, required: false }
+      - label: Recommended products
+        name: recommended_products
+        widget: list
+        required: false
+        hint: "Product slugs in display order, e.g. kabatu-filtri. Leave empty if this industry has no recommended set."
+        field: { label: Product slug, name: product, widget: string }
 
   - name: articles
     label: Announcements / Ziņojumi

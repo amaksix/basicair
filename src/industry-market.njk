@@ -73,5 +73,19 @@ eleventyComputed:
             </div>
         </div>
         {% endif %}
+
+        {% set recommendedProducts = products | bySlugs(market.recommended_products) %}
+        {% if recommendedProducts.length %}
+        <div class="heading-section text-center mt_60">
+            <h3 class="wow fadeInUp">{{ industries.recommended_heading }}</h3>
+        </div>
+        <div class="tf-grid-layout tf-col-2 lg-col-4">
+            {% for item in recommendedProducts %}
+            {% set product = item %}
+            {% set delay = (loop.index0 * 0.1) ~ 's' %}
+            {% include "partials/product-card.njk" %}
+            {% endfor %}
+        </div>
+        {% endif %}
     </div>
 </section>

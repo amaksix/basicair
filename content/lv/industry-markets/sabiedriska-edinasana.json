@@ -9,5 +9,11 @@
   "paragraphs": [
     "BasicAir piedāvā pielāgotus gaisa filtrācijas un ventilācijas risinājumus nozarei «Sabiedriskā ēdināšana». Sazinieties ar mums, lai saņemtu individuālu piedāvājumu."
   ],
-  "cta_text": "Sazināties ar mums"
+  "cta_text": "Sazināties ar mums",
+  "recommended_products": [
+    "kabatu-filtri",
+    "panelu-filtri",
+    "kompaktfiltri",
+    "ogles-filtri"
+  ]
 }

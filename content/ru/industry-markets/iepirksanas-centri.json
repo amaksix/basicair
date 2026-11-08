@@ -9,5 +9,11 @@
   "paragraphs": [
     "BasicAir предлагает индивидуальные решения фильтрации и вентиляции для отрасли «Торговые центры». Свяжитесь с нами для получения предложения."
   ],
-  "cta_text": "Связаться с нами"
+  "cta_text": "Связаться с нами",
+  "recommended_products": [
+    "kabatu-filtri",
+    "panelu-filtri",
+    "kompaktfiltri",
+    "ogles-filtri"
+  ]
 }

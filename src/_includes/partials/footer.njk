@@ -41,7 +41,7 @@
                         </div>
                     </div>
                     <div class="footer-col-block footer-newsletter">
-                        <h3 class="footer-heading footer-heading-mobile text_white">{{ settings.footer.newsletter_heading }}</h3>
+                        <h3 class="footer-heading footer-heading-mobile text_white">{% set newsletterHeading = settings.footer.newsletter_heading %}{% if "e-pastā" in newsletterHeading %}{{ newsletterHeading.split("e-pastā")[0] }}<span class="footer-nowrap">e-pastā</span>{{ newsletterHeading.split("e-pastā")[1] }}{% else %}{{ newsletterHeading }}{% endif %}</h3>
                         <div class="tf-collapse-content">
                             <form id="subscribe-form" action="#" class="form-newsletter subscribe-form" method="post" accept-charset="utf-8" data-mailchimp="true">
                                 <div id="subscribe-content" class="subscribe-content">

@@ -168,6 +168,14 @@ module.exports = async function (eleventyConfig) {
     return items.find((item) => item.slug === slug) || null;
   });
 
+  eleventyConfig.addFilter("bySlugs", (items, slugs) => {
+    if (!items || !Array.isArray(slugs) || !slugs.length) return [];
+    const bySlug = new Map(
+      items.filter((item) => item && item.slug).map((item) => [item.slug, item])
+    );
+    return slugs.map((slug) => bySlug.get(slug)).filter(Boolean);
+  });
+
   eleventyConfig.addShortcode("year", () => String(new Date().getFullYear()));
 
   return {
