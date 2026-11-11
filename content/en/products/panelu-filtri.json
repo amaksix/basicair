@@ -54,12 +54,12 @@
     "antibacterial filter",
     "air filters"
   ],
-  "image": "/images/shop/product-2.jpg",
-  "featured": false,
+  "image": "/images/shop/products/panelu-filtri.webp",
+  "featured": true,
   "order": 5,
   "gallery": [
     {
-      "image": "/images/shop/product-2.jpg"
+      "image": "/images/shop/products/panelu-filtri.webp"
     }
   ]
 }

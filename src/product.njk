@@ -21,13 +21,13 @@ eleventyComputed:
                 <div class="tf-product-media-wrap sticky-top" data-product-gallery>
                     {% if galleryItems.length %}
                     <div class="item">
-                        <img class="lazyload w-100 radius-4" id="product-main-image" src="{{ galleryItems[0].image | asset }}" data-src="{{ galleryItems[0].image | asset | htmlBaseUrl }}" alt="{{ galleryItems[0].alt or product.title }}">
+                        <img class="lazyload w-100 radius-4 product-main-image" id="product-main-image" src="{{ galleryItems[0].image | asset }}" data-src="{{ galleryItems[0].image | asset | htmlBaseUrl }}" alt="{{ galleryItems[0].alt or product.title }}">
                     </div>
                     {% if galleryItems.length > 1 %}
                     <div class="product-gallery-thumbs mt_20 d-flex flex-row flex-wrap align-items-start gap-8" style="width: 100%;">
                         {% for item in galleryItems %}
                         <button type="button" class="product-gallery-thumb border-0 p-0 bg-transparent flex-shrink-0{% if loop.first %} is-active{% endif %}" data-gallery-src="{{ item.image | asset }}" data-gallery-alt="{{ item.alt or product.title }}" aria-label="{{ product.title }} {{ loop.index }}" style="cursor: pointer; width: 80px;">
-                            <img class="lazyload radius-4 w-100" src="{{ item.image | asset }}" data-src="{{ item.image | asset | htmlBaseUrl }}" alt="{{ item.alt or product.title }}" style="height: 80px; object-fit: cover; display: block;{% if loop.first %} outline: 2px solid currentColor; outline-offset: 2px;{% endif %}">
+                            <img class="lazyload radius-4 w-100 product-gallery-thumb__img" src="{{ item.image | asset }}" data-src="{{ item.image | asset | htmlBaseUrl }}" alt="{{ item.alt or product.title }}" style="{% if loop.first %} outline: 2px solid currentColor; outline-offset: 2px;{% endif %}">
                         </button>
                         {% endfor %}
                     </div>

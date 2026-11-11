@@ -15,14 +15,37 @@
   ],
   "device_specs_title": "Техническая информация",
   "device_specs": [
-    { "label": "Скорости вентилятора", "value": "1" },
-    { "label": "Обрабатываемый расход воздуха", "value": "1400 m³/h" },
-    { "label": "Уровень шума", "value": "68 dBA" },
-    { "label": "Эффективность при очистке H13", "value": ">99%" }
+    {
+      "label": "Скорости вентилятора",
+      "value": "1"
+    },
+    {
+      "label": "Обрабатываемый расход воздуха",
+      "value": "1400 m³/h"
+    },
+    {
+      "label": "Уровень шума",
+      "value": "68 dBA"
+    },
+    {
+      "label": "Эффективность при очистке H13",
+      "value": ">99%"
+    }
   ],
-  "keywords": ["CC 2000", "очиститель воздуха", "H13", "промышленный", "ЛОС"],
-  "image": "/images/shop/product-11.jpg",
+  "keywords": [
+    "CC 2000",
+    "очиститель воздуха",
+    "H13",
+    "промышленный",
+    "ЛОС"
+  ],
+  "image": "/images/shop/products/cc-2000.webp",
   "featured": false,
   "order": 3,
-  "gallery": [{ "image": "/images/shop/product-11.jpg", "alt": "Очиститель воздуха CC 2000" }]
+  "gallery": [
+    {
+      "image": "/images/shop/products/cc-2000.webp",
+      "alt": "Очиститель воздуха CC 2000"
+    }
+  ]
 }

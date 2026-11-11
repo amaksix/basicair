@@ -43,26 +43,77 @@
   ],
   "specs_title": "Filter specification",
   "specs": [
-    { "label": "Filter size (WxHxD)", "value": "300×460×98 mm" },
-    { "label": "Airflow", "value": "300 m³/h" },
-    { "label": "Pressure drop", "value": "94 Pa" },
-    { "label": "Filter media", "value": "HEPA glass fibre" },
-    { "label": "Protective grille", "value": "On the HEPA filter side" },
-    { "label": "Efficiency", "value": "H14 according to EN 1822" },
-    { "label": "MPPS efficiency", "value": "≥99.995% (each filter has a scan test)" },
-    { "label": "Max. final pressure drop", "value": "500 Pa" },
-    { "label": "Max. temperature", "value": "60°C" },
-    { "label": "Max. relative humidity (HEPA filter)", "value": "100%" },
-    { "label": "Max. relative humidity (molecular filter)", "value": "up to 70%" },
-    { "label": "Weight", "value": "2.0 kg" },
-    { "label": "Notes", "value": "Combined filter: molecular to remove odours, organic and inorganic gases, and HEPA filter for particulate capture" }
+    {
+      "label": "Filter size (WxHxD)",
+      "value": "300×460×98 mm"
+    },
+    {
+      "label": "Airflow",
+      "value": "300 m³/h"
+    },
+    {
+      "label": "Pressure drop",
+      "value": "94 Pa"
+    },
+    {
+      "label": "Filter media",
+      "value": "HEPA glass fibre"
+    },
+    {
+      "label": "Protective grille",
+      "value": "On the HEPA filter side"
+    },
+    {
+      "label": "Efficiency",
+      "value": "H14 according to EN 1822"
+    },
+    {
+      "label": "MPPS efficiency",
+      "value": "≥99.995% (each filter has a scan test)"
+    },
+    {
+      "label": "Max. final pressure drop",
+      "value": "500 Pa"
+    },
+    {
+      "label": "Max. temperature",
+      "value": "60°C"
+    },
+    {
+      "label": "Max. relative humidity (HEPA filter)",
+      "value": "100%"
+    },
+    {
+      "label": "Max. relative humidity (molecular filter)",
+      "value": "up to 70%"
+    },
+    {
+      "label": "Weight",
+      "value": "2.0 kg"
+    },
+    {
+      "label": "Notes",
+      "value": "Combined filter: molecular to remove odours, organic and inorganic gases, and HEPA filter for particulate capture"
+    }
   ],
   "device_specs_title": "Technical information",
   "device_specs": [
-    { "label": "Unit dimensions (WxHxD)", "value": "454×1290×454 mm" },
-    { "label": "Weight", "value": "25 kg (including filters)" },
-    { "label": "Power supply", "value": "200…240 V" },
-    { "label": "Recommended coverage area", "value": "75 m²" }
+    {
+      "label": "Unit dimensions (WxHxD)",
+      "value": "454×1290×454 mm"
+    },
+    {
+      "label": "Weight",
+      "value": "25 kg (including filters)"
+    },
+    {
+      "label": "Power supply",
+      "value": "200…240 V"
+    },
+    {
+      "label": "Recommended coverage area",
+      "value": "75 m²"
+    }
   ],
   "keywords": [
     "City H",
@@ -78,11 +129,17 @@
     "viruses",
     "bacteria"
   ],
-  "image": "/images/shop/product-8.jpg",
+  "image": "/images/shop/products/city-h.webp",
   "featured": false,
   "order": 3,
   "gallery": [
-    { "image": "/images/shop/product-8.jpg", "alt": "City H air purifier" },
-    { "image": "/images/shop/product-3.jpg", "alt": "City H — HEPA filter" }
+    {
+      "image": "/images/shop/products/city-h.webp",
+      "alt": "City H air purifier"
+    },
+    {
+      "image": "/images/shop/products/hepa-filtrs.webp",
+      "alt": "City H — HEPA filter"
+    }
   ]
 }

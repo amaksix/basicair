@@ -15,14 +15,37 @@
   ],
   "device_specs_title": "Техническая информация",
   "device_specs": [
-    { "label": "Скорости вентилятора", "value": "1–6" },
-    { "label": "Обрабатываемый расход воздуха", "value": "180–720 m³/h" },
-    { "label": "Уровень шума", "value": "30–56 dBA" },
-    { "label": "Эффективность при очистке H13", "value": ">99%" }
+    {
+      "label": "Скорости вентилятора",
+      "value": "1–6"
+    },
+    {
+      "label": "Обрабатываемый расход воздуха",
+      "value": "180–720 m³/h"
+    },
+    {
+      "label": "Уровень шума",
+      "value": "30–56 dBA"
+    },
+    {
+      "label": "Эффективность при очистке H13",
+      "value": ">99%"
+    }
   ],
-  "keywords": ["CC 800", "очиститель воздуха", "H13", "промышленный", "ЛОС"],
-  "image": "/images/shop/product-10.jpg",
+  "keywords": [
+    "CC 800",
+    "очиститель воздуха",
+    "H13",
+    "промышленный",
+    "ЛОС"
+  ],
+  "image": "/images/shop/products/cc-800.webp",
   "featured": true,
   "order": 2,
-  "gallery": [{ "image": "/images/shop/product-10.jpg", "alt": "Очиститель воздуха CC 800" }]
+  "gallery": [
+    {
+      "image": "/images/shop/products/cc-800.webp",
+      "alt": "Очиститель воздуха CC 800"
+    }
+  ]
 }

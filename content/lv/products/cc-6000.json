@@ -15,14 +15,37 @@
   ],
   "device_specs_title": "Tehniskā informācija",
   "device_specs": [
-    { "label": "Ventilatora ātrumi", "value": "1–4" },
-    { "label": "Apstrādātais gaisa daudzums", "value": "3000–6000 m³/h" },
-    { "label": "Skaļuma līmenis", "value": "52–67 dBA" },
-    { "label": "Efektivitāte pie H13 attīrīšanas", "value": ">99%" }
+    {
+      "label": "Ventilatora ātrumi",
+      "value": "1–4"
+    },
+    {
+      "label": "Apstrādātais gaisa daudzums",
+      "value": "3000–6000 m³/h"
+    },
+    {
+      "label": "Skaļuma līmenis",
+      "value": "52–67 dBA"
+    },
+    {
+      "label": "Efektivitāte pie H13 attīrīšanas",
+      "value": ">99%"
+    }
   ],
-  "keywords": ["CC 6000", "gaisa attīrītājs", "H13", "industriālais", "VOC"],
-  "image": "/images/shop/product-12.jpg",
+  "keywords": [
+    "CC 6000",
+    "gaisa attīrītājs",
+    "H13",
+    "industriālais",
+    "VOC"
+  ],
+  "image": "/images/shop/products/cc-6000.webp",
   "featured": false,
   "order": 4,
-  "gallery": [{ "image": "/images/shop/product-12.jpg", "alt": "Gaisa attīrītājs CC 6000" }]
+  "gallery": [
+    {
+      "image": "/images/shop/products/cc-6000.webp",
+      "alt": "Gaisa attīrītājs CC 6000"
+    }
+  ]
 }

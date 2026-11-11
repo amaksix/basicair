@@ -3,10 +3,21 @@
   "slug": "pu-putu-pleve-1mm",
   "category": "tehniskie-audumi",
   "description": "Плёнка из пенополиуретана для упаковки или как подложка под ламинат. Размер 1,2 × 50 м, толщина 1 мм.",
-  "highlights": ["Размер: 1,2 × 50 м (1 мм)"],
-  "keywords": ["PU плёнка", "упаковка", "подложка под ламинат", "технические ткани"],
-  "image": "/images/shop/product-5.jpg",
+  "highlights": [
+    "Размер: 1,2 × 50 м (1 мм)"
+  ],
+  "keywords": [
+    "PU плёнка",
+    "упаковка",
+    "подложка под ламинат",
+    "технические ткани"
+  ],
+  "image": "/images/shop/products/tehniskie-audumi.webp",
   "featured": false,
   "order": 5,
-  "gallery": [{ "image": "/images/shop/product-5.jpg" }]
+  "gallery": [
+    {
+      "image": "/images/shop/products/tehniskie-audumi.webp"
+    }
+  ]
 }

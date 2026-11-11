@@ -1402,13 +1402,15 @@ ul.list-text {
         overflow: hidden;
         border-radius: 8px;
         aspect-ratio: 16 / 10;
-        background: #ececec;
+        background: #fff;
         flex: 0 0 auto;
 
         img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: contain;
+            object-position: center;
+            background: #fff;
             display: block;
         }
     }
@@ -1444,6 +1446,10 @@ ul.list-text {
 
 .category-cards {
     align-items: stretch;
+
+    .service-card .image {
+        aspect-ratio: 1 / 1;
+    }
 }
 
 @media (min-width: 768px) {
@@ -1569,11 +1575,18 @@ ul.list-text {
         width: 100%;
         margin-bottom: 20px;
         overflow: hidden;
+        aspect-ratio: 1 / 1;
+        background: #f6f6f6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         img {
             width: 100%;
-            max-height: 180px;
+            height: 100%;
+            max-height: none;
             object-fit: contain;
+            object-position: center;
         }
     }
 

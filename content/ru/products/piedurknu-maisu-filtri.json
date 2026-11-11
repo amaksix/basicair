@@ -34,12 +34,12 @@
     "техническое полотно",
     "промышленные фильтры"
   ],
-  "image": "/images/shop/product-3.jpg",
+  "image": "/images/shop/products/piedurknu-maisu-filtri.webp",
   "featured": false,
   "order": 4,
   "gallery": [
     {
-      "image": "/images/shop/product-3.jpg"
+      "image": "/images/shop/products/piedurknu-maisu-filtri.webp"
     }
   ]
 }

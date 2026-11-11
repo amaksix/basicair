@@ -35,12 +35,15 @@
     "absolute filtration",
     "air filters"
   ],
-  "image": "/images/shop/product-7.jpg",
-  "featured": false,
+  "image": "/images/shop/products/hepa-filtri.webp",
+  "featured": true,
   "order": 7,
   "gallery": [
     {
-      "image": "/images/shop/product-7.jpg"
+      "image": "/images/shop/products/hepa-filtri.webp"
+    },
+    {
+      "image": "/images/shop/products/hepa-filtrs.webp"
     }
   ]
 }

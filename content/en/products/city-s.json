@@ -41,30 +41,93 @@
   ],
   "specs_title": "Filter specification",
   "specs": [
-    { "label": "Filter size (WxHxD)", "value": "300×205×98 mm" },
-    { "label": "Airflow", "value": "100 m³/h" },
-    { "label": "Pressure drop", "value": "200 Pa" },
-    { "label": "Filter media", "value": "Activated carbon type CS and HEPA glass fibre" },
-    { "label": "Protective grille", "value": "On the HEPA filter side" },
-    { "label": "Efficiency", "value": "H14 according to EN 1822" },
-    { "label": "MPPS efficiency", "value": "≥99.995% (each filter has a scan test)" },
-    { "label": "Max. final pressure drop", "value": "500 Pa" },
-    { "label": "Max. temperature", "value": "60°C" },
-    { "label": "Max. relative humidity (HEPA filter)", "value": "100%" },
-    { "label": "Max. relative humidity (molecular filter)", "value": "up to 70%" },
-    { "label": "Weight", "value": "1.0 kg" }
+    {
+      "label": "Filter size (WxHxD)",
+      "value": "300×205×98 mm"
+    },
+    {
+      "label": "Airflow",
+      "value": "100 m³/h"
+    },
+    {
+      "label": "Pressure drop",
+      "value": "200 Pa"
+    },
+    {
+      "label": "Filter media",
+      "value": "Activated carbon type CS and HEPA glass fibre"
+    },
+    {
+      "label": "Protective grille",
+      "value": "On the HEPA filter side"
+    },
+    {
+      "label": "Efficiency",
+      "value": "H14 according to EN 1822"
+    },
+    {
+      "label": "MPPS efficiency",
+      "value": "≥99.995% (each filter has a scan test)"
+    },
+    {
+      "label": "Max. final pressure drop",
+      "value": "500 Pa"
+    },
+    {
+      "label": "Max. temperature",
+      "value": "60°C"
+    },
+    {
+      "label": "Max. relative humidity (HEPA filter)",
+      "value": "100%"
+    },
+    {
+      "label": "Max. relative humidity (molecular filter)",
+      "value": "up to 70%"
+    },
+    {
+      "label": "Weight",
+      "value": "1.0 kg"
+    }
   ],
   "device_specs_title": "Technical information",
   "device_specs": [
-    { "label": "Unit dimensions (WxHxD)", "value": "340×465×345 mm" },
-    { "label": "Colour", "value": "White or black" },
-    { "label": "Weight", "value": "11 kg (including filters)" },
-    { "label": "Power supply", "value": "200…240 V" },
-    { "label": "Recommended coverage area", "value": "45 m²" },
-    { "label": "Fan speeds", "value": "1–6" },
-    { "label": "Processed airflow", "value": "21–247 m³/h" },
-    { "label": "Noise level", "value": "21–52 dBA" },
-    { "label": "Power consumption", "value": "5–36 W" }
+    {
+      "label": "Unit dimensions (WxHxD)",
+      "value": "340×465×345 mm"
+    },
+    {
+      "label": "Colour",
+      "value": "White or black"
+    },
+    {
+      "label": "Weight",
+      "value": "11 kg (including filters)"
+    },
+    {
+      "label": "Power supply",
+      "value": "200…240 V"
+    },
+    {
+      "label": "Recommended coverage area",
+      "value": "45 m²"
+    },
+    {
+      "label": "Fan speeds",
+      "value": "1–6"
+    },
+    {
+      "label": "Processed airflow",
+      "value": "21–247 m³/h"
+    },
+    {
+      "label": "Noise level",
+      "value": "21–52 dBA"
+    },
+    {
+      "label": "Power consumption",
+      "value": "5–36 W"
+    }
   ],
   "keywords": [
     "City S",
@@ -79,11 +142,13 @@
     "compact",
     "office"
   ],
-  "image": "/images/shop/product-7.jpg",
+  "image": "/images/shop/products/city-s.webp",
   "featured": false,
   "order": 2,
   "gallery": [
-    { "image": "/images/shop/product-7.jpg", "alt": "City S air purifier" },
-    { "image": "/images/shop/product-2.jpg", "alt": "City S — view 2" }
+    {
+      "image": "/images/shop/products/city-s.webp",
+      "alt": "City S air purifier"
+    }
   ]
 }

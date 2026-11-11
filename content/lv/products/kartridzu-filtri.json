@@ -42,12 +42,12 @@
     "poliesters",
     "celuloze"
   ],
-  "image": "/images/shop/product-5.jpg",
+  "image": "/images/shop/products/kartridzu-filtri.webp",
   "featured": false,
   "order": 2,
   "gallery": [
     {
-      "image": "/images/shop/product-5.jpg"
+      "image": "/images/shop/products/kartridzu-filtri.webp"
     }
   ]
 }

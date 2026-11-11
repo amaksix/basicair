@@ -29,19 +29,58 @@
   ],
   "specs_title": "Filter specification",
   "specs": [
-    { "label": "Filter size (WxHxD)", "value": "300×460×98 mm" },
-    { "label": "Airflow", "value": "150 m³/h" },
-    { "label": "Pressure drop", "value": "94 Pa" },
-    { "label": "Filter media", "value": "Activated carbon type CS and HEPA glass fibre" },
-    { "label": "Protective grille", "value": "On the HEPA filter side" },
-    { "label": "Efficiency", "value": "H14 according to EN 1822" },
-    { "label": "MPPS efficiency", "value": "≥99.995% (each filter has a scan test)" },
-    { "label": "Max. final pressure drop", "value": "500 Pa" },
-    { "label": "Max. temperature", "value": "60°C" },
-    { "label": "Max. relative humidity (HEPA filter)", "value": "100%" },
-    { "label": "Max. relative humidity (molecular filter)", "value": "up to 70%" },
-    { "label": "Weight", "value": "2.0 kg" },
-    { "label": "Notes", "value": "Combined filter: molecular to remove odours, organic and inorganic gases, and HEPA filter for particulate capture" }
+    {
+      "label": "Filter size (WxHxD)",
+      "value": "300×460×98 mm"
+    },
+    {
+      "label": "Airflow",
+      "value": "150 m³/h"
+    },
+    {
+      "label": "Pressure drop",
+      "value": "94 Pa"
+    },
+    {
+      "label": "Filter media",
+      "value": "Activated carbon type CS and HEPA glass fibre"
+    },
+    {
+      "label": "Protective grille",
+      "value": "On the HEPA filter side"
+    },
+    {
+      "label": "Efficiency",
+      "value": "H14 according to EN 1822"
+    },
+    {
+      "label": "MPPS efficiency",
+      "value": "≥99.995% (each filter has a scan test)"
+    },
+    {
+      "label": "Max. final pressure drop",
+      "value": "500 Pa"
+    },
+    {
+      "label": "Max. temperature",
+      "value": "60°C"
+    },
+    {
+      "label": "Max. relative humidity (HEPA filter)",
+      "value": "100%"
+    },
+    {
+      "label": "Max. relative humidity (molecular filter)",
+      "value": "up to 70%"
+    },
+    {
+      "label": "Weight",
+      "value": "2.0 kg"
+    },
+    {
+      "label": "Notes",
+      "value": "Combined filter: molecular to remove odours, organic and inorganic gases, and HEPA filter for particulate capture"
+    }
   ],
   "keywords": [
     "City M",
@@ -57,12 +96,17 @@
     "office",
     "school"
   ],
-  "image": "/images/shop/product-6.jpg",
+  "image": "/images/shop/products/city-m.webp",
   "featured": true,
   "order": 1,
   "gallery": [
-    { "image": "/images/shop/product-6.jpg", "alt": "City M air purifier" },
-    { "image": "/images/shop/product-6.1.jpg", "alt": "City M — view 2" },
-    { "image": "/images/shop/product-1.jpg", "alt": "City M — HEPA filter" }
+    {
+      "image": "/images/shop/products/city-m.webp",
+      "alt": "City M air purifier"
+    },
+    {
+      "image": "/images/shop/products/hepa-filtrs.webp",
+      "alt": "City M — HEPA filter"
+    }
   ]
 }

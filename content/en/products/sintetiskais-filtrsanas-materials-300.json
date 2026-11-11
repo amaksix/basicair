@@ -3,10 +3,26 @@
   "slug": "sintetiskais-filtrsanas-materials-300",
   "category": "tehniskie-audumi",
   "description": "Polyester / synthetic wadding for filtration and upholstery. 300 g/m², 20 mm, roll 1.6 m × 5 m.",
-  "highlights": ["Polyester / synthetic wadding", "Weight: 300 g/m² (20 mm)", "Width: 1.6 m", "Length: 5 m"],
-  "keywords": ["synthetic material", "wadding", "polyester", "filtration", "upholstery", "technical fabrics"],
-  "image": "/images/shop/product-1.jpg",
+  "highlights": [
+    "Polyester / synthetic wadding",
+    "Weight: 300 g/m² (20 mm)",
+    "Width: 1.6 m",
+    "Length: 5 m"
+  ],
+  "keywords": [
+    "synthetic material",
+    "wadding",
+    "polyester",
+    "filtration",
+    "upholstery",
+    "technical fabrics"
+  ],
+  "image": "/images/shop/products/sintetiskais-filtrsanas-materials.webp",
   "featured": false,
   "order": 1,
-  "gallery": [{ "image": "/images/shop/product-1.jpg" }]
+  "gallery": [
+    {
+      "image": "/images/shop/products/sintetiskais-filtrsanas-materials.webp"
+    }
+  ]
 }

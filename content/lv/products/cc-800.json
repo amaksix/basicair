@@ -15,14 +15,37 @@
   ],
   "device_specs_title": "Tehniskā informācija",
   "device_specs": [
-    { "label": "Ventilatora ātrumi", "value": "1–6" },
-    { "label": "Apstrādātais gaisa daudzums", "value": "180–720 m³/h" },
-    { "label": "Skaļuma līmenis", "value": "30–56 dBA" },
-    { "label": "Efektivitāte pie H13 attīrīšanas", "value": ">99%" }
+    {
+      "label": "Ventilatora ātrumi",
+      "value": "1–6"
+    },
+    {
+      "label": "Apstrādātais gaisa daudzums",
+      "value": "180–720 m³/h"
+    },
+    {
+      "label": "Skaļuma līmenis",
+      "value": "30–56 dBA"
+    },
+    {
+      "label": "Efektivitāte pie H13 attīrīšanas",
+      "value": ">99%"
+    }
   ],
-  "keywords": ["CC 800", "gaisa attīrītājs", "H13", "industriālais", "VOC"],
-  "image": "/images/shop/product-10.jpg",
+  "keywords": [
+    "CC 800",
+    "gaisa attīrītājs",
+    "H13",
+    "industriālais",
+    "VOC"
+  ],
+  "image": "/images/shop/products/cc-800.webp",
   "featured": true,
   "order": 2,
-  "gallery": [{ "image": "/images/shop/product-10.jpg", "alt": "Gaisa attīrītājs CC 800" }]
+  "gallery": [
+    {
+      "image": "/images/shop/products/cc-800.webp",
+      "alt": "Gaisa attīrītājs CC 800"
+    }
+  ]
 }

@@ -3,10 +3,26 @@
   "slug": "sintetiskais-filtrsanas-materials-150",
   "category": "tehniskie-audumi",
   "description": "Полиэстер / синтепон для фильтрации и обивки. 150 г/м², 10 мм, рулон 1,6 м × 10 м.",
-  "highlights": ["Полиэстер / синтепон", "Вес: 150 г/м² (10 мм)", "Ширина: 1,6 м", "Длина: 10 м"],
-  "keywords": ["синтетический материал", "синтепон", "полиэстер", "фильтрация", "обивка", "технические ткани"],
-  "image": "/images/shop/product-2.jpg",
+  "highlights": [
+    "Полиэстер / синтепон",
+    "Вес: 150 г/м² (10 мм)",
+    "Ширина: 1,6 м",
+    "Длина: 10 м"
+  ],
+  "keywords": [
+    "синтетический материал",
+    "синтепон",
+    "полиэстер",
+    "фильтрация",
+    "обивка",
+    "технические ткани"
+  ],
+  "image": "/images/shop/products/sintetiskais-filtrsanas-materials.webp",
   "featured": false,
   "order": 2,
-  "gallery": [{ "image": "/images/shop/product-2.jpg" }]
+  "gallery": [
+    {
+      "image": "/images/shop/products/sintetiskais-filtrsanas-materials.webp"
+    }
+  ]
 }

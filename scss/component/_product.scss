@@ -5,6 +5,8 @@
         overflow: hidden;
         z-index: 20;
         margin-bottom: 16px;
+        aspect-ratio: 1 / 1;
+        background: #f6f6f6;
         .image-wrap {
             display: flex;
             width: 100%;
@@ -15,9 +17,10 @@
             display: block;
             height: 100%;
             width: 100%;
-            object-fit: cover;
+            object-fit: contain;
             object-position: center;
-            transition-duration: 700ms;
+            background: #f6f6f6;
+            transition: opacity 0.4s ease, transform 0.7s ease;
         }
         .img-hover {
             position: absolute;
@@ -27,6 +30,10 @@
         &:hover {
             .image-wrap {
                 .img-product {
+                    -webkit-transform: scale(1.05);
+                    transform: scale(1.05);
+                }
+                &:has(.img-hover) .img-product {
                     opacity: 0;
                 }
                 .img-hover {
@@ -1135,4 +1142,29 @@
             opacity: 1;
         }
     }
+}
+
+.tf-product-media-wrap {
+    .item {
+        background: #f6f6f6;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .product-main-image {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: contain;
+        object-position: center;
+        background: #f6f6f6;
+        display: block;
+    }
+}
+
+.product-gallery-thumb__img {
+    height: 80px;
+    object-fit: contain;
+    object-position: center;
+    background: #f6f6f6;
+    display: block;
 }

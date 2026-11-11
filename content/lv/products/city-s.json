@@ -41,30 +41,93 @@
   ],
   "specs_title": "Filtra specifikācija",
   "specs": [
-    { "label": "Filtra izmērs (PxAxDz)", "value": "300×205×98 mm" },
-    { "label": "Gaisa daudzums", "value": "100 m³/h" },
-    { "label": "Pretspiediens", "value": "200 Pa" },
-    { "label": "Filtrējošais materiāls", "value": "Aktivētās ogles veids CS un HEPA stiklašķiedras" },
-    { "label": "Aizsargrežģis", "value": "HEPA filtra pusē" },
-    { "label": "Efektivitāte", "value": "H14 atbilstoši EN 1822 normai" },
-    { "label": "MPPS efektivitāte", "value": "≥99,995% (katram filtram ir skenēšanas tests)" },
-    { "label": "Maks. beigu spiediena kritums", "value": "500 Pa" },
-    { "label": "Maks. temperatūra", "value": "60°C" },
-    { "label": "Maks. relatīvais mitrums (HEPA filtrs)", "value": "100%" },
-    { "label": "Maks. relatīvais mitrums (molekulārais filtrs)", "value": "līdz 70%" },
-    { "label": "Svars", "value": "1,0 kg" }
+    {
+      "label": "Filtra izmērs (PxAxDz)",
+      "value": "300×205×98 mm"
+    },
+    {
+      "label": "Gaisa daudzums",
+      "value": "100 m³/h"
+    },
+    {
+      "label": "Pretspiediens",
+      "value": "200 Pa"
+    },
+    {
+      "label": "Filtrējošais materiāls",
+      "value": "Aktivētās ogles veids CS un HEPA stiklašķiedras"
+    },
+    {
+      "label": "Aizsargrežģis",
+      "value": "HEPA filtra pusē"
+    },
+    {
+      "label": "Efektivitāte",
+      "value": "H14 atbilstoši EN 1822 normai"
+    },
+    {
+      "label": "MPPS efektivitāte",
+      "value": "≥99,995% (katram filtram ir skenēšanas tests)"
+    },
+    {
+      "label": "Maks. beigu spiediena kritums",
+      "value": "500 Pa"
+    },
+    {
+      "label": "Maks. temperatūra",
+      "value": "60°C"
+    },
+    {
+      "label": "Maks. relatīvais mitrums (HEPA filtrs)",
+      "value": "100%"
+    },
+    {
+      "label": "Maks. relatīvais mitrums (molekulārais filtrs)",
+      "value": "līdz 70%"
+    },
+    {
+      "label": "Svars",
+      "value": "1,0 kg"
+    }
   ],
   "device_specs_title": "Tehniskā informācija",
   "device_specs": [
-    { "label": "Iekārtas izmēri (WxHxD)", "value": "340×465×345 mm" },
-    { "label": "Krāsa", "value": "Balta vai melna" },
-    { "label": "Svars", "value": "11 kg (ieskaitot filtrus)" },
-    { "label": "Elektrības padeve", "value": "200…240 V" },
-    { "label": "Ieteicamais attīrīšanas laukums", "value": "45 m²" },
-    { "label": "Ventilatora ātrumi", "value": "1–6" },
-    { "label": "Apstrādātais gaisa daudzums", "value": "21–247 m³/h" },
-    { "label": "Skaļuma līmenis", "value": "21–52 dBA" },
-    { "label": "Elektrības patēriņš", "value": "5–36 W" }
+    {
+      "label": "Iekārtas izmēri (WxHxD)",
+      "value": "340×465×345 mm"
+    },
+    {
+      "label": "Krāsa",
+      "value": "Balta vai melna"
+    },
+    {
+      "label": "Svars",
+      "value": "11 kg (ieskaitot filtrus)"
+    },
+    {
+      "label": "Elektrības padeve",
+      "value": "200…240 V"
+    },
+    {
+      "label": "Ieteicamais attīrīšanas laukums",
+      "value": "45 m²"
+    },
+    {
+      "label": "Ventilatora ātrumi",
+      "value": "1–6"
+    },
+    {
+      "label": "Apstrādātais gaisa daudzums",
+      "value": "21–247 m³/h"
+    },
+    {
+      "label": "Skaļuma līmenis",
+      "value": "21–52 dBA"
+    },
+    {
+      "label": "Elektrības patēriņš",
+      "value": "5–36 W"
+    }
   ],
   "keywords": [
     "City S",
@@ -79,11 +142,13 @@
     "kompakts",
     "birojs"
   ],
-  "image": "/images/shop/product-7.jpg",
+  "image": "/images/shop/products/city-s.webp",
   "featured": false,
   "order": 2,
   "gallery": [
-    { "image": "/images/shop/product-7.jpg", "alt": "City S gaisa attīrītājs" },
-    { "image": "/images/shop/product-2.jpg", "alt": "City S — skats 2" }
+    {
+      "image": "/images/shop/products/city-s.webp",
+      "alt": "City S gaisa attīrītājs"
+    }
   ]
 }

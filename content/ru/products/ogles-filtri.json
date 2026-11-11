@@ -35,12 +35,12 @@
     "кассетные фильтры",
     "воздушные фильтры"
   ],
-  "image": "/images/shop/product-4.jpg",
+  "image": "/images/shop/products/ogles-filtri.webp",
   "featured": false,
   "order": 3,
   "gallery": [
     {
-      "image": "/images/shop/product-4.jpg"
+      "image": "/images/shop/products/ogles-filtri.webp"
     }
   ]
 }

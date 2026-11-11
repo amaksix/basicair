@@ -15,14 +15,37 @@
   ],
   "device_specs_title": "Техническая информация",
   "device_specs": [
-    { "label": "Скорости вентилятора", "value": "1–4" },
-    { "label": "Обрабатываемый расход воздуха", "value": "3000–6000 m³/h" },
-    { "label": "Уровень шума", "value": "52–67 dBA" },
-    { "label": "Эффективность при очистке H13", "value": ">99%" }
+    {
+      "label": "Скорости вентилятора",
+      "value": "1–4"
+    },
+    {
+      "label": "Обрабатываемый расход воздуха",
+      "value": "3000–6000 m³/h"
+    },
+    {
+      "label": "Уровень шума",
+      "value": "52–67 dBA"
+    },
+    {
+      "label": "Эффективность при очистке H13",
+      "value": ">99%"
+    }
   ],
-  "keywords": ["CC 6000", "очиститель воздуха", "H13", "промышленный", "ЛОС"],
-  "image": "/images/shop/product-12.jpg",
+  "keywords": [
+    "CC 6000",
+    "очиститель воздуха",
+    "H13",
+    "промышленный",
+    "ЛОС"
+  ],
+  "image": "/images/shop/products/cc-6000.webp",
   "featured": false,
   "order": 4,
-  "gallery": [{ "image": "/images/shop/product-12.jpg", "alt": "Очиститель воздуха CC 6000" }]
+  "gallery": [
+    {
+      "image": "/images/shop/products/cc-6000.webp",
+      "alt": "Очиститель воздуха CC 6000"
+    }
+  ]
 }

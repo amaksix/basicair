@@ -106,11 +106,10 @@ eleventyComputed:
                     <p class="text-body-default text_secondary wow fadeInUp" data-wow-delay="0.1s">{{ home.featured_section.subheading }}</p>
                 </div>
                 <div class="tf-grid-layout tf-col-2 lg-col-4">
-                    {% for product in products %}
-                    {% if product.featured %}
-                    {% set delay = (loop.index0 * 0.1) ~ 's' %}
+                    {% set featuredDelays = ["0s", "0.1s", "0.2s", "0.3s"] %}
+                    {% for product in products | selectattr("featured") %}
+                    {% set delay = featuredDelays[loop.index0] or "0.3s" %}
                     {% include "partials/product-card.njk" %}
-                    {% endif %}
                     {% endfor %}
                 </div>
             </div>

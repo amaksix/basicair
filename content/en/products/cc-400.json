@@ -15,15 +15,42 @@
   ],
   "device_specs_title": "Technical information",
   "device_specs": [
-    { "label": "Fan speeds", "value": "1–6" },
-    { "label": "Processed airflow", "value": "83–700 m³/h" },
-    { "label": "Noise level", "value": "23.5–61.3 dBA" },
-    { "label": "Efficiency at H13 purification", "value": ">99%" },
-    { "label": "Connection diameter", "value": "Ø250 mm (2 pcs)" }
+    {
+      "label": "Fan speeds",
+      "value": "1–6"
+    },
+    {
+      "label": "Processed airflow",
+      "value": "83–700 m³/h"
+    },
+    {
+      "label": "Noise level",
+      "value": "23.5–61.3 dBA"
+    },
+    {
+      "label": "Efficiency at H13 purification",
+      "value": ">99%"
+    },
+    {
+      "label": "Connection diameter",
+      "value": "Ø250 mm (2 pcs)"
+    }
   ],
-  "keywords": ["CC 400", "air purifier", "built-in", "H13", "industrial", "VOC"],
-  "image": "/images/shop/product-9.jpg",
+  "keywords": [
+    "CC 400",
+    "air purifier",
+    "built-in",
+    "H13",
+    "industrial",
+    "VOC"
+  ],
+  "image": "/images/shop/products/cc-400.webp",
   "featured": false,
   "order": 1,
-  "gallery": [{ "image": "/images/shop/product-9.jpg", "alt": "CC 400 air purifier" }]
+  "gallery": [
+    {
+      "image": "/images/shop/products/cc-400.webp",
+      "alt": "CC 400 air purifier"
+    }
+  ]
 }

@@ -9,9 +9,20 @@
     "Platums: 1,6 m",
     "Garums: 5 m"
   ],
-  "keywords": ["sintētiskais materiāls", "sintapons", "poliesters", "filtrēšana", "polsterēšana", "tehniskie audumi"],
-  "image": "/images/shop/product-1.jpg",
+  "keywords": [
+    "sintētiskais materiāls",
+    "sintapons",
+    "poliesters",
+    "filtrēšana",
+    "polsterēšana",
+    "tehniskie audumi"
+  ],
+  "image": "/images/shop/products/sintetiskais-filtrsanas-materials.webp",
   "featured": false,
   "order": 1,
-  "gallery": [{ "image": "/images/shop/product-1.jpg" }]
+  "gallery": [
+    {
+      "image": "/images/shop/products/sintetiskais-filtrsanas-materials.webp"
+    }
+  ]
 }

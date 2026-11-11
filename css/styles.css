@@ -6243,6 +6243,8 @@ form .cols > * {
   overflow: hidden;
   z-index: 20;
   margin-bottom: 16px;
+  aspect-ratio: 1 / 1;
+  background: #f6f6f6;
 }
 .card-product .card-product-wrapper .image-wrap {
   display: flex;
@@ -6254,9 +6256,10 @@ form .cols > * {
   display: block;
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
-  transition-duration: 700ms;
+  background: #f6f6f6;
+  transition: opacity 0.4s ease, transform 0.7s ease;
 }
 .card-product .card-product-wrapper .img-hover {
   position: absolute;
@@ -6264,6 +6267,10 @@ form .cols > * {
   opacity: 0;
 }
 .card-product .card-product-wrapper:hover .image-wrap .img-product {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.card-product .card-product-wrapper:hover .image-wrap:has(.img-hover) .img-product {
   opacity: 0;
 }
 .card-product .card-product-wrapper:hover .image-wrap .img-hover {
@@ -10938,13 +10945,15 @@ ul.list-text.type-number {
   overflow: hidden;
   border-radius: 8px;
   aspect-ratio: 16/10;
-  background: #ececec;
+  background: #fff;
   flex: 0 0 auto;
 }
 .service-card .image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
+  background: #fff;
   display: block;
 }
 .service-card .service-card-content {
@@ -10974,6 +10983,9 @@ ul.list-text.type-number {
 
 .category-cards {
   align-items: stretch;
+}
+.category-cards .service-card .image {
+  aspect-ratio: 1 / 1;
 }
 @media (min-width: 768px) {
   .category-cards {
@@ -11083,11 +11095,19 @@ ul.list-text.type-number {
   width: 100%;
   margin-bottom: 20px;
   overflow: hidden;
+  aspect-ratio: 1 / 1;
+  background: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.category-product-card .category-product-card__image img,
 .category-product-card__image img {
   width: 100%;
-  max-height: 180px;
+  height: 100%;
+  max-height: none;
   object-fit: contain;
+  object-position: center;
 }
 .category-product-card .tf-btn {
   margin-top: auto;
@@ -12587,6 +12607,27 @@ ul.list-text.type-number {
   .tf-img-with-text-3 .sw-product-single-next {
     right: 0;
   }
+}
+
+.tf-product-media-wrap .item {
+  background: #f6f6f6;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.tf-product-media-wrap .product-main-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  object-position: center;
+  background: #f6f6f6;
+  display: block;
+}
+.product-gallery-thumb__img {
+  height: 80px;
+  object-fit: contain;
+  object-position: center;
+  background: #f6f6f6;
+  display: block;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -27,10 +27,26 @@
     }
   ],
   "categories": [
-    { "title": "Air filters", "image": "/images/section/collections-banner.jpg", "url": "/en/shop/gaisa-filtri/" },
-    { "title": "Mobile air purifiers", "image": "/images/section/collections-banner-1.jpg", "url": "/en/shop/city/" },
-    { "title": "Industrial air purifiers", "image": "/images/section/collections-banner-2.jpg", "url": "/en/shop/industrialie-gaisa-attiritaji/" },
-    { "title": "Technical fabrics", "image": "/images/section/collections-banner-3.jpg", "url": "/en/shop/tehniskie-audumi/" }
+    {
+      "title": "Air filters",
+      "image": "/images/shop/products/hepa-filtri.webp",
+      "url": "/en/shop/gaisa-filtri/"
+    },
+    {
+      "title": "Mobile air purifiers",
+      "image": "/images/shop/products/home-city-m.webp",
+      "url": "/en/shop/city/"
+    },
+    {
+      "title": "Industrial air purifiers",
+      "image": "/images/shop/products/cc-400.webp",
+      "url": "/en/shop/industrialie-gaisa-attiritaji/"
+    },
+    {
+      "title": "Technical fabrics",
+      "image": "/images/shop/products/home-tehniskie-audumi.webp",
+      "url": "/en/shop/tehniskie-audumi/"
+    }
   ],
   "vision": {
     "heading": "Professional solutions for cleaner and healthier indoor air",
@@ -42,11 +58,26 @@
       "Contact BasicAir for a consultation and a solution tailored to your premises."
     ],
     "sectors": [
-      { "title": "Public buildings and business centres", "image": "/images/icons/sector-public.webp" },
-      { "title": "Healthcare", "image": "/images/icons/sector-healthcare.webp" },
-      { "title": "Catering and accommodation", "image": "/images/icons/sector-hospitality.webp" },
-      { "title": "Sports and beauty centres", "image": "/images/icons/sector-sports.webp" },
-      { "title": "Trade and production premises", "image": "/images/icons/sector-industry.webp" }
+      {
+        "title": "Public buildings and business centres",
+        "image": "/images/icons/sector-public.webp"
+      },
+      {
+        "title": "Healthcare",
+        "image": "/images/icons/sector-healthcare.webp"
+      },
+      {
+        "title": "Catering and accommodation",
+        "image": "/images/icons/sector-hospitality.webp"
+      },
+      {
+        "title": "Sports and beauty centres",
+        "image": "/images/icons/sector-sports.webp"
+      },
+      {
+        "title": "Trade and production premises",
+        "image": "/images/icons/sector-industry.webp"
+      }
     ]
   },
   "featured_section": {
@@ -57,20 +88,51 @@
     "heading": "Gallery",
     "subheading": "A look at our solutions and installations",
     "items": [
-      { "image": "/images/gallery/Gallery1.jpg", "alt": "Gallery 1", "url": "/en/shop/" },
-      { "image": "/images/gallery/Gallery2.jpg", "alt": "Gallery 2", "url": "/en/shop/" },
-      { "image": "/images/gallery/Gallery3.jpg", "alt": "Gallery 3", "url": "/en/shop/" },
-      { "image": "/images/gallery/Gallery4.jpg", "alt": "Gallery 4", "url": "/en/shop/" }
+      {
+        "image": "/images/gallery/Gallery1.jpg",
+        "alt": "Gallery 1",
+        "url": "/en/shop/"
+      },
+      {
+        "image": "/images/gallery/Gallery2.jpg",
+        "alt": "Gallery 2",
+        "url": "/en/shop/"
+      },
+      {
+        "image": "/images/gallery/Gallery3.jpg",
+        "alt": "Gallery 3",
+        "url": "/en/shop/"
+      },
+      {
+        "image": "/images/gallery/Gallery4.jpg",
+        "alt": "Gallery 4",
+        "url": "/en/shop/"
+      }
     ]
   },
   "partners": {
     "heading": "Our cooperation partners",
     "logos": [
-      { "image": "/images/Partners/camfil.webp", "alt": "Camfil" },
-      { "image": "/images/Partners/valour-wood.webp", "alt": "Valour Wood Technologies" },
-      { "image": "/images/Partners/fsdi-latvia.webp", "alt": "FSDI Latvia" },
-      { "image": "/images/Partners/vzduchotechnik.webp", "alt": "Vzduchotechnik Chrastava" },
-      { "image": "/images/Partners/AAF.svg", "alt": "AAF International" }
+      {
+        "image": "/images/Partners/camfil.webp",
+        "alt": "Camfil"
+      },
+      {
+        "image": "/images/Partners/valour-wood.webp",
+        "alt": "Valour Wood Technologies"
+      },
+      {
+        "image": "/images/Partners/fsdi-latvia.webp",
+        "alt": "FSDI Latvia"
+      },
+      {
+        "image": "/images/Partners/vzduchotechnik.webp",
+        "alt": "Vzduchotechnik Chrastava"
+      },
+      {
+        "image": "/images/Partners/AAF.svg",
+        "alt": "AAF International"
+      }
     ]
   }
 }
