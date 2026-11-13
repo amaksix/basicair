@@ -85,6 +85,26 @@ eleventyComputed:
         <div class="row">
             <div class="col-lg-10">
                 {% for paragraph in section.paragraphs %}
+                <p class="text-body-default text_secondary{% if not loop.last or section.items or section.closing_paragraphs %} mb_16{% else %} mb-0{% endif %}">{{ paragraph }}</p>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+        {% if section.items and section.items.length %}
+        <div class="row">
+            <div class="col-lg-10">
+                <ul class="list-text type-disc gap-6{% if section.closing_paragraphs and section.closing_paragraphs.length %} mb_16{% else %} mb-0{% endif %}">
+                    {% for item in section.items %}
+                    <li class="text-body-default text_secondary mb_8">{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endif %}
+        {% if section.closing_paragraphs and section.closing_paragraphs.length %}
+        <div class="row">
+            <div class="col-lg-10">
+                {% for paragraph in section.closing_paragraphs %}
                 <p class="text-body-default text_secondary{% if not loop.last %} mb_16{% else %} mb-0{% endif %}">{{ paragraph }}</p>
                 {% endfor %}
             </div>

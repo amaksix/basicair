@@ -2,27 +2,48 @@
   "title": "Piedurkņu maisu filtri",
   "slug": "piedurknu-maisu-filtri",
   "category": "gaisa-filtri",
-  "description": "Filtru maisi putekļu atdalīšanas sistēmām — impulsa strūklas, reversās gaisa un nopurināšanas sistēmas ar ilgu kalpošanas laiku.",
+  "description": "Piedurkņu jeb maisu filtri rūpnieciskajām gaisa filtrācijas un aspirācijas sistēmām — individuāli ražoti atbilstoši klienta tehniskajām prasībām.",
   "paragraphs": [
-    "Mēs ražojam un piegādājam filtru maisus, izmantojot modernas dražošanas tehnoloģijas, kas ir lieliski piemērotas visu veidu putekļu atdalīšanas sistēmām (impulsa strūklas, reversās gaisa vai nopurināšanas sistēmas).",
-    "Pateicoties augstas kvalitātes neaustā tehniskā auduma izvēlei ar dažādu virsmas apstrādi, mūsu filtru maisiem ir ilgs kalpošanas laiks ar optimālu filtrēšanas veiktspēju un zemu spiediena kritumu."
+    "Piedurkņu jeb maisu filtri ir paredzēti rūpniecisko gaisa filtrācijas un aspirācijas sistēmu vajadzībām, nodrošinot efektīvu gaisa attīrīšanu no putekļiem, ražošanas atkritumiem un cita veida piesārņojuma, kas rodas dažādos ražošanas procesos.",
+    "Šos filtrus izmanto gan gaisa attīrīšanai no cietajām daļiņām, gan gatavā produkta atdalīšanai no gaisa plūsmas, piemēram, cementa, sausā piena pulvera un citu beramo materiālu ražošanā."
   ],
-  "specs": [
+  "sections": [
     {
-      "label": "Pielietojums",
-      "value": "Putekļu atdalīšanas sistēmas (impulsa strūkla, reversā gaisa, nopurināšana)"
+      "title": "Pielietojuma nozares",
+      "paragraphs": [
+        "Piedurkņu filtri tiek izmantoti dažādās rūpniecības un ražošanas nozarēs:"
+      ],
+      "items": [
+        "Kokapstrāde un mēbeļu ražošana",
+        "Metālapstrāde",
+        "Cementa ražošana",
+        "Asfaltbetona un betona ražošana",
+        "Graudu pārstrāde un uzglabāšana",
+        "Ķīmiskā rūpniecība",
+        "Ogļu rūpniecība",
+        "Enerģētika",
+        "Atkritumu pārstrāde",
+        "Plastmasas ražošana",
+        "Pārtikas rūpniecība"
+      ]
     },
     {
-      "label": "Tehnoloģija",
-      "value": "Modernas dražošanas tehnoloģijas"
-    },
-    {
-      "label": "Materiāls",
-      "value": "Neaustais tehniskais audums ar dažādu virsmas apstrādi"
-    },
-    {
-      "label": "Priekšrocības",
-      "value": "Ilgs kalpošanas laiks, optimāla filtrēšanas veiktspēja, zems spiediena kritums"
+      "title": "Individuāli ražoti filtri",
+      "paragraphs": [
+        "Izgatavojam piedurkņu filtrus atbilstoši klienta tehniskajām prasībām, nodrošinot nepieciešamo formu, izmērus un konkrētajam pielietojumam piemērotu filtrējošo materiālu.",
+        "Filtrējošā materiāla izvēle tiek veikta, ņemot vērā vairākus būtiskus ekspluatācijas parametrus:"
+      ],
+      "items": [
+        "Putekļu veids un koncentrācija",
+        "Filtrējamā gaisa temperatūra",
+        "Gaisa relatīvais mitrums",
+        "Gaisa plūsmas apjoms / daudzums (m³/h)",
+        "Filtrējamās vides ķīmiskās īpašības un reakcija"
+      ],
+      "closing_paragraphs": [
+        "Pareiza filtrējošā materiāla izvēle nodrošina efektīvu filtrācijas procesu, atbilstošu filtra darbību un ilgāku ekspluatācijas laiku.",
+        "Piedāvājam individuālus filtrācijas risinājumus dažādu nozaru uzņēmumiem, pielāgojoties to tehniskajām un ražošanas vajadzībām."
+      ]
     }
   ],
   "keywords": [
@@ -30,9 +51,10 @@
     "filtru maisi",
     "bag filters",
     "putekļu atdalīšana",
-    "impulsa strūkla",
-    "tehniskais audums",
-    "rūpnieciskie filtri"
+    "aspirācija",
+    "rūpnieciskie filtri",
+    "individuāli filtri",
+    "filtrējošais materiāls"
   ],
   "image": "/images/shop/products/piedurknu-maisu-filtri.webp",
   "featured": false,

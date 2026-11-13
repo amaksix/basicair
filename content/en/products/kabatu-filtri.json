@@ -43,12 +43,12 @@
     "glass fibre",
     "polyester"
   ],
-  "image": "/images/shop/product-1.jpg",
+  "image": "/images/shop/products/kabatu-filtri.webp",
   "featured": false,
   "order": 1,
   "gallery": [
     {
-      "image": "/images/shop/product-1.jpg"
+      "image": "/images/shop/products/kabatu-filtri.webp"
     }
   ]
 }
