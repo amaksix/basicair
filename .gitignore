@@ -4,3 +4,14 @@ _site/
 *.log
 _hdrshot/
 .hdrshot/
+
+# ProcessWire trial: core, database and uploaded files stay on this machine.
+processwire/wire/
+processwire/site/
+processwire/.runtime/
+processwire/install.php
+processwire/index.php
+processwire/.htaccess
+processwire/htaccess.txt
+processwire/LOCAL-ADMIN.txt
+processwire/site-blank/
